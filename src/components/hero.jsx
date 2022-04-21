@@ -7,7 +7,17 @@ export default function Hero() {
         <div className='hero_intro'>Hey ,<br />
 I am Ishika, a UX 
 designer based in India. I create designs that are <br />
-human-centric</div>
+
+
+<div className="fading_text">
+<span>seamless</span>
+<span>creative</span>
+<span>human-centric</span>
+<span>seamless</span>
+</div>
+
+
+</div>
         
 
         <div className="hero_banner">
