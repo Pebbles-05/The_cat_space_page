@@ -1,5 +1,9 @@
-import React from 'react'
-import banner from  "../media/hero_banner.png";
+import React from 'react';
+import herobg from "../media/hero_bg.png";
+import fadingimg1 from "../media/fadingimg1.png";
+import fadingimg2 from "../media/fadingimg2.png";
+import fadingimg3 from "../media/fadingimg3.png";
+
 
 export default function Hero() {
   return (
@@ -21,7 +25,15 @@ designer based in India. I create designs that are <br />
         
 
         <div className="hero_banner">
-          <img src={banner} alt="hero_banner" />
+      
+          <div className='hero_bg'><img  src={herobg} alt="herobg" /></div>
+          <div className="hero_fading_img">
+
+<img src={fadingimg1} alt="" />
+<img src={fadingimg2} alt="" />
+<img src={fadingimg3} alt="" />
+<img src={fadingimg1} alt="" />
+</div>
         </div>
       
 
