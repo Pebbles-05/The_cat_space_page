@@ -14,10 +14,10 @@ designer based in India. I create designs that are <br />
 
 
 <div className="fading_text">
-<span>seamless</span>
-<span>creative</span>
 <span>human-centric</span>
+<span>creative</span>
 <span>seamless</span>
+<span>human-centric</span>
 </div>
 
 

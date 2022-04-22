@@ -29,7 +29,7 @@
  
  
  
- --nav_height:7rem;
+ --nav_height:5.5rem;
   --ham_stick1_width:1.5em;
   --ham_stick1_height:0.3em;
   --ham_stick2_width:3em;
@@ -38,6 +38,7 @@
   --ham_stick3_height:0.3em;
   --ham_stick_margin:0.6em 0;
 }
+
 
 
 html{
@@ -196,7 +197,7 @@ width: 100%;
 }
 .logo img{
   width: 100%;
-  max-width: 5.2em;
+  max-width: 4em;
 }
 
 /* socials */
@@ -212,45 +213,39 @@ margin-left: auto;
 }
 .socials img{
 width: 100%;
-  max-width: 3.8em;
-  max-height: 3.8em;
+  max-width: 3em;
+  max-height: 3em;
 }
 
 /* width adjustments for navbar */
 
 @media (max-width:1000px) {
- :root{
-  --nav_height:5.5rem;
- }
- .logo img{
-  max-width: 4.5em;
-}
+
+
  .socials{
    gap: 0.7em;
  }
- .socials img{
-  max-width: 3em;
-  max-height: 3em;
-  
-}
+
 
 }
 @media (max-width:700px) {
- 
-  .logo img{
-    max-width: 4em;
+  :root{
+    --nav_height:4rem;
   }
+
  :root{
-  --ham_stick1_width:1em;
+  --ham_stick1_width:0.8em;
   --ham_stick1_height:0.2em;
-  --ham_stick2_width:2em;
+  --ham_stick2_width:1.8em;
   --ham_stick2_height:0.2em;
-  --ham_stick3_width:1.5em;
+  --ham_stick3_width:1.3em;
   --ham_stick3_height:0.2em;
   --ham_stick_margin:0.4em 0;
-  --nav_height:5rem;
 
  }
+ .logo img{
+  max-width: 3em;
+}
  .socials{
   display:none
 }
@@ -260,11 +255,16 @@ width: 100%;
  }
  @media (max-width:500px){
   :root{
-    --nav_height:4rem;
-   }
-.logo img{
-  max-width: 3em;
+    --nav_height:3.5rem;
+  }
+.nav_container{
+  border-bottom-left-radius: 1.5em;
+  border-bottom-right-radius: 1.5em;
 }
+
+  .logo img{
+    max-width: 2.5em;
+  }
 .dropdown_socials{
   gap: 1em;
 }
