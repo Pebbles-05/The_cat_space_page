@@ -1,14 +1,14 @@
 import React, { useEffect, useRef, useState } from 'react';
 import herobg from "../media/hero_bg.png";
-import fadingimg1 from "../media/fadingimg1.png";
-import fadingimg2 from "../media/fadingimg2.png";
-import fadingimg3 from "../media/fadingimg3.png";
+import fadingimg1,{fadingimg2,fadingimg3} from "../media/fadingimages";
+
 
 
 export default function Hero() {
 
   const imgdata=[fadingimg1,fadingimg2,fadingimg3,fadingimg1];
 
+  const[imgsdata,setimg]=useState(imgdata);
   const[imgheight,setheight]=useState();
 
 
@@ -17,14 +17,15 @@ export default function Hero() {
   function checkheight(){
     const Height = heightRef.current.clientHeight;
     setheight(Height)
+    console.log(Height);
   }
  
 
 useEffect(() => {
-  checkheight()
+  checkheight();
 
   
-}, [imgdata])
+}, [imgsdata])
 
 
 
@@ -32,9 +33,7 @@ useEffect(() => {
  useEffect(() => {
  
  window.addEventListener("resize",checkheight);
- return ()=>{
-  window.removeEventListener("resize",checkheight);
- }
+
   
  }, [])
  
@@ -61,9 +60,9 @@ designer based in India. I create designs that are <br />
         <div className="hero_banner">
       
           <div className='hero_bannerbg'><img  src={herobg} alt="herobg" /></div>
-          <div className="hero_banner_fadingimg" style={{height:imgheight + "px"}}
+          <div className="hero_banner_fadingimg" style={{ height:imgheight + "px"}}
            >
-             {imgdata.map((img,index)=>{ return <img key={index} ref={heightRef}  src={img} alt="img" /> })}
+             {imgdata.map((img,index)=>{ return <div className='fadimg' ref={heightRef}  key={index}> {img}</div>  })}
 
              
 

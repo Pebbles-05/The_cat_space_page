@@ -380,10 +380,13 @@ margin-top: 20%;
 overflow-y: hidden;
 
 }
-.hero_banner_fadingimg img{
+.hero_banner_fadingimg .fadimg{
   width: 90%;
-
   animation: fade_rotate 6s infinite 1s ;
+}
+.hero_banner_fadingimg .fadimg svg{
+  width: 100%;
+  
 }
 
 
