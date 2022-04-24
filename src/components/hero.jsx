@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import herobg from "../media/hero_bg.png";
+import circlebg from "../media/circle_bg";
 import fadingimg1,{fadingimg2,fadingimg3} from "../media/fadingimages";
 
 
@@ -59,7 +59,7 @@ designer based in India. I create designs that are <br />
 
         <div className="hero_banner">
       
-          <div className='hero_bannerbg'><img  src={herobg} alt="herobg" /></div>
+          <div className='hero_bannerbg'>{circlebg}</div>
           <div className="hero_banner_fadingimg" style={{ height:imgheight + "px"}}
            >
              {imgdata.map((img,index)=>{ return <div className='fadimg' ref={heightRef}  key={index}> {img}</div>  })}

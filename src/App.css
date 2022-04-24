@@ -367,10 +367,8 @@ animation: fade_rotate 6s infinite 1s ;
 z-index: -100;
 
 }
-.hero_bannerbg img{
+.hero_bannerbg svg{
   width: 100%;
-
-
 }
 .hero_banner_fadingimg {
   display: flex;
