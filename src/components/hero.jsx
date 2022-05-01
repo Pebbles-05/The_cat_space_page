@@ -17,7 +17,6 @@ export default function Hero() {
   function checkheight(){
     const Height = heightRef.current.clientHeight;
     setheight(Height)
-    console.log(Height);
   }
  
 
