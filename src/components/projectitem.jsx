@@ -1,28 +1,6 @@
 import React, { useState , useEffect } from 'react';
+import useMousePosition from "../hooks/useMousePosition";
 
-
-
-const useMousePosition=()=>{
-  const [mousePosition,setmousePosition]=useState({x : 0 , y : 0});
-
-  useEffect(() => {
-
-      const updatemousePosition =(event)=>{
-        setmousePosition({x : event.clientX , y : event.clientY})
-      }
-
-
-
-    window.addEventListener('mousemove', updatemousePosition)
-  
-    return () => {
-      window.removeEventListener('mousemove', updatemousePosition)
-    }
-  }, [])
-  
-
-  return mousePosition;
-}
 
 
 export default function Projectitem({title,subtitle,img}) {
