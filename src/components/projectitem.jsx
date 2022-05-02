@@ -1,5 +1,4 @@
 import React, { useState , useEffect } from 'react';
-import zifcareimg from "../media/zifcareposter.png"
 
 
 
@@ -26,18 +25,18 @@ const useMousePosition=()=>{
 }
 
 
-export default function Projectitem() {
+export default function Projectitem({title,subtitle,img}) {
 
   const {x , y}=useMousePosition();
   const [isactive,setactive]=useState(false);
   return (
     <div className='project_item' onMouseEnter={()=>{setactive(true)}} onMouseLeave={()=>{setactive(false)}}>
         <div className="project_item_title">
-            <h1 style={isactive? {opacity:"1"} : null}>Zifcare</h1>
-            <p style={isactive? {opacity:"1"} : null}>- designed Zifcare web and Zifcare app</p>
+            <h1 style={isactive? {opacity:"1"} : null}>{title}</h1>
+            <p style={isactive? {opacity:"1"} : null}>{subtitle}</p>
         </div>
         <div className={`project_item_img ${isactive? "isactive" : ""}`} style={isactive? {transform:`translate(${x/20}% , ${y/20}%)`} :  {transform:"translate(0 , 0)"}}>
-            <img src={zifcareimg} alt="" />
+            <img src={img} alt="" />
         </div>
         <div className="project_item_divider">
 <hr />

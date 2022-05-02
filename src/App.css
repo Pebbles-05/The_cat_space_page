@@ -39,10 +39,10 @@ body{
  --global_padding:0 8%;
  --nav_padding:0 3%;
  --fs_100:1rem;
- --fs_200:clamp(1rem , 4vw ,2rem); 
+ --fs_200:clamp(1rem , 3vw ,2rem); 
  --fs_300:3rem;
  --fs_350:clamp(1.5rem , 4vw , 3.5rem);
- --fs_400:clamp(2rem , 4vw , 4rem);
+ --fs_400:clamp(2rem ,4vw , 4rem);
  
  
  
@@ -516,6 +516,9 @@ cursor: pointer;
 position: relative;
 mix-blend-mode: difference;
 }
+.project_item:last-child hr{
+display: none;
+}
 
 
 .project_item_title{
@@ -523,13 +526,13 @@ mix-blend-mode: difference;
   line-height: 2;
   color: var(--mainclr_white);
   transition: transform 0.2s ease-in;
-  padding: 1em 0;
+  padding: 3em 0;
   mix-blend-mode: difference;
 
 }
 
   .project_item_title h1{
-   font-size: var(--fs_400);
+   font-size: var(--fs_350);
    font-weight: 700;
    transition: opacity 0.2s ease-in;
     }
@@ -538,6 +541,9 @@ mix-blend-mode: difference;
       font-weight: 400;
       transition: opacity 0.2s ease-in;
     }
+  .project_item .colored_subtitle{
+    color: var(--main_purple);
+  }
 
 
     .project_item_img{
@@ -558,7 +564,7 @@ mix-blend-mode: difference;
     }
 
   
-    .project_item_divider hr{
+    .project_item hr{
       height: 1px;
       border: none;
       background-color: var(--mainclr_white);
@@ -571,7 +577,7 @@ mix-blend-mode: difference;
 .project_list:hover h1,
 .project_list:hover p{
 
-  opacity:0.3 ;
+  opacity:0.1 ;
   
   }
   .project_item:hover  .project_item_title{
@@ -587,11 +593,22 @@ mix-blend-mode: difference;
    .projects_header{
      margin: 1.5em 0;
    }
+   .project_item_title{
+     padding: 2em 0 ;
+   }
    
+ }
+ @media screen and (max-width:700px) {
+  .project_item_img{
+        inset: 0 10% auto auto;
+  }
  }
  @media screen and (max-width:500px){
   .projects_header{
     margin: 1em 0;
   }
-  
+  .project_item_title{
+    padding: 2em 0 ;
+  }
+
 }
