@@ -14,7 +14,7 @@ function App() {
 
 
   return <div  className='app'>
-    <div  className="scroll">
+    
 
     <BrowserRouter>
  <Navbar />
@@ -26,7 +26,7 @@ function App() {
   </BrowserRouter>
 
 
-    </div>
+    
 
  </div>
 }

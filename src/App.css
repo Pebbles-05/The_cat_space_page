@@ -321,7 +321,6 @@ opacity: 0;
 
 
 
-
 /* hero section */
 
 #hero{
@@ -488,7 +487,7 @@ overflow-y: hidden;
   justify-content: space-between;
   align-items: center;
   padding: var(--global_padding);
-  margin: 2em 0;
+  margin: 2em 0 0;
 }
 .strip img{
   width: clamp(2.5em , 8% , 5em);
@@ -498,6 +497,7 @@ overflow-y: hidden;
 /* Projects */
 #projects{
   padding: var(--global_padding);
+  padding-top: var(--nav_height) ;
 }
 
 .projects_header{
@@ -505,7 +505,7 @@ overflow-y: hidden;
   text-align: center;
   font-size: var(--fs_400);
   font-weight: 750;
-  margin: 2em 0;
+  margin: 0 0 2em;
 }
 
 
@@ -591,7 +591,7 @@ display: none;
 
  @media screen and (max-width:1000px){
    .projects_header{
-     margin: 1.5em 0;
+     margin: 0 0 1.5em;
    }
    .project_item_title{
      padding: 2em 0 ;
@@ -605,10 +605,92 @@ display: none;
  }
  @media screen and (max-width:500px){
   .projects_header{
-    margin: 1em 0;
+    margin: 0 0 1em;
   }
   .project_item_title{
     padding: 2em 0 ;
   }
 
+}
+
+
+
+/* Reveiws section */
+
+
+#reviews{
+  padding: var(--global_padding);
+  padding-top: var(--nav_height);
+}
+.reviews_header{
+  font-family: var(--font_family_avenir);
+  text-align: center;
+  font-size: var(--fs_400);
+  font-weight: 750;
+  margin: 0 0 2em;
+}
+
+.reviews_card_stack{
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.reviews_card{
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transform: translate(50%);
+  transition: all 0.5s ease-in;
+}
+.reviews_card div{
+width: 100%;
+height: fit-content;
+}
+
+
+ .reviews_card.active{
+  transform: translate(0);
+   opacity: 1;
+ }
+
+ .container-dots {
+  display: flex;
+  justify-content: flex-end;
+  gap: 2%;
+  margin-top: 1em;
+}
+.dot {
+  height: 1em;
+  width: 1em;
+  border-radius: 50%;
+  background: #808080;
+  transition: all 0.5s ease-in;
+  cursor: pointer;
+}
+.dot.active {
+width: 4em;
+border-radius: 25px;
+background: #FFFFFF;
+}
+
+/* media query for review section */
+@media (max-width:700px) {
+ 
+  .reviews_header{
+    margin: 0 0 1em;
+  }
+  .container-dots {
+    gap: 4%;
+  }
+ 
+.dot{
+    height: 0.5em;
+    width: 0.5em;
+  }
+  .dot.active {
+    width: 2em;
+    }
 }
