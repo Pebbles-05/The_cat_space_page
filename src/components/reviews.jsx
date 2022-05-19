@@ -50,7 +50,7 @@ const nextSlide = () => {
 };
 
 function auto() {
-  slideInterval = setInterval(nextSlide, 5000);
+  slideInterval = setInterval(nextSlide, 10000);
 }
 
 useEffect(() => {

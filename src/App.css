@@ -40,7 +40,7 @@ body{
  --nav_padding:0 3%;
  --fs_100:1rem;
  --fs_200:clamp(1rem , 3vw ,2rem); 
- --fs_300:3rem;
+ --fs_300:clamp(1rem , 3vw ,3rem); 
  --fs_350:clamp(1.5rem , 4vw , 3.5rem);
  --fs_400:clamp(2rem ,4vw , 4rem);
  
@@ -646,7 +646,8 @@ display: none;
   transition: all 0.5s ease-in;
 }
 .reviews_card div{
-width: 100%;
+width: 80%;
+margin: 0 auto;
 height: fit-content;
 }
 
@@ -682,6 +683,11 @@ background: #FFFFFF;
   .reviews_header{
     margin: 0 0 1em;
   }
+
+.reviews_card div{
+  width: 100%;
+}
+
   .container-dots {
     gap: 4%;
   }
@@ -693,4 +699,46 @@ background: #FFFFFF;
   .dot.active {
     width: 2em;
     }
+}
+
+
+
+/* prefooter section */
+
+.footer{
+  font-size: var(--fs_350);
+  font-weight: 400;
+  font-family:var(--font_family_comfortaa) ;
+  padding: var(--global_padding);
+  padding-top: var(--nav_height);
+}
+.footer_greet{
+  display: flex;
+  flex-direction: column;
+  gap: 0.8em;
+  line-height: 1.6;
+}
+.footer_greet_purpletext{
+    color: var(--main_purple);
+    word-wrap: break-word;
+}
+
+.footer_downloadbtn{
+  text-align: center;
+  margin-top: 2em;
+  width: 100%;
+}
+.footer_downloadbtn a{
+  font-size: var(--fs_300);
+  text-decoration: none;
+  color: var(--mainclr_white);
+  padding: 0.5em 1.5em;
+  border: 3px solid var(--mainclr_white);
+  border-radius: 2em;
+  display: inline-block;
+}
+
+.footerimg{
+  width: 100%;
+  margin-top: 2em;
 }
