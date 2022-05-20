@@ -1,0 +1,72 @@
+
+*,::after,::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.carousal_container{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  .carousal_item{
+    opacity: 0;
+    transform: translate(50%);
+    transition: all 0.5s ease-in;
+  }
+  .carousal_item div{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+  margin: 0 auto;
+  height: fit-content;
+  }
+  
+  
+   .carousal_item.active{
+    transform: translate(0);
+     opacity: 1;
+   }
+  
+   .carousal-dots_container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 2%;
+    margin-top: 1em;
+  }
+  .carousal_dot {
+    height: 1em;
+    width: 1em;
+    border-radius: 50%;
+    background: #808080;
+    transition: all 0.5s ease-in;
+    cursor: pointer;
+  }
+  .carousal_dot.active {
+  width: 4em;
+  border-radius: 25px;
+  background: #FFFFFF;
+  }
+
+/* adjustments according to phone */
+  @media (max-width:700px) {
+ .carousal_item div{
+    width: 100%;
+  }
+  
+  .carousal-dots_container {
+      gap: 4%;
+  }
+   
+  .carousal_dot{
+      height: 0.5em;
+      width: 0.5em;
+    }
+    .carousal_dot.active {
+      width: 2em;
+      }
+  }

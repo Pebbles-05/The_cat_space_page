@@ -1,5 +1,6 @@
 import React, { useState,useRef,useEffect } from 'react';
 import reviewdata from "../utils/reviewdata";
+import Carousal from '../subcomponent/carousal';
 
 
 export default function Reviews() {
@@ -67,7 +68,7 @@ useEffect(() => {
         <div className="reviews_header">
 <p>Dont just take my word for it !</p>
         </div>
-<div className="reviews_card_stack" style={{ height:imgheight + "px"}}>
+<div className="reviews_card_stack" style={{ height:imgheight + 8 + "px"}}>
 {reviewdata.map((data, index) => {
         return (
           <div
@@ -94,6 +95,11 @@ useEffect(() => {
                     ></div>
                 ))}
   </div>
+
+
+ 
+
+
 </div>
     
   )

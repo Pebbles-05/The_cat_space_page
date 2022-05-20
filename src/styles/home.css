@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
 @font-face {
   font-family: "AvenirLTStd";
-  src: url(./fonts/AvenirLTStd-Black.otf) ;
+  src: url(../fonts/AvenirLTStd-Black.otf) ;
 }
 
 
@@ -29,6 +30,7 @@ body{
 :root{
   --font_family_comfortaa:'Comfortaa', cursive;
   --font_family_avenir:"AvenirLTStd";
+  --font_family_mon:'Montserrat', sans-serif;
  
   --mainbg_black:#0e0e0e;
   --mainclr_white:#fff;
@@ -43,10 +45,12 @@ body{
  --fs_300:clamp(1rem , 3vw ,3rem); 
  --fs_350:clamp(1.5rem , 4vw , 3.5rem);
  --fs_400:clamp(2rem ,4vw , 4rem);
- 
- 
- 
- --nav_height:5.5rem;
+}
+
+
+/* for navbar only */
+:root{
+  --nav_height:5.5rem;
   --ham_stick1_width:1.5em;
   --ham_stick1_height:0.3em;
   --ham_stick2_width:3em;
@@ -315,11 +319,12 @@ opacity: 0;
 
 
 
+/* home section */
 
 
-
-
-
+#home{
+  height: 100vh;
+}
 
 /* hero section */
 
@@ -488,6 +493,7 @@ overflow-y: hidden;
   align-items: center;
   padding: var(--global_padding);
   margin: 2em 0 0;
+  overflow-x: hidden;
 }
 .strip img{
   width: clamp(2.5em , 8% , 5em);
@@ -516,9 +522,20 @@ cursor: pointer;
 position: relative;
 mix-blend-mode: difference;
 }
-.project_item:last-child hr{
-display: none;
+.project_item::after{
+  content: "";
+  position: absolute;
+  inset:auto 0 0 0 ;
+  background-color: var(--mainclr_white);
+  height: 1px;
+  opacity: 0.5;
+  
 }
+
+.project_item.noline::after{
+  display: none;
+}
+
 
 
 .project_item_title{
@@ -528,7 +545,6 @@ display: none;
   transition: transform 0.2s ease-in;
   padding: 3em 0;
   mix-blend-mode: difference;
-
 }
 
   .project_item_title h1{
@@ -564,13 +580,7 @@ display: none;
     }
 
   
-    .project_item hr{
-      height: 1px;
-      border: none;
-      background-color: var(--mainclr_white);
-      opacity: 0.5;
-      
-    }
+  
 
 /* animation and hover states */
 
@@ -741,4 +751,17 @@ background: #FFFFFF;
 .footerimg{
   width: 100%;
   margin-top: 2em;
+ 
+}
+
+.footernote{
+  font-family: var(--font_family_mon);
+  font-size: clamp(0.5rem, 2vw, 2rem );
+  font-weight: 400;
+  margin: 1em 0 2em;
+}
+.footernote a{
+  color: var(--mainclr_white);
+  text-decoration: none;
+  font-weight: 700;
 }

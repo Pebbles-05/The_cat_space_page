@@ -21,6 +21,10 @@ export default function Footer() {
             <div className="footerimg">
             {footerimg}
             </div>
+
+            <div className="footernote">
+            Developed by <a href='https://www.linkedin.com/in/joydeep-paul-255458221/' target="_blank">Joydeep Paul</a> 
+            </div>
             
     </div>
   )
