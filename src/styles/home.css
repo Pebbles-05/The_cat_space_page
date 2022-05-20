@@ -758,7 +758,8 @@ background: #FFFFFF;
   font-family: var(--font_family_mon);
   font-size: clamp(0.5rem, 2vw, 2rem );
   font-weight: 400;
-  margin: 1em 0 2em;
+  margin: 1em 0 ;
+  padding-bottom: 2em;
 }
 .footernote a{
   color: var(--mainclr_white);
