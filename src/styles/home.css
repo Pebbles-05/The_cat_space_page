@@ -564,7 +564,7 @@ mix-blend-mode: difference;
 
     .project_item_img{
       position: absolute;
-      inset: -70% 10% auto auto;
+      inset: -40% 10% auto auto;
       width: 40%;
       mix-blend-mode: difference;
       opacity: 0;
