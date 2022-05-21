@@ -1,6 +1,4 @@
 import React, { useEffect, useRef, useState } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 import circlebg from "../media/circle_bg";
 import imgdata from '../utils/fadingimgdata';
 
@@ -8,12 +6,6 @@ import imgdata from '../utils/fadingimgdata';
 
 export default function Hero() {
  
-//  inting aos 
-useEffect(() => {
-  AOS.init();
-
-  
-}, [])
 
 
 
@@ -51,7 +43,7 @@ useEffect(() => {
 
 
   return (
-    <div id='hero' data-aos="fade" data-aos-duration="2000" >
+    <div id='hero'  >
         <div className='hero_intro'  >Hey ,<br />
 I am Ishika, a UX 
 designer based in India. I create designs that are <br />
