@@ -631,19 +631,25 @@ mix-blend-mode: difference;
 #reviews{
   padding: var(--global_padding);
   padding-top: var(--nav_height);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
 }
 .reviews_header{
   font-family: var(--font_family_avenir);
   text-align: center;
   font-size: var(--fs_400);
   font-weight: 750;
-  margin: 0 0 2em;
+  margin: 1em 0 2em;
+  width: 100%;
 }
 
 .reviews_card_stack{
   position: relative;
-  width: 100%;
+  width: 85%;
   overflow: hidden;
+
 }
 .reviews_card{
   position: absolute;
@@ -656,7 +662,7 @@ mix-blend-mode: difference;
   transition: all 0.5s ease-in;
 }
 .reviews_card div{
-width: 80%;
+width: 100%;
 margin: 0 auto;
 height: fit-content;
 }
@@ -669,22 +675,26 @@ height: fit-content;
 
  .container-dots {
   display: flex;
-  justify-content: flex-end;
-  gap: 2%;
-  margin-top: 1em;
+  align-items: center;
+  justify-content: space-around;
+  width: 15%;
+  padding-bottom: 1em;
 }
 .dot {
-  height: 1em;
-  width: 1em;
+  height: 0.9em;
+  width: 0.9em;
   border-radius: 50%;
   background: #808080;
   transition: all 0.5s ease-in;
   cursor: pointer;
+  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 .dot.active {
-width: 4em;
+  height: 0.5em;
+width: 3em;
 border-radius: 25px;
 background: #FFFFFF;
+box-shadow: inset -2px -2px 4px rgba(0, 0, 0, 0.4), inset 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
 /* media query for review section */
@@ -694,21 +704,34 @@ background: #FFFFFF;
     margin: 0 0 1em;
   }
 
+  .reviews_card_stack{
+    width: 100%;
+  }
+
 .reviews_card div{
   width: 100%;
 }
-
-  .container-dots {
-    gap: 4%;
-  }
  
 .dot{
-    height: 0.5em;
-    width: 0.5em;
+    height: 0.7em;
+    width: 0.7em;
+   
   }
   .dot.active {
+    height: 0.3em;
     width: 2em;
+   
     }
+}
+
+@media (max-width:900px){
+
+  .container-dots {
+    width: 100%;
+    gap: 4%;
+    justify-content: center;
+  padding-top: 2em;
+  }
 }
 
 
@@ -716,7 +739,7 @@ background: #FFFFFF;
 /* prefooter section */
 
 .footer{
-  font-size: var(--fs_350);
+  font-size: var(--fs_300);
   font-weight: 400;
   font-family:var(--font_family_comfortaa) ;
   padding: var(--global_padding);
@@ -725,9 +748,14 @@ background: #FFFFFF;
 .footer_greet{
   display: flex;
   flex-direction: column;
-  gap: 0.8em;
+  gap: 0.5em;
   line-height: 1.6;
 }
+
+.footer_greet span:first-child{
+  margin-bottom: 1em;
+}
+
 .footer_greet_purpletext{
     color: var(--main_purple);
     word-wrap: break-word;
