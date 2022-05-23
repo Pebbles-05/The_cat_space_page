@@ -44,7 +44,7 @@ useEffect(() => {
 
   return (
     <div id='hero'  >
-        <div className='hero_intro'  >Hey ,<br />
+        <h1 className='hero_intro'  >Hey ,<br />
 I am Ishika, a UX 
 designer based in India. I create designs that are <br />
 
@@ -57,7 +57,7 @@ designer based in India. I create designs that are <br />
 </div>
 
 
-</div>
+</h1>
         
 
         <div className="hero_banner"  >

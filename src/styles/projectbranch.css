@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@font-face {
+  font-family: "AvenirLTStd";
+  src: url(../fonts/AvenirLTStd-Black.otf) ;
+}
+
+
+*,::after,::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+  
+body{
+  background-color: var(--mainbg_black);
+  color: var(--mainclr_white);
+  position: relative;
+ overflow-x: hidden;
+}
+  
+
+
+
+/* Global variables */
+:root{
+  --font_family_comfortaa:'Comfortaa', cursive;
+  --font_family_avenir:"AvenirLTStd";
+  --font_family_mon:'Montserrat', sans-serif;
+ 
+  --mainbg_black:#0e0e0e;
+  --mainclr_white:#fff;
+  --transparent_bg_black:rgba(14, 14, 14, 0.8);
+  --main_purple:#844BFF;
+ --linear_puple: linear-gradient(258.81deg, #C293FF 16.52%, #A026FF 59.82%, #844BFF 86.03%);
+ 
+ --global_padding:0 8%;
+ --nav_padding:0 3%;
+ --fs_100:1rem;
+ --fs_200:clamp(1rem , 3vw ,2rem); 
+ --fs_300:clamp(1rem , 3vw ,3rem); 
+ --fs_350:clamp(1.5rem , 4vw , 3.5rem);
+ --fs_400:clamp(2rem ,4vw , 4rem);
+}
+
+
+
+
+
+
+
+
+
+.project1{
+    padding: var(--global_padding);
+    padding-top: var(--nav_height) ;
+}
+
+.project1_nav{
+    padding: 5em 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.project1_nav button{
+    padding: 0.5em 1em;
+    color: var(--main_purple);
+    font-size: var(--fs_300);
+    font-weight: 700;
+    font-family:var(--font_family_comfortaa) ;
+    background: none;
+    border: 2px solid var(--main_purple);
+    border-radius: 2em;
+    cursor: pointer;
+}
+.project1_nav button.active{
+    padding: 0.5em 1em;
+    color: var(--mainclr_white);
+    background-color: var(--main_purple);
+    font-size: var(--fs_300);
+    font-weight: 700;
+    font-family:var(--font_family_comfortaa) ;
+    border: 2px solid var(--main_purple);
+    border-radius: 2em;
+}

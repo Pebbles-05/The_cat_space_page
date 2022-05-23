@@ -41,8 +41,8 @@ const handleactive=()=>{
             
         <hr />
                 <ul className='dropdown_links'>
-              <li onClick={handleactive} className={isactive ? 'active' : null} style={ isactive?   {transition:`opacity .2s ease-in ${1/7+0.1}s,font-size 0.2s ease-in`} : null}> <HashLink  to='/#hero'> Home  </HashLink></li>
-              <li onClick={handleactive} className={isactive ? 'active' : null} style={ isactive?   {transition:`opacity .2s ease-in ${2/7+0.1}s,font-size 0.2s ease-in`} : null}> <HashLink  to="/#projects">  Projects </HashLink></li>
+              <li onClick={handleactive} className={isactive ? 'active' : null} style={ isactive?   {transition:`opacity .2s ease-in ${1/7+0.1}s,font-size 0.2s ease-in`} : null}> <HashLink  to='/#hero'>Home</HashLink></li>
+              <li onClick={handleactive} className={isactive ? 'active' : null} style={ isactive?   {transition:`opacity .2s ease-in ${2/7+0.1}s,font-size 0.2s ease-in`} : null}> <HashLink  to="/#projects">Projects</HashLink></li>
               <li onClick={handleactive} className={isactive ? 'active' : null} style={ isactive?   {transition:`opacity .2s ease-in ${3/7+0.1}s,font-size 0.2s ease-in`} : null}> <HashLink  to="/#reviews">Reviews</HashLink></li>
               <li onClick={handleactive} className={isactive ? 'active' : null} style={ isactive?   {transition:`opacity .2s ease-in ${4/7+0.1}s,font-size 0.2s ease-in`} : null}> <Link  to="about">About Me</Link></li>
              

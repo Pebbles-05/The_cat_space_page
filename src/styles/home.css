@@ -649,7 +649,9 @@ mix-blend-mode: difference;
   position: relative;
   width: 85%;
   overflow: hidden;
-
+  display: flex;
+  justify-content: center;
+align-items: center;
 }
 .reviews_card{
   position: absolute;
@@ -662,7 +664,7 @@ mix-blend-mode: difference;
   transition: all 0.5s ease-in;
 }
 .reviews_card div{
-width: 100%;
+width: 90%;
 margin: 0 auto;
 height: fit-content;
 }
@@ -757,6 +759,7 @@ box-shadow: inset -2px -2px 4px rgba(0, 0, 0, 0.4), inset 2px 2px 4px rgba(0, 0,
 }
 
 .footer_greet_purpletext{
+  font-family:var(--font_family_avenir);
     color: var(--main_purple);
     word-wrap: break-word;
 }
