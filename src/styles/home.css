@@ -648,7 +648,6 @@ mix-blend-mode: difference;
 .reviews_card_stack{
   position: relative;
   width: 85%;
-  overflow: hidden;
   display: flex;
   justify-content: center;
 align-items: center;
@@ -745,7 +744,7 @@ box-shadow: inset -2px -2px 4px rgba(0, 0, 0, 0.4), inset 2px 2px 4px rgba(0, 0,
   font-weight: 400;
   font-family:var(--font_family_comfortaa) ;
   padding: var(--global_padding);
-  padding-top: var(--nav_height);
+  padding-top: 3em;
 }
 .footer_greet{
   display: flex;
@@ -759,7 +758,7 @@ box-shadow: inset -2px -2px 4px rgba(0, 0, 0, 0.4), inset 2px 2px 4px rgba(0, 0,
 }
 
 .footer_greet_purpletext{
-  font-family:var(--font_family_avenir);
+  font-weight: 700;
     color: var(--main_purple);
     word-wrap: break-word;
 }
@@ -777,6 +776,14 @@ box-shadow: inset -2px -2px 4px rgba(0, 0, 0, 0.4), inset 2px 2px 4px rgba(0, 0,
   border: 3px solid var(--mainclr_white);
   border-radius: 2em;
   display: inline-block;
+}
+.footer_aboutmebtn{
+  font-size: var(--fs_200);
+  text-align: center;
+  padding: 2em 0;
+}
+.footer_aboutmebtn span{
+  color: var(--main_purple);
 }
 
 .footerimg{
