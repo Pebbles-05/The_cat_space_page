@@ -1,0 +1,32 @@
+@import "./gobalVariables.scss";
+@import "./breakpoint.scss";
+@import "./navbar.scss";
+@import "./home.scss";
+
+
+
+*,::after,::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+  
+body{
+  background-color: $mainbg_black;
+  color: $mainclr_white;
+  position: relative;
+ overflow-x: hidden;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,32 @@
+.project1{
+    padding: var(--global_padding);
+    padding-top: var(--nav_height) ;
+}
+
+.project1_nav{
+    padding: 5em 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.project1_nav button{
+    padding: 0.5em 1em;
+    color: var(--main_purple);
+    font-size: var(--fs_300);
+    font-weight: 700;
+    font-family:var(--font_family_comfortaa) ;
+    background: none;
+    border: 2px solid var(--main_purple);
+    border-radius: 2em;
+    cursor: pointer;
+}
+.project1_nav button.active{
+    padding: 0.5em 1em;
+    color: var(--mainclr_white);
+    background-color: var(--main_purple);
+    font-size: var(--fs_300);
+    font-weight: 700;
+    font-family:var(--font_family_comfortaa) ;
+    border: 2px solid var(--main_purple);
+    border-radius: 2em;
+}

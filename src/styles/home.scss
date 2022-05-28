@@ -1,0 +1,50 @@
+.fp-watermark{
+    display: none;
+}
+
+
+
+
+.hero{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: $global_padding;
+    position: relative;
+}
+
+.hero__intro{
+    mix-blend-mode:difference;
+    font-family:$font_family_marcellus;
+    font-weight: 400;
+    font-size:$fs_400 ;
+    text-align: center;
+    letter-spacing: 0.1em;
+    line-height: 2;
+}
+
+
+.hero__media{
+    position: fixed;
+   top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -100;
+    img{
+        mix-blend-mode: difference;
+        position: absolute;
+        width: 0;
+        object-fit: contain;
+        opacity: 0;
+        transition: width 0.2s ease-in ,  height 0.2s ease-in;
+
+        &.active{
+            opacity: 1;
+            width: 20%;
+           
+        }
+
+    }
+}
+
