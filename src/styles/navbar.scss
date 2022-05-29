@@ -7,14 +7,14 @@
     justify-content: space-between;
     align-items: center;
     padding: $global_padding;
-    height:7rem;
+    height:6rem;
     position: fixed;
     inset: 0 0 auto 0;
     background-color:$transparent_bg_black;
     z-index: 1000;
 
       @include media("<desktop"){
-         height: 5rem;       
+         height:5rem;       
     }
       
 }
