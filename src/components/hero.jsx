@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import hoverimg1 from "../media/hoverimg1.png"
 import hoverimg2 from "../media/hoverimg2.png"
 import hoverimg3 from "../media/hoverimg3.png"
-import hoverimg4 from "../media/hoverimg4.png"
+import hoverimg4 from "../media/hoverimg4.png";
+import heroillustration from "../media/hero-illustration.png";
 import useMousePosition from "../hooks/useMousePosition";
 
 
@@ -39,7 +40,12 @@ const [isactive,setactive]=useState(-1);
         
 
        
-        
+        <div className="hero__footer">
+
+            <p>Scroll</p>
+            <img src={heroillustration} alt="greet" />
+
+        </div>
        
         
         

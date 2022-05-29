@@ -3,7 +3,7 @@
 }
 
 
-
+// hero section
 
 .hero{
     height: 100vh;
@@ -103,6 +103,16 @@
         
     }
 
+
+}
+
+
+// hero footer
+
+.hero__footer{
+    pointer-events: none;
+
+    display: grid;
 
 }
 

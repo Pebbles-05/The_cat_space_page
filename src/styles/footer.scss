@@ -1,5 +1,5 @@
 .footer{
-    
+    mix-blend-mode: difference;
     position: fixed;
     inset: auto auto 2em 2em;
     display: flex;
@@ -13,7 +13,7 @@
 
 
 
-    @include media("<desktop"){
+    @include media("<tablet"){
         inset: auto auto 1em 1em;
         img{
             width: 2em;
