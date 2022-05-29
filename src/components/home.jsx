@@ -9,8 +9,8 @@ const HomeFullpage = () => (
   <ReactFullpage
     //fullpage options
     licenseKey="key"
-    scrollingSpeed={1000} /* Options here */
-    render={({ state, fullpageApi }) => {
+    scrollingSpeed={500} /* Options here */
+    render={() => {
       return (
         <ReactFullpage.Wrapper>
           <div className="section"><Hero /></div>
@@ -39,9 +39,3 @@ return(
 
 }
      
-
-       
-  
-    
-
-

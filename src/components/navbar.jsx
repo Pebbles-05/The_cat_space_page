@@ -2,6 +2,8 @@ import { useState } from "react";
 import  logo from "../media/logo.png" ;
 import { Link } from "react-router-dom";
 import navlinksList from "../utils/navlinksList";
+import socialimg1 from "../media/socialimg1.png"
+import socialimg2 from "../media/socialimg2.png"
 
 
 
@@ -25,7 +27,10 @@ export default function Navbar() {
           return <Link key={index} onClick={handleActive} style={{textDecoration:"none"}} to={dta.url}><li style={ active ? {transition:`opacity 0.6s ease ${index/4 + 0.1}s`} : null}>{dta.name}</li> </Link>
           })}
        
-          
+          <li style={ active ? {transition:`opacity 0.6s ease ${3/4 + 0.1}s`} : null} className="navbar__socials">
+              <a href=""><img src={socialimg1} alt="socials" /></a>
+              <a href=""><img src={socialimg2} alt="socials" /></a>
+          </li>
     
     
          

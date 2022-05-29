@@ -1,0 +1,20 @@
+.footer{
+    
+    position: fixed;
+    inset: auto auto 2em 2em;
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+
+    img{
+        cursor: pointer;
+        width: 4em;
+    }
+
+
+
+    @include media("<desktop"){
+        display: none;
+    }
+
+}

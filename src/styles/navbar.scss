@@ -62,6 +62,7 @@
                     transform-origin: right;
                     transition: transform 0.2s ease-in;
                         }
+        
                 
                 &:hover {
                     &::after{
@@ -109,6 +110,29 @@
     }
                
 }
+
+.navbar__socials{
+    display: none;
+    flex-direction: row;
+    gap: 2em;
+
+
+            img{
+                width: 1.5em;
+            }
+
+
+            &::after{
+                display: none;
+            }
+
+    @include media("<desktop"){
+        display: flex;
+    }
+}
+
+
+
 .navbar__ham{
     display: none;
     flex-direction: column;

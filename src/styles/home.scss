@@ -15,11 +15,10 @@
 }
 
 .hero__intro{
-    mix-blend-mode: multiply;
+    mix-blend-mode: difference;
     font-family:$font_family_marcellus;
     font-weight: 500;
-    font-size:$fs_400 ;
-    -webkit-text-stroke:0.5px $mainbg_black;
+    font-size:$fs_350 ;
     text-align: center;
     letter-spacing: 0.1em;
     line-height: 2;
@@ -30,33 +29,57 @@
                 position: relative;
 
                 img{
-                    mix-blend-mode: multiply;
+                    mix-blend-mode: difference;
                     pointer-events: none;
                     position: absolute;
-                    right: 0;
                     width: 0;
                     object-fit: contain;
                     opacity: 0;
-                    border-radius: 100%;
-                    transition: width 0.2s ease-in ,  border-radius 0.2s ease-in;
+                    transition:   opacity 0.2s ease-in;
+
+
+
+                    &.first{
+
+                        inset: -300% auto  auto -50%;
+                        &.active{ 
+                            width: 4em;
+                        }
+                    }
+                    &.second{
+
+                        inset: auto 50%  -100%  0;
+                    }
+                    &.third{
+
+                        inset: auto 50%  50%  auto;
+                    }
+                    &.fourth{
+
+                        inset: auto 50%  50%  auto;
+
+                        &.active{
+                            width: 6em;
+                        }
+
+                    }
+    
+    
             
                     &.active{
                         opacity: 1;
                         width: 5em;
-                        border-radius: 0;
-                    }
-                
-                    &.last{
-
-                        &.active{
-                            width: 8em;
-                        }
                     }
 
                 }
 
 
+
+
+               
+
                 @include media("<tablet"){
+                
                         img{
 
                             &.active{
@@ -70,10 +93,27 @@
                 }
 
         }
+
+
+
+    
+
+    @include media("<tablet"){
+            padding: 5rem  3em;
         
-
-   
-
+    }
 
 
+}
+
+
+
+
+
+.projects{
+    height: 100vh;
+
+    img{
+        width: 50%;
+    }
 }

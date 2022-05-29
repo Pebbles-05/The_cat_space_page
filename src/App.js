@@ -1,5 +1,6 @@
 import "./styles/app.scss";
 import Navbar from './components/navbar';
+import Footer from "./components/footer";
 import Home from './components/home';
 import About from './Routes/about';
 import Project1 from "./Routes/project1";
@@ -22,6 +23,7 @@ function App() {
     <Route path="project_Ethernals_HACKATHON_2022"  element={<Project3 />} />
  
  </Routes>
+ <Footer/>
   </BrowserRouter>
 
 
