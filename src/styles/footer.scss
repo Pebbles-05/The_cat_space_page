@@ -4,7 +4,7 @@
     inset: auto auto 2em 2em;
     display: flex;
     flex-direction: row;
-    gap: 2em;
+    gap: 1em;
 
     img{
         cursor: pointer;
@@ -14,7 +14,10 @@
 
 
     @include media("<desktop"){
-        display: none;
+        inset: auto auto 1em 1em;
+        img{
+            width: 2em;
+        }
     }
 
 }
