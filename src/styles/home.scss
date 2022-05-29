@@ -15,36 +15,65 @@
 }
 
 .hero__intro{
-    mix-blend-mode:difference;
+    mix-blend-mode: multiply;
     font-family:$font_family_marcellus;
-    font-weight: 400;
+    font-weight: 500;
     font-size:$fs_400 ;
+    -webkit-text-stroke:0.5px $mainbg_black;
     text-align: center;
     letter-spacing: 0.1em;
     line-height: 2;
-}
 
 
-.hero__media{
-    position: fixed;
-   top: 0;
-    left: 0;
-    width: 100%;
-    z-index: -100;
-    img{
-        mix-blend-mode: difference;
-        position: absolute;
-        width: 0;
-        object-fit: contain;
-        opacity: 0;
-        transition: width 0.2s ease-in ,  height 0.2s ease-in;
 
-        &.active{
-            opacity: 1;
-            width: 20%;
-           
+        span{
+                position: relative;
+
+                img{
+                    mix-blend-mode: multiply;
+                    pointer-events: none;
+                    position: absolute;
+                    right: 0;
+                    width: 0;
+                    object-fit: contain;
+                    opacity: 0;
+                    border-radius: 100%;
+                    transition: width 0.2s ease-in ,  border-radius 0.2s ease-in;
+            
+                    &.active{
+                        opacity: 1;
+                        width: 5em;
+                        border-radius: 0;
+                    }
+                
+                    &.last{
+
+                        &.active{
+                            width: 8em;
+                        }
+                    }
+
+                }
+
+
+                @include media("<tablet"){
+                        img{
+
+                            &.active{
+                                opacity: 0;
+                                width: 0;
+                                border-radius: 0;
+                            }
+                        }
+                    
+
+                }
+
         }
+        
 
-    }
+   
+
+
+
 }
-
