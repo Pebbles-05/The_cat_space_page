@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
 @font-face {
   font-family: "AvenirLTStd";
   src: url(../fonts/AvenirLTStd-Book.otf) ;
@@ -12,6 +13,7 @@
 $font_family_comfortaa:'Comfortaa', cursive;
 $font_family_avenir:"AvenirLTStd";
 $font_family_marcellus:'Marcellus', serif;
+$font_family_inter:  'Inter', sans-serif;
 $font_family_mon:'Montserrat', sans-serif;
  
 $mainbg_black:#0e0e0e;
