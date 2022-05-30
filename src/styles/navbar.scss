@@ -111,25 +111,7 @@
                
 }
 
-.navbar__socials{
-    display: none;
-    flex-direction: row;
-    gap: 2em;
 
-
-            img{
-                width: 1.5em;
-            }
-
-
-            &::after{
-                display: none;
-            }
-
-    @include media("<desktop"){
-        display: flex;
-    }
-}
 
 
 

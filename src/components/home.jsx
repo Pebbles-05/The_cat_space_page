@@ -1,4 +1,3 @@
-import React from "react";
 import Hero from './hero';
 import Projects from './projects';
 import ReactFullpage from "@fullpage/react-fullpage";
@@ -27,6 +26,9 @@ const HomeFullpage = () => (
 
 
 export default function Home() {
+
+
+
 
 return(
   <div className="home">

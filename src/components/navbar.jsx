@@ -24,13 +24,8 @@ export default function Navbar() {
         <ul className={active ? "navbar__links active" : "navbar__links"}>
 
           {navlinksList.map((dta,index)=>{
-          return <Link key={index} onClick={handleActive} style={{textDecoration:"none"}} to={dta.url}><li style={ active ? {transition:`opacity 0.6s ease ${index/4 + 0.1}s`} : null}>{dta.name}</li> </Link>
+          return <Link key={index} onClick={handleActive} style={{textDecoration:"none"}} to={dta.url}><li style={ active ? {transition:`opacity 0.6s ease ${index/16 + 0.1}s`} : null}>{dta.name}</li> </Link>
           })}
-       
-          <li style={ active ? {transition:`opacity 0.6s ease ${3/4 + 0.1}s`} : null} className="navbar__socials">
-              <a href=""><img src={socialimg1} alt="socials" /></a>
-              <a href=""><img src={socialimg2} alt="socials" /></a>
-          </li>
     
     
          

@@ -10,6 +10,9 @@ useEffect(() => {
   
 }, [])
   return (
-    <div data-aos="fade-down" data-aos-duration="2000">this is about</div>
+    
+     <div data-aos="fade-down" data-aos-duration="2000">this is about</div>
+
+   
   )
 }

@@ -23,7 +23,7 @@
     letter-spacing: 0.1em;
     line-height: 2;
 
-
+       
 
         span{
                 position: relative;
@@ -100,6 +100,7 @@
 
     @include media("<tablet"){
             padding: 5rem  1em;
+
         
     }
 
@@ -162,11 +163,68 @@
 
 
 
+// project section
 
 .projects{
-    height: 100vh;
+    height: 200vh;
+    padding-top: 8em;
+}
 
+.projectitem{
+    z-index: 10000;
+    cursor: grab;
+    padding: $global_padding;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    overflow: visible;
+    margin: 2em 0 0 0 ;
+}
+
+.projectitem__img{
+    overflow: visible;
+  margin:  0 0 4em 5em ;
+    width: 100%;
+    height: auto;
+    mix-blend-mode: difference;
     img{
-        width: 50%;
+        width: 100%;
     }
+}
+.projectitem__info{
+    mix-blend-mode: difference;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ gap: 1em;
+ padding: 2em 0;
+ transform: translate(-10%);
+           
+    width: 100%;
+    .projectitem__info_title{
+        font-family: $font_family_marcellus;
+        font-size: $fs_500;
+        font-weight: 400;
+    }
+    .projectitem__info_subtitle{
+        mix-blend-mode: normal;
+        font-family: $font_family_avenir;
+        font-size: $fs_200;
+        font-weight: 350;
+        background:$grad_pink;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        margin-bottom: auto;
+     
+    }
+    .projectitem__info_csbtn{
+        cursor: pointer;
+        font-family: $font_family_inter;
+        font-size: $fs_150;
+        font-weight: 500;
+       text-align: right;
+       margin-bottom: auto;
+    }
+
 }
