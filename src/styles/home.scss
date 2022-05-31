@@ -171,37 +171,38 @@
     height: 200vh;
     padding-top: 8em;
     overflow: visible;
+    padding: $global_padding;
 
     @include media("<=1000px"){
         height: auto;
     }
 }
 
+.projectitem__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
 .projectitem{
+
     z-index: 10000;
     cursor: grab;
-    padding: $global_padding;
-    padding-top: 2em;
-    padding-bottom: 2em;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
-    
-    overflow-y: visible;
-    margin: 2em 0 0 0 ;
-
-
-
+    margin: 0 auto;
 }
 
 .projectitem__img{
     pointer-events: none;
-    overflow-y: visible;
     width: 100%;
-    height: auto;
     mix-blend-mode: difference;
-    transform: translate(15%,-10%);
+    transform: translate(15%,0);
+    
     img{
         width: 100%;
     }
@@ -211,16 +212,17 @@
 }
 
 .projectitem__info{
-mix-blend-mode: difference;
-display: flex;
-flex-direction: column;
-justify-content: space-around;
-gap: 1em;
-padding: 2em 0;
-width: 100%;
+    mix-blend-mode: difference;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 2em;
+    padding: 2em 2em 0 0;
+    width: 100%;
+    height: fit-content;
     .projectitem__info_title{
         font-family: $font_family_marcellus;
-        font-size: $fs_500;
+        font-size: 6rem;
         font-weight: 400;
         @include media("<=1300px"){
            font-size: 4.5rem;
@@ -245,9 +247,10 @@ width: 100%;
         font-family: $font_family_inter;
         font-size: $fs_150;
         font-weight: 500;
-       text-align: right;
-       margin-bottom: auto;
+        text-align: right;
+        margin-bottom: auto;
         margin-right: 2em;
+
         @include media("<=1300px"){
             font-size: 1rem;
          }
@@ -255,7 +258,9 @@ width: 100%;
 
 }
 
+// footer of project section
 .projects__footer{
+    mix-blend-mode: difference;
     text-align: center;
     padding: $global_padding;
     position: absolute;
@@ -274,7 +279,7 @@ width: 100%;
 }
 .projects__count{
     margin-left: auto;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-family: $font_family_avenir;
     font-weight: 400;
     letter-spacing: 0.1em;

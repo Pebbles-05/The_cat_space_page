@@ -56,7 +56,7 @@ useEffect(()=>{
         animate={animation}
         
         className="projectitem__img" >
-          <img  style={isactive ? {transform:`translate(${x/50 }% , ${y/50}%)`,transition: "transform 0.1 linear "} : {transform:"translate(0,0)",transition: "transform 0.1s linear"}} src={img} alt="projectimg" />
+          <img  style={isactive ? {transform:`translate(${x/50 }% , ${y/50}%)`,transition: "transform 0.1 linear"} : {transform:"translate(0,0)",transition: "transform 0.1s linear"}} src={img} alt="projectimg" />
       </motion.div>  
 
         <div className="projectitem__info" >

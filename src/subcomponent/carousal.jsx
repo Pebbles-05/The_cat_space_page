@@ -1,5 +1,5 @@
 import React, { useState,useRef,useEffect } from 'react';
-import "../subcomponent_styles/carousal.css";
+import "../subcomponent_styles/carousal.scss";
 
 export default function Carousal({data}) {
 
