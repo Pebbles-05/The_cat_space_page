@@ -1,5 +1,4 @@
 import React, {  useEffect , useState } from 'react';
-import projectimg1 from "../media/projectimg1.png";
 import { animate, motion ,transform,useAnimation} from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import useMousePosition from "../hooks/useMousePosition";
@@ -8,7 +7,8 @@ import useMousePosition from "../hooks/useMousePosition";
 
 
 
-export default function Projectitem() {
+
+export default function Projectitem({img,title,subtitle,csbtn}) {
 
 
   const {x , y}=useMousePosition();
@@ -29,11 +29,12 @@ const animation=useAnimation();
 useEffect(()=>{
 
    if(inview){
+
      animation.start({
        
        opacity:1,
        transition :{
-         type:"ease" , duration :0.5
+         type:"ease" , duration :0.2
         }
      })
    }
@@ -46,22 +47,24 @@ useEffect(()=>{
 },[inview])
 
 
+
+
   return (
-    <div className='projectitem'  ref={ref} onMouseEnter={handleActive} onMouseLeave={handleActive} >
+    <div className='projectitem'  ref={ref}  onMouseEnter={handleActive} onMouseLeave={handleActive}>
 
       <motion.div  
         animate={animation}
         
         className="projectitem__img" >
-          <img style={isactive ? {transform:`translate(${x/60 }% , ${y/60}%)`} : {transform:"translate (0 , 0)"}} src={projectimg1} alt="projectimg" />
+          <img  style={isactive ? {transform:`translate(${x/50 }% , ${y/50}%)`,transition: "transform 0.1 linear "} : {transform:"translate(0,0)",transition: "transform 0.1s linear"}} src={img} alt="projectimg" />
       </motion.div>  
 
         <div className="projectitem__info" >
-            <h1 className='projectitem__info_title' data-swiper-parallax="-2000" >Zifcare Redesign</h1>
+            <h1 className='projectitem__info_title' data-swiper-parallax="-1000" >{title}</h1>
 
-      <p className='projectitem__info_subtitle' data-swiper-parallax="-1000">- mental health support platform</p>
+      <p className='projectitem__info_subtitle' data-swiper-parallax="-1500">{subtitle}</p>
 
-      <p className='projectitem__info_csbtn' data-swiper-parallax="-1000">READ CASE STUDY</p>
+     <p className='projectitem__info_csbtn' data-swiper-parallax="-2000">  {csbtn} </p>
 
         </div>
 
@@ -69,3 +72,4 @@ useEffect(()=>{
     </div>
   )
 }
+

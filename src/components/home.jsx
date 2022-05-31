@@ -1,6 +1,7 @@
 import Hero from './hero';
 import Projects from './projects';
 import ReactFullpage from "@fullpage/react-fullpage";
+import useWindowSize from "../hooks/useWindowSize";
 
 
 
@@ -24,15 +25,16 @@ const HomeFullpage = () => (
 
 
 
-
 export default function Home() {
 
+
+  const {width}=useWindowSize();
 
 
 
 return(
   <div className="home">
-   <HomeFullpage />
+   {width<=1000?<><Hero/><Projects/></>:<HomeFullpage/>}
   </div>
 )
             
