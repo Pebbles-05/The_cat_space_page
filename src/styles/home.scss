@@ -6,6 +6,7 @@
 // hero section
 
 .hero{
+   
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -23,12 +24,15 @@
     letter-spacing: 0.1em;
     line-height: 2;
 
-       
+ p{ mix-blend-mode: difference;}
+    
 
         span{
+                mix-blend-mode: difference;
                 position: relative;
 
                 img{
+                    z-index: -100;
                     mix-blend-mode: difference;
                     pointer-events: none;
                     position: absolute;
@@ -47,6 +51,7 @@
                         }
                     }
                     &.second{
+                       
 
                         inset: auto 50%  -100%  0;
                     }
@@ -168,6 +173,7 @@
 // project section
 
 .projects{
+    position: relative;
     height: 200vh;
     padding-top: 8em;
     overflow: visible;
@@ -178,26 +184,29 @@
     }
 }
 
-.projectitem__container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-}
+
 
 
 .projectitem{
-
-    z-index: 10000;
     cursor: grab;
+    height: 100vh;
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-between;
     width: 100%;
-    margin: 0 auto;
+    margin:  0 auto;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+    
+        &.active{
+            opacity: 1;
+        }
+
 }
 
 .projectitem__img{
+    z-index: 100;
     pointer-events: none;
     width: 100%;
     mix-blend-mode: difference;
@@ -217,7 +226,6 @@
     flex-direction: column;
     justify-content: space-around;
     gap: 2em;
-    padding: 2em 2em 0 0;
     width: 100%;
     height: fit-content;
     .projectitem__info_title{
@@ -272,7 +280,7 @@
 .projects__dragtext{
     margin-top: auto;
     margin-bottom: 2em;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-family: $font_family_inter;
     font-weight: 400;
     letter-spacing: 0.12em;
@@ -283,5 +291,16 @@
     font-family: $font_family_avenir;
     font-weight: 400;
     letter-spacing: 0.1em;
+}
+
+
+
+.loader{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: $fs_400;
 }
 

@@ -1,4 +1,4 @@
-import React, { useState ,useEffect} from 'react';
+import React, { useState } from 'react';
 import Project1Web from './project1Web';
 import Project1App from './project1App';
 
