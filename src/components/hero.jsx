@@ -5,8 +5,6 @@ import hoverimg3 from "../media/hoverimg3.png"
 import hoverimg4 from "../media/hoverimg4.png";
 import heroillustration from "../media/hero-illustration.png";
 import useMousePosition from "../hooks/useMousePosition";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 
 
 
@@ -18,12 +16,7 @@ const [isactive,setactive]=useState(-1);
 
 
 
-//  inting aos 
-useEffect(() => {
-    AOS.init();
-  
-    
-  }, [])
+
 
 return (
     <div  className="hero"  >

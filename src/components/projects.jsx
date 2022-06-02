@@ -7,20 +7,22 @@ import projectdata  from "../utils/projectdata";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import useWindowSize from "../hooks/useWindowSize";
+import { useInView } from 'react-intersection-observer';
 
 
 
 // desktop version
 const ProjectsWeb=()=>{
   const [activeindex,setactiveindex]=useState(); 
-
+    // code to animate in view
+  const [ref , inview ]=useInView();
 
   return (
-    <div className='projects'>
+    <div className='projects' ref={ref}>
 
       
 
-      <div className="projectitem__container">
+      <div className="projectitem__container" >
       <Swiper className="mySwiper"  parallax={true}   modules={[Parallax]} speed={800} onSwiper={(swiper) => setactiveindex(swiper.activeIndex+1)}
       onSlideChange={(swiper) => setactiveindex(swiper.activeIndex+1)} >
 
@@ -31,7 +33,7 @@ const ProjectsWeb=()=>{
       
       
       
-      <div className="projects__footer">
+      <div className={inview?"projects__footer active":"projects__footer"} >
         <div></div>
         <div className="projects__dragtext">drag &#8594;</div>
         <div className="projects__count">PROJECT  {activeindex} of {projectdata.length}</div>
@@ -67,6 +69,7 @@ const ProjectsApp=()=>{
 export default function Projects() {
 
   const {width}=useWindowSize();
+
 
 
   return(

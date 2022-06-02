@@ -1,5 +1,7 @@
 import { useEffect,useState } from "react";
 import "./styles/app.scss";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import Loader from "./components/Loader";
 import Navbar from './components/navbar';
 import Footer from "./components/footer";
@@ -38,6 +40,8 @@ const Main =()=>{
 
 function App() {
 
+
+//  preloader function
    const [isloading,setLoading]=useState(false);
 
    useEffect(() => {
@@ -50,6 +54,13 @@ function App() {
      
    }, [])
    
+   
+   //  inting aos 
+  useEffect(() => {
+   AOS.init();
+ 
+   
+ }, [])
 
    return  (
       <>

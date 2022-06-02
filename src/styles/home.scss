@@ -2,7 +2,16 @@
     display: none;
 }
 
+// animation classes
 
+.slandanim{
+    opacity: 0;
+    transform: translate3d(0,40px,0) rotate(5deg);
+}
+.slandanim_active{
+    opacity: 1;
+    transform: translate3d(0,0,0) rotate(0deg);
+}
 // hero section
 
 .hero{
@@ -23,9 +32,6 @@
     text-align: center;
     letter-spacing: 0.1em;
     line-height: 2;
-
- p{ mix-blend-mode: difference;}
-    
 
         span{
                 mix-blend-mode: difference;
@@ -124,8 +130,6 @@
     display: grid;
     grid-template-columns: repeat(3 , 1fr);
 
-           
-        
         .hero__footer_scrolltext{
             margin-top: auto;
             margin-bottom: 2em;
@@ -211,12 +215,6 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    opacity: 0;
-    transition: opacity 0.5s ease-in;
-    
-        &.active{
-            opacity: 1;
-        }
         @include media("<=1000px"){
             height: auto;
             flex-direction: column;
@@ -233,6 +231,7 @@
     width: 100%;
     mix-blend-mode: difference;
     transform: translate(15%,0);
+    transition: opacity 0.7s ease-in 0.1s;
     
     img{
         width: 100%;
@@ -253,6 +252,7 @@
     gap: 2em;
     width: 100%;
     height: fit-content;
+    transition: transform 0.7s ease-in ,opacity 0.7s ease-in;
         @include media("<=1000px"){
             gap: 2em;
         }
@@ -332,6 +332,12 @@
     inset: auto 0 0 0;
     display: grid;
     grid-template-columns: repeat(3 , 1fr);
+    opacity: 0;
+    transition: opacity 3s ease-in ;
+
+        &.active{
+            opacity: 1;
+        }
 }
 
 .projects__dragtext{
