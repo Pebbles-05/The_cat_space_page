@@ -1,72 +1,55 @@
+.carousal{
+  width: 100%;
+}
+.carousal__img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3em;
+  img{
+    width: 70%;
+  }
 
-*,::after,::before{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+                  @include media("<=500px"){
+                      padding-bottom: 2em;
+                  }
 }
 
-.carousal_container{
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-  }
-  .carousal_item{
-    opacity: 0;
-    transform: translate(50%);
-    transition: all 0.5s ease-in;
-  }
-  .carousal_item div{
-    position: absolute;
-    width: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
-    
-  margin: 0 auto;
-  height: fit-content;
-  }
-  
-  
-   .carousal_item.active{
-    transform: translate(0);
-     opacity: 1;
-   }
-  
-   .carousal-dots_container {
-    display: flex;
-    justify-content: flex-end;
-    gap: 2%;
-    margin-top: 1em;
-  }
-  .carousal_dot {
-    height: 1em;
-    width: 1em;
-    border-radius: 50%;
+.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal{
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+        @include media("<=500px"){
+          gap: 0.5em;
+        }
+}
+span.swiper-pagination-bullet{
+    width: 0.9em;
+    height: 0.9em;
     background: #808080;
-    transition: all 0.5s ease-in;
-    cursor: pointer;
-  }
-  .carousal_dot.active {
-  width: 4em;
-  border-radius: 25px;
-  background: #FFFFFF;
-  }
+    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.4);
+    transition: all 0.2s ease-in;
+    opacity: 1;
 
-/* adjustments according to phone */
-  @media (max-width:700px) {
- .carousal_item div{
-    width: 100%;
-  }
-  
-  .carousal-dots_container {
-      gap: 4%;
-  }
-   
-  .carousal_dot{
-      height: 0.5em;
-      width: 0.5em;
-    }
-    .carousal_dot.active {
+          @include media("<=500px"){
+            height: 0.7em;
+            width: 0.7em;
+          }
+
+
+}
+.swiper-pagination-bullet.swiper-pagination-bullet-active{
+  height: 0.6em;
+width: 3em;
+border-radius: 25px;
+background: #FFFFFF;
+box-shadow: inset -2px -2px 4px rgba(0, 0, 0, 0.4), inset 2px 2px 4px rgba(0, 0, 0, 0.4);
+      @include media("<=500px"){
+      height: 0.4em;
       width: 2em;
       }
-  }
+}
+
+

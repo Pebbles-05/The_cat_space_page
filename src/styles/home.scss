@@ -33,12 +33,15 @@
     letter-spacing: 0.1em;
     line-height: 2;
 
+        p{
+            mix-blend-mode: difference;
+        }
+
         span{
                 mix-blend-mode: difference;
                 position: relative;
 
                 img{
-                    z-index: -100;
                     mix-blend-mode: difference;
                     pointer-events: none;
                     position: absolute;
@@ -89,7 +92,7 @@
 
                
 
-                @include media("<tablet"){
+                @include media("<1000px"){
                 
                         img{
 

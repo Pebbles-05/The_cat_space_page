@@ -4,6 +4,8 @@
 @import "./navbar.scss";
 @import "./footer.scss";
 @import "./home.scss";
+@import "./mail.scss";
+@import "../subcomponent_styles/carousal.scss";
 @import "./projectbranch.scss";
 
 
@@ -15,6 +17,7 @@
 }
 html{
   scroll-behavior: smooth;
+  scroll-padding-top: $nav_height;
 }
 
   
@@ -26,8 +29,22 @@ body{
 }
 
 
+// the cursor blob
 
-
+.cursor__blob{
+  z-index: 1000;
+  pointer-events: none;
+  mix-blend-mode: difference;
+  height: 2em;
+  width: 2em;
+  border-radius: 50%;
+  background-color:$main_pink;
+  position: fixed;
+  transition: top 0.05s linear ,left 0.05s linear,transform 0.1s linear;
+      @include media("<=1000px"){
+        display: none;
+      }
+}
 
 
 

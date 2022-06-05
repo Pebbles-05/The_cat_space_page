@@ -1,5 +1,5 @@
 
-
+$nav_height:5rem;
 
 .navbar{
     display: flex;
@@ -7,7 +7,7 @@
     justify-content: space-between;
     align-items: flex-end;
     padding: $global_padding;
-    height:4rem;
+    height:$nav_height;
     position: fixed;
     inset: 0 0 auto 0;
     background-color:$transparent_bg_black;
@@ -71,6 +71,7 @@
                         transform-origin: left;
                     }
                     
+                    
                 } 
             
 
@@ -89,7 +90,7 @@
         justify-content: flex-start;
         gap: 2em;
         position: absolute; 
-        top: 5rem;  
+        top: $nav_height;
         right: 0;
         left: 0; 
         transition: height 0.2s ease-in , padding 0.2s ease-in;
@@ -113,6 +114,10 @@
 }
 
 
+  
+  
+
+
 
 
 
@@ -130,15 +135,19 @@
         transition: transform 0.2s ease-in , opacity 0.2s ease-in ;
 
         &:nth-child(1){
-            width: 1.5em;
+            width: .8em;
+            margin-left: auto;
+            border-radius: 25%;
         }
         &:nth-child(2){
-            width: 1.3em;
+            width: 1.5em;
             margin-left: auto;
+            border-radius: 25%;
         }
         &:nth-child(3){
             width: 1em;
             margin-left: auto;
+            border-radius: 25%;
         }
     }
   

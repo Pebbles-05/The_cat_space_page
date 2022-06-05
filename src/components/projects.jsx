@@ -10,7 +10,6 @@ import useWindowSize from "../hooks/useWindowSize";
 import { useInView } from 'react-intersection-observer';
 
 
-
 // desktop version
 const ProjectsWeb=()=>{
   const [activeindex,setactiveindex]=useState(); 

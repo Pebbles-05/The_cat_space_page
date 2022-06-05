@@ -2,8 +2,7 @@ import { useState } from "react";
 import  logo from "../media/logo.png" ;
 import { Link } from "react-router-dom";
 import navlinksList from "../utils/navlinksList";
-import socialimg1 from "../media/socialimg1.png"
-import socialimg2 from "../media/socialimg2.png"
+
 
 
 
@@ -17,7 +16,7 @@ export default function Navbar() {
 
  
   return (
-    <div className="navbar" >
+    <div className="navbar" data-aos="fade-in" data-aos-duraton="1000"   data-aos-offset="0">
       <Link onClick={()=>{setactive(false)}} style={{textDecoration:"none"}} to="/"><div className="navbar__logo"><img src={logo} alt="logo" /></div></Link>
         
 

@@ -3,10 +3,13 @@ import "./styles/app.scss";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Loader from "./components/Loader";
+import Blob from "./components/blob"
 import Navbar from './components/navbar';
 import Footer from "./components/footer";
 import Home from './components/home';
 import About from './Routes/about';
+import Mail from "./Routes/mail";
+import Resume from "./Routes/resume";
 import Project1 from "./Routes/project1";
 import Project2 from "./Routes/project2";
 import Project3 from "./Routes/project3";
@@ -25,6 +28,8 @@ const Main =()=>{
       
                   <Route path="/"  element={<Home />} />
                   <Route path="about"  element={<About />} />
+                  <Route path="mail"  element={<Mail />} />
+                  <Route path="resume"  element={<Resume />} />
                   <Route path="project_zifcare"  element={<Project1 />} />
                   <Route path="project_Personal_Portfolio_Design"  element={<Project2 />} />
                   <Route path="project_Ethernals_HACKATHON_2022"  element={<Project3 />} />
@@ -65,7 +70,7 @@ function App() {
    return  (
       <>
        {isloading ? <Loader /> : <Main/>}
-       
+       <Blob/>
        </>
       
     
