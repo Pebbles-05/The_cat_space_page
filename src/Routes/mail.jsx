@@ -9,7 +9,9 @@ export default function mail() {
       <div className="mail__img">{mailimg}</div>
       <div className="mail__form_container"> <Mailform/></div>
      
-    
+      <div className="mail__footer">
+        
+      </div>
     </div>
   )
 }
