@@ -1,18 +1,59 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 
 export const Mailform = () => {
   const form = useRef();
+  const [submitText,setsubmitText]=useState(false);
+  const [checkerror,setcheckerror]=useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
-    emailjs.sendForm('service_u17k1wz', 'template_58skrae', form.current, 'iRVS9w9Pplj8sJMc2')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
+    const checkerror=()=>{
+        if(e.target[0].value==="" && e.target[1].value==="" && e.target[2].value===""){
+            setcheckerror(true);
+        }else if(e.target[0].value==="" && e.target[1].value===""){
+            setcheckerror(true);
+        }else if(e.target[1].value==="" && e.target[2].value===""){
+            setcheckerror(true);
+        }else if(e.target[0].value==="" && e.target[2].value===""){
+            setcheckerror(true);
+        }else if(e.target[0].value==="" || e.target[1].value==="" || e.target[2].value==="" ){
+            setcheckerror(true);
+        }else{
+            setcheckerror(false);
+        }
+    }
+    
+
+    if(e.target[0].value==="" && e.target[1].value==="" && e.target[2].value===""){
+        console.log("error");
+        setcheckerror(true);
+    }else if(e.target[0].value==="" && e.target[1].value===""){
+        console.log("error");
+        setcheckerror(true);
+    }else if(e.target[1].value==="" && e.target[2].value===""){
+        console.log("error");
+        setcheckerror(true);
+    }else if(e.target[0].value==="" && e.target[2].value===""){
+        console.log("error");
+        setcheckerror(true);
+    }else if(e.target[0].value==="" || e.target[1].value==="" || e.target[2].value==="" ){
+        console.log("error");
+        setcheckerror(true);
+    }
+     else{
+        emailjs.sendForm('service_u17k1wz', 'template_58skrae', form.current, 'iRVS9w9Pplj8sJMc2')
+        .then((result) => {
+            setsubmitText(true);
+            checkerror();
+        }, (error) => {
+            console.log(error.text);
+        });
+    }
+  
+      
   };
+
 
   return (
     <form className='emailform' ref={form} onSubmit={sendEmail}>
@@ -29,9 +70,9 @@ export const Mailform = () => {
             <textarea name="message" />
         </div>
         <div className="emailform__submitbtn">
-            <input  type="submit" value="Send" />
+            <input className={submitText? "active" : null} type="submit" value={submitText?"GOT IT !":"Send"} />
         </div>
-      
+        <div>{!checkerror? null : "*plese fill alll the sections"}</div>
     </form>
   );
 };
