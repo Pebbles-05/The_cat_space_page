@@ -1,0 +1,52 @@
+@import "./globalVariables.scss";
+
+.creditfooter{
+    padding: $projectsec_padding;
+}
+
+.creditfooter__img{
+    margin: 4em 0 2em;
+
+    @include media("<=600px"){
+        margin: 4em 0 1em; 
+    }
+}
+.creditfooter__text{
+    margin: 2em 0 4em;
+    cursor: pointer;
+    div{
+
+        font-family: $font_family_marcellus;
+        font-size: $fs_150;
+        font-weight: 400;
+        letter-spacing: 0.1em;
+        line-height: 1.6;
+
+        @include media ("<=1200px"){
+            font-size:$fs_100 ;
+        }
+        @include media ("<=700px"){
+            font-size:.9rem ;
+        }
+
+        a{
+            text-decoration: none;
+            color: $mainclr_white;
+            font-size: $fs_200;
+            font-family: $font_family_mon;
+            font-weight: 700;
+
+            @include media ("<=1200px"){
+                font-size:$fs_150 ;
+            }
+            @include media ("<=700px"){
+                font-size:1rem ;
+            }
+        }
+    }
+
+    @include media("<=600px"){
+        margin: 1em 0 3em; 
+    }
+       
+}

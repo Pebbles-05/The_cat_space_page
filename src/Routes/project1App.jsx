@@ -1,7 +1,10 @@
-import React from 'react'
+import React from 'react';
+
 
 export default function Project1App() {
   return (
-    <div>project1_app</div>
+    <div className='Project1App'> 
+      app
+    </div>
   )
 }

@@ -1,0 +1,63 @@
+@import "./globalVariables.scss";
+
+$projectsec_padding:0 10%;
+
+
+
+.project1,project2,project3{
+
+    img{
+        pointer-events: none;
+    }
+    .psec_h{
+        font-family: $font_family_avenir;
+        font-weight: 750;
+        font-size: $fs_300;
+        text-transform: uppercase;
+        margin: 1em 0;
+        @include media("<=700px"){
+            font-size: $fs_350;
+        }
+    }
+    .psec_p{
+        font-family: $font_family_marcellus;
+        font-size: $fs_150;
+        font-weight: 400;
+        letter-spacing: 0.1em;
+        line-height: 1.6;
+        @include media("<=700px"){
+            font-size: $fs_200;
+        }
+    }
+    .psec_pinktext{
+        background:$grad_pink;
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+    }
+    .psec_solidpinktext{
+        color: $main_pink;
+    }
+    .psec_greentext{
+       color: #4acf6f;
+    }
+    .psec_yellowtext{
+        color: #ffca8b;
+    }
+    .psec_bluetext{
+        color: #759cff;
+    }
+}
+
+.responsiveimg{
+   text-align: center;
+    margin: 2em 0;
+    img{
+        width: 100%;
+        @include media("<=800px"){
+            width: 90%;
+            margin: 0 auto;
+        }
+    }
+   
+
+}

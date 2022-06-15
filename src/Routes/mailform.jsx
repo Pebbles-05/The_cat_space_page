@@ -72,7 +72,7 @@ export const Mailform = () => {
         <div className="emailform__submitbtn">
             <input className={submitText? "active" : null} type="submit" value={submitText?"GOT IT !":"Send"} />
         </div>
-        <div>{!checkerror? null : "*plese fill alll the sections"}</div>
+        <div className='errortext'>{!checkerror? null : "*please fill all the sections"}</div>
     </form>
   );
 };

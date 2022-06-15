@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
+@font-face {
+  font-family: "AvenirLTStd";
+  src: url(../fonts/AvenirLTStd-Book.otf) ;
+}
+
+
+/* Global variables */
+
+$font_family_comfortaa:'Comfortaa', cursive;
+$font_family_avenir:"AvenirLTStd";
+$font_family_marcellus:'Marcellus', serif;
+$font_family_inter:  'Inter', sans-serif;
+$font_family_mon:'Montserrat', sans-serif;
+ 
+$mainbg_black:#0e0e0e;
+$mainclr_white:#fff;
+$transparent_bg_black:rgba(14, 14, 14, 0.8);
+$main_pink:#F37D97;
+$grad_pink:linear-gradient(90deg, #FF9A9E 0%, #FAD0C4 99%, #FAD0C4 100%);
+ 
+$global_padding:0 5%;
+$fs_100:1rem;
+$fs_150:clamp(0.5rem , 3vw ,1.5rem);
+$fs_200:clamp(1rem , 3vw ,2rem); 
+$fs_300:clamp(1rem , 3vw ,3rem); 
+$fs_350:clamp(1.5rem , 4vw , 3.5rem);
+$fs_400:clamp(2rem ,4vw , 4rem);
+$fs_500:clamp(3rem ,7vw , 7rem);

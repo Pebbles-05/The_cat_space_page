@@ -1,4 +1,4 @@
-@import "./gobalVariables.scss";
+@import "./globalVariables.scss";
 @import "./loader.scss";
 @import "./breakpoint.scss";
 @import "./navbar.scss";
@@ -6,7 +6,8 @@
 @import "./home.scss";
 @import "./mail.scss";
 @import "../subcomponent_styles/carousal.scss";
-@import "./projectbranch.scss";
+@import "./project1.scss";
+@import "./creditfooter.scss";
 
 
 
@@ -32,6 +33,7 @@ body{
 // the cursor blob
 
 .cursor__blob{
+
   z-index: 1000;
   pointer-events: none;
   mix-blend-mode: difference;
