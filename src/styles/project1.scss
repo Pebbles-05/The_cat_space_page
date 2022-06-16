@@ -1,12 +1,9 @@
 @import "./globalVariables.scss";
-@import "./projectutils.scss";
-
 
 // project1
 
 .project1{
-    padding: var(--global_padding);
-    padding-top: var(--nav_height) ;
+    padding: $global_padding;
 }
 
 .project1_nav{
@@ -56,108 +53,3 @@
 }
 
 
-// web section
-
-.project1web{
-   
-padding:$projectsec_padding ;
-padding-top: 5em;
-}
-
-.project1web__hero_img{
-    padding: 0 10%;
-        img{
-            pointer-events: none;
-            width: 100%;
-        }
-}
-
-.project1web__hero_text{
-
-    margin-top: 4em;
-}
-
-.project1web__goal,.project1web__problems{
-            ul{
-                margin-left: 2em;
-            }
-}
-
-.project1tweb_ideation{
-    display: flex;
-    flex-direction: column;
-    gap :2em;
-                .psec_h{
-                    margin-bottom: 0;
-                }
-    
-}
-.project1web__designprocess{
-
-    .project1web__designprocess_steps{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        gap: 2em;
-
-        div{
-            width: 15%;
-
-            p{
-                font-size: 1.3rem;
-                font-family: $font_family_marcellus;
-                line-height: 1.6;
-                @include media("<=1100px"){
-                   font-size: 1rem;
-                }
-                @include media("<=900px"){
-                    font-size: 1.5rem;
-                 }
-                 @include media("<=600px"){
-                    font-size: 1rem;
-                 }
-            }
-
-            @include media("<=900px"){
-                width: 100%;
-                text-align: center;
-            }
-        }
-
-
-        .arrows{
-            width: 5%;
-            margin-top:1.5em ;
-            @include media("<=900px"){
-                width: 7%;
-                transform: rotate(90deg);
-                margin: 0;
-            }
-        }
-
-
-        @include media("<=1100px"){
-            gap: 1em;
-        }
-        @include media("<=900px"){
-            gap: 1.5em;
-            flex-direction:column ;
-            justify-content: center;
-            align-items: center;
-        }
-    }
-  
-}
-
-.project1web__finalscreens{
-
-    .title{
-        margin: 2em 0;
-    }
-}
-
-.project1web__nextsteps{
-    ul{
-        margin-left: 2em;
-    }
-}
