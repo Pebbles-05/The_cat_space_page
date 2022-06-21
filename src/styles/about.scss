@@ -1,0 +1,260 @@
+@import "./globalVariables.scss";
+
+.about{
+padding: $global_padding ;
+margin-top: $nav_height;
+}
+
+
+
+// what dop i dream about
+
+.dreamabout{
+   padding: 2em 5%;
+   display: flex;
+   flex-direction: column;
+   gap: 1em;
+
+         h1{
+            font-family: $font_family_avenir;
+            font-size: $fs_300;
+            font-weight: 750;
+            line-height: 1.6;
+            @include media("<=tablet"){
+             font-size: $fs_350;
+          }
+          
+
+         }
+
+         p{
+            font-family: $font_family_marcellus;
+            font-weight: 400;
+            font-size: $fs_150;
+            line-height: 1.6;
+            letter-spacing: 0.1em;
+
+            @include media("<=tablet"){
+               font-size: $fs_200;
+              }
+          }
+}
+
+
+// reviews
+
+.reviews{
+
+  padding: 2em 5%;
+  display: flex;
+  flex-direction: column;
+  gap:2em;
+
+     h1{
+        font-family: $font_family_avenir;
+        font-size: $fs_300;
+        font-weight: 750;
+        line-height: 1.6;
+        @include media("<=tablet"){
+         font-size: $fs_350;
+        }
+     }
+
+}
+
+// reviewitemWeb
+
+.reviewitemWeb__container{
+   display: flex;
+   align-items: flex-start;
+   justify-content: space-evenly;
+
+
+         .reviewitemWeb{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 1em;
+            text-align: center;
+            width: 30%;
+
+                  svg{
+                     width: 40%;
+                  }
+                  h1{
+                     font-family: $font_family_avenir;
+                     font-weight: 750;
+                     font-size: $fs_150;
+                     line-height: 1.6;
+                     padding: 0 30%;
+
+                     @include media("<=tablet"){
+                        font-size: $fs_200;
+                     }
+                  }
+                  p{
+                     font-family: $font_family_marcellus;
+                     font-weight: 400;
+                     font-size: $fs_100;
+                     line-height: 1.6;
+                     letter-spacing: 0.1em;
+                     padding: 0 30%;
+
+                     @include media("<=1100px"){
+                        padding: 0 10%;
+                     }
+
+                  }
+
+                  button{
+                     font-family: $font_family_avenir;
+                     font-weight: 750;
+                     font-size: $fs_100;
+                     background: $grad_pink;
+                     -webkit-background-clip: text;
+                     -webkit-text-fill-color: transparent;
+                     background-clip: text;
+                     text-fill-color: transparent;
+                     border: none;
+                     cursor: pointer;
+                  }
+         }
+}
+
+
+// modal
+
+.modal{
+   padding: 0 10%;
+   z-index: 200000;   
+   display: flex;
+   align-items: center;
+   height: 100vh;
+   width: 100vw;
+   position: fixed;
+   inset: 0 0 0 0 ;
+}
+
+
+.modal__overlay{
+   background: $transparent_bg_black;
+   height: 100vh;
+   width: 100vw;
+   position: fixed;
+   inset: 0 0 0 0 ;
+   z-index: 1;
+ }
+
+.modal__text{
+   z-index: 2;
+   padding: 2em;
+   width: 35%;
+   border: 2px solid $mainclr_white;
+   border-radius: 2em;
+   background-color: $mainbg_black;
+   
+      p{
+         font-family: $font_family_marcellus;
+      font-weight: 400;
+      font-size: $fs_150;
+      line-height: 1.6;
+      letter-spacing: 0.1em;
+
+      @include media("<=1000px"){
+         font-size: $fs_100;
+        }
+      }
+ 
+}
+
+
+
+
+// reviewitemapp
+
+.reviewitemApp__container{
+
+}
+.reviewitemApp{
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+   svg{
+      width: 28%;
+   }
+
+   h1{
+      font-family: $font_family_avenir;
+      font-weight: 750;
+      font-size: $fs_100;
+   }
+   p{
+      font-family: $font_family_marcellus;
+      font-weight: 400;
+      font-size: $fs_100;
+      line-height: 1.6;
+      letter-spacing: 0.1em;
+   }
+   .subtitle{
+      padding: 1em 30%;
+
+   }
+   .review{
+      padding: 0.5em 0 3em;
+   }
+}
+
+// about footer
+
+.about__footer{
+   padding: 2em 5% ;
+   display: flex;
+   flex-direction: column;
+   gap: 1.5em;
+
+
+   p{
+      font-family: $font_family_marcellus;
+      font-weight: 400;
+      font-size: $fs_150;
+      line-height: 1.6;
+      letter-spacing: 0.1em;
+
+      @include media("<=tablet"){
+         font-size: $fs_200;
+        }
+
+      .grad_text{
+         background:$grad_pink;
+         -webkit-text-fill-color: transparent;
+         -webkit-background-clip: text;
+      }
+
+      svg{
+         width: 1.5em;
+        vertical-align: middle;
+        margin: 0 0.5em;
+
+        @include media("<=tablet"){
+         width:2em ;
+         text-align: center;
+         display: block;
+         margin: 2em auto 0;
+        }
+      }
+    }
+
+    
+    @include media("<=tablet"){
+      padding: 2em 5% 0;
+     }
+
+}
+
+.about__creditfooter{
+   padding: 0 5%;
+}

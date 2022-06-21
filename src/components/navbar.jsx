@@ -14,6 +14,13 @@ export default function Navbar() {
     setactive(!active);
   }
 
+  if(active){
+    document.body.classList.add("active");
+  }else{
+    document.body.classList.remove("active");
+  }
+  
+
  
   return (
     <div className="navbar" data-aos="fade-in" data-aos-duraton="1000"   data-aos-offset="0">

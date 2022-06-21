@@ -1,6 +1,7 @@
 import projectimg1 from "../media/projectimg1.png"
 import projectimg2 from "../media/projectimg2.png"
 import projectimg3 from "../media/projectimg3.png"
+import projectimg4 from "../media/projectimg4.png"
 
 
 const projectdata=[
@@ -21,6 +22,13 @@ const projectdata=[
     },
     {   
         img:projectimg3,
+        title: <span>Wiggle <br /> App Design</span>,
+        subtitle:"- an app to make lifestyle with an wiggle easy",
+        url:"project_wiggle_app_design"
+
+    },
+    {   
+        img:projectimg4,
         title: <span>Ethernals <br/> Hackathon</span>,
         subtitle:"- decentralized content streaming",
         url:"project_Ethernals_HACKATHON_2022"

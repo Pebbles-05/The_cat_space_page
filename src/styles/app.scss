@@ -1,12 +1,14 @@
 @import "./globalVariables.scss";
 @import "./loader.scss";
 @import "./breakpoint.scss";
+@import "../subcomponent_styles/carousal.scss";
 @import "./navbar.scss";
 @import "./footer.scss";
 @import "./home.scss";
 @import "./mail.scss";
-@import "../subcomponent_styles/carousal.scss";
 @import "./project1.scss";
+@import "./about.scss";
+@import "./creditfooter.scss";
 
 
 
@@ -27,6 +29,10 @@ body{
   color: $mainclr_white;
   position: relative;
   overflow-x: hidden;
+}
+
+body.active{
+  overflow-y: hidden;
 }
 
 

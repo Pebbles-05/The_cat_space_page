@@ -13,7 +13,7 @@ $nav_height:5rem;
     background-color:$transparent_bg_black;
     z-index: 1000;
 
-      @include media("<desktop"){
+      @include media("<1000px"){
           
          align-items: center;       
     }
@@ -27,7 +27,7 @@ $nav_height:5rem;
         width: 100%;
     }
 
-    @include media("<desktop"){
+    @include media("<1000px"){
           width: 2.5em;          
     }
        
@@ -78,7 +78,7 @@ $nav_height:5rem;
                
             }
     
-    @include media("<desktop"){
+    @include media("<1000px"){
         background-color:$transparent_bg_black;
         text-align: center;
         font-size: $fs_400;
@@ -153,7 +153,7 @@ $nav_height:5rem;
   
 
 
-    @include media("<desktop"){
+    @include media("<1000px"){
         display: flex;
        
     }

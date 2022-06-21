@@ -12,6 +12,8 @@ export default function mail() {
       <div className="mail__footer">
         
       </div>
+
+
     </div>
   )
 }
