@@ -21,11 +21,7 @@ switch (ind) {
     setalignment({justifyContent:"flex-end"})
     break;
 
-  default:
-    ()=>{
-      return null;
-    }
-    break;
+
 }
 }
 
