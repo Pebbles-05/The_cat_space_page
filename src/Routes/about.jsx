@@ -1,3 +1,4 @@
+import Abouthero from "../Routesubcomponets/abouthero";
 import Dreamabout from "../Routesubcomponets/dreamabout";
 import Reviews from "../Routesubcomponets/reviews";
 import Aboutfooter from "../Routesubcomponets/aboutfooter";
@@ -12,7 +13,7 @@ export default function About() {
   return (
     
      <div className='about'>
-
+      <Abouthero />
       <Dreamabout />
       <Reviews/>
       <Aboutfooter/>

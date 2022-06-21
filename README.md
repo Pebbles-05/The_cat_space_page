@@ -4,4 +4,4 @@ This is Porfolio Page made by Using ReactJs .
 
 ## Demo
 
-<a href="https://ishikamajumder.netlify.app/" target="_blank">demo</a>
+<a href="https://ishikamajumder-beta.herokuapp.com/" target="_blank">ishikamajumder-beta</a>
