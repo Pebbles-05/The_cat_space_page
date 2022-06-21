@@ -9,13 +9,6 @@ const [alignment, setalignment] = useState({});
 const handleModal= ()=>{
  setmodal(!modal);
 
- if(modal){
-  document.body.classList.add("active");
-}else{
-  document.body.classList.remove("active");
-}
-
-
 
 switch (ind) {
   case 0:
@@ -35,15 +28,14 @@ switch (ind) {
 }
 
 
+if(modal){
+  document.body.classList.add("active");
+}else{
+  document.body.classList.remove("active");
+}
 
 
-
-
-
-
-
-
-  return (
+return (
     <>
     <div className='reviewitemWeb'>
       {img}
