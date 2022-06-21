@@ -22,7 +22,9 @@ switch (ind) {
     break;
 
   default:
-    null
+    ()=>{
+      return null;
+    }
     break;
 }
 }
