@@ -1,6 +1,6 @@
 import React from 'react';
 import FinalScreens from '../components/Project3Components/FinalScreens';
-import Footer from '../components/Project3Components/Footer';
+import Footer from '../subcomponent/Footer';
 import Hero from '../components/Project3Components/Hero';
 import Moodboard from '../components/Project3Components/Moodboard';
 import UserFlow from '../components/Project3Components/UserFlow';

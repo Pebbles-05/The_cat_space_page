@@ -1,4 +1,4 @@
-import FooterImg from '../../media/FooterImg.png';
+import FooterImg from '../media/FooterImg.png';
 
 const Footer = () => {
   return (

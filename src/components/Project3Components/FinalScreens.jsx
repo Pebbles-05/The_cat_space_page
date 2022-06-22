@@ -118,7 +118,7 @@ const FinalScreens = () => {
         </div>
       </div>
       <div className='flex justify-center my-7'>
-        <GradientButton />
+        <GradientButton title='View Submission' />
       </div>
       <h1 className='Headings'>NEXT STEPS</h1>
       <div className='Contents mt-1'>
