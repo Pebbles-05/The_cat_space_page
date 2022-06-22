@@ -24,8 +24,6 @@ export default function Project1() {
     {/*  using conditional rendering to select components  */}
     {isactive===0 ? <Project1Web/> : <Project1App/>}
 
-   {/* creditfooter */}
-
 
       
     </div>

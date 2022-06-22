@@ -1,6 +1,6 @@
 import FooterImg from '../media/FooterImg.svg';
 
-const Footer = () => {
+const Creditfooter = () => {
   return (
     <div className='mt-48 mb-7'>
       <div className='flex justify-end'>
@@ -8,7 +8,6 @@ const Footer = () => {
           src={FooterImg}
           alt='FooterImg'
           className='w-40 -mb-4'
-          srcset=''
         />
       </div>
       <hr />
@@ -26,4 +25,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Creditfooter;

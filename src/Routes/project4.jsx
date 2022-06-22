@@ -4,7 +4,7 @@ import FinalScreens from '../components/Project4Components/FinalScreens';
 import Hero from '../components/Project4Components/Hero';
 import Moodboard from '../components/Project4Components/Moodboard';
 import Wireframes from '../components/Project4Components/Wireframes';
-import Footer from '../subcomponent/Footer';
+import Creditfooter from '../Routesubcomponets/creditfooter';
 
 export default function Project4() {
   return (
@@ -14,7 +14,7 @@ export default function Project4() {
       <Wireframes />
       <FinalScreens />
       <Conclusion />
-      <Footer />
+      <Creditfooter />
     </div>
   );
 }

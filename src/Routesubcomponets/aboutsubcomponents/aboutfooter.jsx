@@ -1,5 +1,5 @@
 import React from 'react';
-import rockimg from "../media/rockimg";
+import rockimg from "../../media/rockimg";
 
 export default function Aboutfooter() {
   return (

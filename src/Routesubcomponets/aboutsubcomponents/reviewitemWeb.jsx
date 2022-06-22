@@ -1,5 +1,5 @@
 import {useState} from 'react';
-import reviewdata from "../utils/reviewdata";
+import reviewdata from "../../utils/reviewdata";
 
  function ReviewItem({ind,img,title,subtitle,review}) {
 

@@ -1,8 +1,8 @@
-import Abouthero from "../Routesubcomponets/abouthero";
-import Dreamabout from "../Routesubcomponets/dreamabout";
-import Reviews from "../Routesubcomponets/reviews";
-import Aboutfooter from "../Routesubcomponets/aboutfooter";
-import Creditfooter from "../subcomponent/creditfooter";
+import Abouthero from "../Routesubcomponets/aboutsubcomponents/abouthero";
+import Dreamabout from "../Routesubcomponets/aboutsubcomponents/dreamabout";
+import Reviews from "../Routesubcomponets/aboutsubcomponents/reviews";
+import Aboutfooter from "../Routesubcomponets/aboutsubcomponents/aboutfooter";
+import Creditfooter from "../Routesubcomponets/creditfooter";
 
 
 

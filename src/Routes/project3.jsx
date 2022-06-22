@@ -1,6 +1,6 @@
 import React from 'react';
 import FinalScreens from '../components/Project3Components/FinalScreens';
-import Footer from '../subcomponent/Footer';
+import Creditfooter from '../Routesubcomponets/creditfooter';
 import Hero from '../components/Project3Components/Hero';
 import Moodboard from '../components/Project3Components/Moodboard';
 import UserFlow from '../components/Project3Components/UserFlow';
@@ -15,7 +15,7 @@ export default function Project3() {
       <Moodboard />
       <Wireframes />
       <FinalScreens />
-      <Footer />
+      <Creditfooter />
     </div>
   );
 }

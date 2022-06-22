@@ -1,7 +1,7 @@
 import React from 'react';
 import ReviewitemWeb from "./reviewitemWeb";
 import ReviewitemApp from './reviewitemApp';
-import useWindowSize from "../hooks/useWindowSize";
+import useWindowSize from "../../hooks/useWindowSize";
 
 
 export default function Reviews() {

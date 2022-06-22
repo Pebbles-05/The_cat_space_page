@@ -1,4 +1,4 @@
-import Footer from "../../subcomponent/Footer";
+import Creditfooter from '../../Routesubcomponets/creditfooter';
 import Conclusion from "./WebSubComponents/Conclusion";
 import FinalScreens from "./WebSubComponents/FinalScreens";
 import Hero from "./WebSubComponents/Hero";
@@ -11,7 +11,7 @@ export default function Project1Web() {
       <Moodboard />
       <FinalScreens />
       <Conclusion />
-      <Footer />
+      <Creditfooter />
     </>
   );
 }
