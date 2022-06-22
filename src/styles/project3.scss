@@ -1,0 +1,68 @@
+@import './globalVariables.scss';
+
+.Headings {
+  font-family: $font_family_avenir;
+  font-size: $fs_200;
+}
+
+.FooterText {
+  font-family: $font_family_mon;
+  font-weight: 900;
+}
+
+.Contents {
+  font-family: $font_family_marcellus;
+  letter-spacing: 0.15vw;
+  font-size: $fs_150;
+}
+
+.pink-text {
+  background: $grad_pink;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cream-text {
+  color: $main_cream;
+}
+
+.yellow-text {
+  color: $main_yellow;
+}
+
+.violet-text {
+  color: $main_violet;
+}
+
+.green-text {
+  color: $main_green;
+}
+
+.blue-text {
+  color: $main_blue;
+}
+
+.yellow-text-sec {
+  color: $sec_yellow;
+}
+
+.img {
+  width: 64vw;
+}
+
+.r {
+  border: 2px solid white;
+}
+
+.img-div {
+  display: flex;
+  justify-content: center;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.btn-shadow {
+  box-shadow: 0px 10px 41px -12px $main_pink;
+}

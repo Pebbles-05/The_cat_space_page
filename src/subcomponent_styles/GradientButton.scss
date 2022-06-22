@@ -1,0 +1,20 @@
+@import '../styles/globalVariables.scss';
+
+.button-style {
+  background: $grad_pink;
+  //   box-shadow: 0px 5px 10px #ffbdbf;
+}
+
+.btn-text {
+  font-family: $font_family_avenir;
+}
+
+.btn-border-style {
+  border: 4px solid white;
+  // border-image-source: linear-gradient(
+  //   89.72deg,
+  //   #ff9a9e 0.19%,
+  //   #fad0c4 95.37%,
+  //   #fad0c4 99.73%
+  // );
+}
