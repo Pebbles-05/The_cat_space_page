@@ -1,12 +1,15 @@
-@import "./gobalVariables.scss";
+@import "./globalVariables.scss";
 @import "./loader.scss";
 @import "./breakpoint.scss";
+@import "../subcomponent_styles/carousal.scss";
 @import "./navbar.scss";
 @import "./footer.scss";
 @import "./home.scss";
 @import "./mail.scss";
-@import "../subcomponent_styles/carousal.scss";
-@import "./projectbranch.scss";
+@import "./project1.scss";
+@import "./about.scss";
+@import "./creditfooter.scss";
+
 
 
 
@@ -28,10 +31,15 @@ body{
   overflow-x: hidden;
 }
 
+body.active{
+  overflow-y: hidden;
+}
+
 
 // the cursor blob
 
 .cursor__blob{
+
   z-index: 1000;
   pointer-events: none;
   mix-blend-mode: difference;
