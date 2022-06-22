@@ -173,15 +173,14 @@ margin-top: $nav_height;
 
 // reviewitemapp
 
-.reviewitemApp__container{
 
-}
 .reviewitemApp{
    text-align: center;
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
+   gap: 1em;
 
    svg{
       width: 28%;
@@ -200,11 +199,11 @@ margin-top: $nav_height;
       letter-spacing: 0.1em;
    }
    .subtitle{
-      padding: 1em 30%;
+      padding: 0 30%;
 
    }
    .review{
-      padding: 0.5em 0 3em;
+      padding: 0 0 3em;
    }
 }
 
