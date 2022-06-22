@@ -1,4 +1,5 @@
 import moodboard from '../../../media/moodboard1.png';
+import MoodBoardMobile from '../../../media/MoodBoardMobile.png';
 
 const Moodboard = () => {
   return (
@@ -14,7 +15,12 @@ const Moodboard = () => {
           making the contrast 80.9%
         </div>
         <div className='img-div my-7'>
-          <img src={moodboard} alt='' className='w-full img' />
+          <img src={moodboard} alt='' className='w-full img hidden md:block' />
+          <img
+            src={MoodBoardMobile}
+            alt=''
+            className='w-full img block md:hidden'
+          />
         </div>
       </div>
     </>
