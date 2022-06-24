@@ -2,6 +2,13 @@ import React from 'react';
 
 export default function Loader() {
   return (
-    <div className='loader'>Loading....</div>
+    <div class="box">
+  <div class="cat">
+    <div class="cat__body"></div>
+    <div class="cat__body"></div>
+    <div class="cat__tail"></div>
+    <div class="cat__head"></div>
+  </div>
+</div>
   )
 }

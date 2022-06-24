@@ -1,4 +1,3 @@
-import {useEffect} from 'react';
 import socialimg1 from "../media/socialimg1.png"
 import socialimg2 from "../media/socialimg2.png";
 export default function Footer() {

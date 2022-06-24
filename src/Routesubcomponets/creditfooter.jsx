@@ -1,14 +1,11 @@
-import FooterImg from '../media/FooterImg.svg';
+import creditfooteimg from '../media/creditfooteimg';
 
 const Creditfooter = () => {
   return (
     <div className='mt-48 mb-7'>
       <div className='flex justify-end'>
-        <img
-          src={FooterImg}
-          alt='FooterImg'
-          className='w-40 -mb-4'
-        />
+     
+        <div  className='w-40 -mb-4'>{creditfooteimg} </div>
       </div>
       <hr />
       <h1 className='font_family_marcellus mt-7'>
