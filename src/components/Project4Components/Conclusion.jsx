@@ -1,10 +1,10 @@
-import GradientButton from '../../subcomponent/GradientButton';
-
 const Conclusion = () => {
   return (
-    <div className='mt-20'>
+    <div className='-mt-24'>
       <div className='flex justify-center'>
-        <GradientButton title={'View Prototype'} selected={true} />
+        <div className='project1_nav'>
+          <button className='active'>View Prototype</button>
+        </div>
       </div>
       <div className='my-7'>
         <h1 className='Headings'>NEXT STEPS</h1>
@@ -39,7 +39,10 @@ const Conclusion = () => {
           <ul className='ml-7 list-disc'>
             <li>
               This app would help users to find the
-              <span className='pink-text'> wiggler who fit just right </span>{' '}
+              <span className='pink-text'>
+                {' '}
+                wiggler who fit just right{' '}
+              </span>{' '}
               for their pets.
             </li>
             <li>
@@ -57,7 +60,7 @@ const Conclusion = () => {
             </li>
             <li>
               The schedule section helps to
-              <span className='pink-text'>{' '}stay organised</span>
+              <span className='pink-text'> stay organised</span>
             </li>
           </ul>
         </div>

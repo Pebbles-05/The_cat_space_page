@@ -1,5 +1,4 @@
 import WiggleHero from '../../media/WiggleHero.png';
-import DesignProcess2 from '../../media/DesignProcess2.png';
 
 const Hero = () => {
   return (
@@ -133,12 +132,6 @@ const Hero = () => {
               pets
             </p>
           </div>
-        </div>
-      </div>
-      <div className='my-7'>
-        <h1 className='Headings'>DESIGN PROCESS</h1>
-        <div className='img-div my-4'>
-          <img src={DesignProcess2} alt='' className='w-full img' />
         </div>
       </div>
     </>
