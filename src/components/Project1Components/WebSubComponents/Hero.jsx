@@ -1,5 +1,4 @@
 import lappyPhone from '../../../media/zifcare web mockups.png';
-import Flow from '../../../media/Flow.png';
 
 const Hero = () => {
   return (
@@ -70,8 +69,8 @@ const Hero = () => {
         <div className='Contents mt-1'>
           <p className='mb-2'>
             Mood :<span className='green-text'> Calm </span> -
-            <span className='yellow-text-sec'>Happy</span> -
-            <span className='blue-text'>Peaceful</span>
+            <span className='yellow-text-sec'>{' '}Happy</span> -
+            <span className='blue-text'>{' '}Peaceful</span>
           </p>
           <div className='my-7'>
             <p className='mt-2'>
@@ -103,12 +102,6 @@ const Hero = () => {
               consultation booking process to avoid any conflict
             </p>
           </div>
-        </div>
-      </div>
-      <div className='my-7'>
-        <h1 className='Headings'>DESIGN PROCESS</h1>
-        <div className='img-div my-2'>
-          <img src={Flow} alt='' className='w-full img' />
         </div>
       </div>
     </>

@@ -3,11 +3,10 @@ import creditfooteimg from '../media/creditfooteimg';
 const Creditfooter = () => {
   return (
     <div className='mt-7 mb-7'>
-      <div className='flex justify-end'>
+      <div >
      
-        <div className='w-40 -mb-4'>{creditfooteimg} </div>
+       {creditfooteimg}
       </div>
-      <hr />
       <h1 className='font_family_marcellus mt-7'>
         Developed by{' '}
         <span className='text-lg FooterText'>
