@@ -236,7 +236,7 @@ margin-top: $nav_height;
       svg{
          display: inline-block;
          width: 1.5em;
-        vertical-align: middle;
+        vertical-align: bottom;
         margin: 0 0.5em;
 
         @include media("<=tablet"){
