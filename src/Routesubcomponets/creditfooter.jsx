@@ -1,21 +1,27 @@
-import creditfooteimg from '../media/creditfooteimg';
+import creditfooterimg from '../media/creditfooter.png';
 
 const Creditfooter = () => {
   return (
-    <div className='mt-7 mb-7'>
-      <div >
-     
-       {creditfooteimg}
+    <div className='creditfooter'>
+      <div>
+      <div className='flex justify-end'>
+        <img
+          src={creditfooterimg}
+          alt='FooterImg'
+        />
       </div>
-      <h1 className='font_family_marcellus mt-7'>
+      <hr />
+      </div>
+     
+      <h1>
         Developed by{' '}
-        <span className='text-lg FooterText'>
+        <a href='' >
           Joydeep Paul
-        </span>{' '}
+        </a>{' '}
         and{' '}
-        <span className='text-lg FooterText'>
+        <a href=''>
           Sanket Sarkar
-        </span>
+        </a>
       </h1>
     </div>
   );

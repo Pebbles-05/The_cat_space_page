@@ -1,0 +1,36 @@
+
+
+
+  .creditfooter{
+    font-family: $font_family_marcellus;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin: 1em 0 3em;
+    font-size: $fs_100;
+    @include media("<=tablet"){
+        font-size:calc($fs_100 - 0.1rem) ;
+    }
+
+    img{
+        width: 10em;
+       transform: translateY(1rem);
+
+       @include media("<=tablet"){
+        width: 7em;
+        transform: translateY(0.7rem);
+       }
+    }
+    a {
+   
+        font-family: $font_family_mon;
+        font-weight: 900;
+        letter-spacing: 0.1em;
+        font-size: calc($fs_100 + 0.1rem);
+
+        @include media("<=tablet"){
+           font-size: $fs_100;
+           }
+  }
+  }
