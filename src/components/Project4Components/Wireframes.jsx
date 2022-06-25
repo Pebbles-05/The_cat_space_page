@@ -24,7 +24,7 @@ const Wireframes = () => {
             </li>
           </ul>
         </div>
-        <div className='grid grid-cols-2 md:grid-cols-4 gap-10 md:gap-20 my-7'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 md:gap-20 my-7'>
           <div className='img-div'>
             <img src={Wireframe1Project4} alt='' className='img' />
           </div>
@@ -60,7 +60,7 @@ const Wireframes = () => {
             <span className='pink-text'>Solution</span> : Added the pet walk
             feature in the navbar
           </p>
-          <div className='grid grid-cols-2 gap-10 md:gap-20 my-7'>
+          <div className='grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-20 my-7'>
             <div className='img-div'>
               <img src={Wireframe5Project4} alt='' className='img md:w-1/2' />
             </div>
@@ -82,7 +82,11 @@ const Wireframes = () => {
             the phone, which when clicked will show the same
           </p>
           <div className='img-div my-7'>
-            <img src={Wireframe7Project4} alt='' className='img w-1/2 md:w-1/4' />
+            <img
+              src={Wireframe7Project4}
+              alt=''
+              className='img w-1/2 md:w-1/4'
+            />
           </div>
         </div>
       </div>

@@ -1,8 +1,9 @@
 import React from 'react';
+import Footer from '../../subcomponent/Footer';
+import Conclusion from './AppSubComponents/Conclusion';
+import FinalScreens from './AppSubComponents/FinalScreens';
 import Hero from './AppSubComponents/Hero';
 import Wireframes from './AppSubComponents/Wireframes';
-import FinalScreens from './AppSubComponents/FinalScreens';
-import Footer from '../../subcomponent/Footer';
 
 export default function Project1App() {
   return (
@@ -10,6 +11,7 @@ export default function Project1App() {
       <Hero />
       <Wireframes />
       <FinalScreens />
+      <Conclusion />
       <Footer />
     </>
   );

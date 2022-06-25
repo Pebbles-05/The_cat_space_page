@@ -10,9 +10,9 @@ const Hero = () => {
         <h1 className='Headings'>PROJECT BRIEF</h1>
         <div className='Contents mt-1'>
           Wiggle is a personal project where pet parents can find a{' '}
-          <span className='pink-text'>crechen</span> or
-          <span className='pink-text'>pet walking buddy</span> - chat , schedule
-          an appointment and pay through the same
+          <span className='pink-text'>creche</span> or
+          <span className='pink-text'> pet walking buddy</span> - chat ,
+          schedule an appointment and pay through the same
         </div>
       </div>
       <div className='my-7'>
@@ -42,7 +42,7 @@ const Hero = () => {
             </li>
             <li>
               My aunt, who left her cat once at a creche, now has
-              <span className='pink-text'> trust issues s</span>because of the
+              <span className='pink-text'> trust issues </span>because of the
               bad service
             </li>
             <li>

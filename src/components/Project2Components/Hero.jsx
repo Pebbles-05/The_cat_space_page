@@ -67,7 +67,7 @@ const Hero = () => {
             space themed portfolio from{' '}
             <span className='pink-text'>dribbble</span>, space artworks in{' '}
             <span className='pink-text'>devianart</span> and
-            <span className='pink-text'>behance</span>. I also watched a lot of
+            <span className='pink-text'> behance</span>. I also watched a lot of
             youtube videos on how to make a portfolio and what are the key
             points one should focus on for a developer
           </p>
@@ -91,7 +91,10 @@ const Hero = () => {
             portfolio I decided to potray a passive{' '}
             <span className='pink-text'>story tone</span> throughout the
             portfolio where a viewer would be a visitor on his spaceship. I
-            <span className='pink-text'>personafied Bhaskar as a spaceboy</span>{' '}
+            <span className='pink-text'>
+              {' '}
+              personified Bhaskar as a spaceboy
+            </span>{' '}
             who would go around planets to work. I also personified two friends
             who take care of documenting his work.
           </p>

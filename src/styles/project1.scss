@@ -3,7 +3,7 @@
 // project1
 
 .project1{
-    padding: $global_padding;
+    padding: $project_padding;
 }
 
 .project1_nav{
@@ -23,7 +23,7 @@
 }
 .project1_nav button{
     padding: 0.5em 1em;
-    font-size: $fs_300;
+    font-size: $fs_200;
     font-weight: 400;
     font-family:$font_family_avenir ;
     cursor: pointer;
@@ -31,7 +31,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-fill-color: transparent;
+    // text-fill-color: transparent;
     border: 1.5px solid transparent;
     border-image: $grad_pink;
     border-width: 1.5pt;
@@ -45,7 +45,7 @@
     -webkit-background-clip: unset;
     -webkit-text-fill-color: $mainbg_black;
     background-clip: unset;
-    font-size: $fs_300;
+    font-size: $fs_200;
     font-weight: 400;
     font-family:$font_family_avenir;
     border: none;

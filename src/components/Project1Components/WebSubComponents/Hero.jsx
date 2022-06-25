@@ -18,11 +18,11 @@ const Hero = () => {
           <ul className='ml-7 list-disc'>
             <li>
               <span className='pink-text'>Redesign</span> the UI and
-              <span className='pink-text'>improve </span>the current UX.
+              <span className='pink-text'> improve </span>the current UX.
             </li>
             <li>
               Brainstorm to introduce a
-              <span className='pink-text'>revenue system</span> for the company
+              <span className='pink-text'> revenue system</span> for the company
             </li>
           </ul>
         </div>
@@ -34,7 +34,7 @@ const Hero = () => {
             <li>
               <span className='pink-text'>UI inconsistency </span> -
               inconsistent padding, icons, texts, cards and buttons
-              <span className='pink-text'>improve </span>the current UX.
+              <span className='pink-text'> improve </span>the current UX.
             </li>
             <li>
               The
@@ -49,13 +49,14 @@ const Hero = () => {
         <div className='Contents mt-1'>
           <p className='mb-2'>
             Primary Research - Interviews for primary reasearch were already
-            done by the team. All I summed up the important details like the{' '}
+            done by the team. I summed up the important details like the{' '}
             <span className='pink-text'> age range </span> of the users,{' '}
             <span className='pink-text'>
               {' '}
               favourite features, problems faced while navigating
             </span>{' '}
-            and further expectations from the product.
+            and further <span className='pink-text'>expectations</span> from the
+            product.
           </p>
           <p className='mt-2'>
             Secondary Research - I researched other{' '}
@@ -69,8 +70,8 @@ const Hero = () => {
         <div className='Contents mt-1'>
           <p className='mb-2'>
             Mood :<span className='green-text'> Calm </span> -
-            <span className='yellow-text-sec'>{' '}Happy</span> -
-            <span className='blue-text'>{' '}Peaceful</span>
+            <span className='yellow-text-sec'> Happy</span> -
+            <span className='blue-text'> Peaceful</span>
           </p>
           <div className='my-7'>
             <p className='mt-2'>
