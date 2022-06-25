@@ -5,7 +5,6 @@ import 'aos/dist/aos.css';
 import Loader from "./components/Loader";
 import Blob from "./components/blob"
 import Navbar from './components/navbar';
-import Footer from "./components/footer";
 import Home from './components/home';
 import About from './Routes/about';
 import Mail from "./Routes/mail";
@@ -43,7 +42,6 @@ const Main =()=>{
         </ScrollToTop>
 
         
-      <Footer/>
     </BrowserRouter>
    </div> 
 
@@ -63,7 +61,7 @@ function App() {
       setInterval(() => {
          setLoading(false)
          
-      }, 1000);
+      }, 1800);
      
    }, [])
    

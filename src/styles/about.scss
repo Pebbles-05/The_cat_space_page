@@ -17,7 +17,7 @@ margin-top: $nav_height;
 
          h1{
             font-family: $font_family_avenir;
-            font-size: $fs_300;
+            font-size: $fs_250;
             font-weight: 750;
             line-height: 1.6;
             @include media("<=tablet"){
@@ -52,7 +52,7 @@ margin-top: $nav_height;
 
      h1{
         font-family: $font_family_avenir;
-        font-size: $fs_300;
+        font-size: $fs_250;
         font-weight: 750;
         line-height: 1.6;
         @include media("<=tablet"){

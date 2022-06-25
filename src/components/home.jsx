@@ -2,6 +2,7 @@ import Hero from './hero';
 import Projects from './projects';
 import ReactFullpage from "@fullpage/react-fullpage";
 import useWindowSize from "../hooks/useWindowSize";
+import Footer from "./footer";
 
 
 
@@ -35,6 +36,7 @@ export default function Home() {
 return(
   <div className="home">
    {width<=1000?<><Hero/><Projects/></>:<HomeFullpage/>}
+   <Footer/>
   </div>
 )
             

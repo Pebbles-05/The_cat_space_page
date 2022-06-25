@@ -6,12 +6,17 @@
   font-family: "AvenirLTStd";
   src: url(../fonts/AvenirLTStd-Book.otf) ;
 }
+@font-face {
+  font-family: "AvenirLTStdBlack";
+  src: url(../fonts/AvenirLTStd-Black.otf) ;
+}
 
 
 /* Global variables */
 
 $font_family_comfortaa:'Comfortaa', cursive;
 $font_family_avenir:"AvenirLTStd";
+$font_family_avenirblack:"AvenirLTStdBlack";
 $font_family_marcellus:'Marcellus', serif;
 $font_family_inter:  'Inter', sans-serif;
 $font_family_mon:'Montserrat', sans-serif;
@@ -31,7 +36,8 @@ $sec_yellow: #ffca8b;
 $global_padding:0 5%;
 $fs_100:1rem;
 $fs_150:clamp(0.5rem , 3vw ,1.5rem);
-$fs_200:clamp(1rem , 3vw ,2rem); 
+$fs_200:clamp(1rem , 3vw ,2rem);
+$fs_250:clamp(1rem , 3vw ,2.5rem);  
 $fs_300:clamp(1rem , 3vw ,3rem); 
 $fs_350:clamp(1.5rem , 4vw , 3.5rem);
 $fs_400:clamp(2rem ,4vw , 4rem);
