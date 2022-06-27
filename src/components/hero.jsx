@@ -42,7 +42,7 @@ return (
             </div>
 
             <div className="hero__footer_img" >
-            <img src={heroillustration} alt="greet" />
+            <img  src={heroillustration} alt="greet" />
             </div>
             
 

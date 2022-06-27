@@ -7,7 +7,7 @@ import { Autoplay, Pagination} from "swiper";
 
 
 
-export default function Carousal({data}) {
+export default function Carousal({data,width}) {
 
 
  return (
@@ -25,7 +25,7 @@ export default function Carousal({data}) {
         modules={[Autoplay, Pagination]}
         className="mySwiper"
       >
-          {data.map((dta,ind)=>{return <SwiperSlide key={ind}><div className='carousal__img'><img src={dta} alt={"carousalimg"+ ind} /></div> </SwiperSlide> })}
+          {data.map((dta,ind)=>{return <SwiperSlide key={ind}><div className='carousal__img'><img style={{width:`${width}%`}} src={dta} alt={"carousalimg"+ ind} /></div> </SwiperSlide> })}
         
         
       </Swiper>

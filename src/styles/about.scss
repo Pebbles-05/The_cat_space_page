@@ -1,5 +1,8 @@
 @import "./globalVariables.scss";
 
+
+$about_padding:2em 5%;
+
 .about{
 padding: $global_padding ;
 margin-top: $nav_height;
@@ -10,7 +13,7 @@ margin-top: $nav_height;
 // what dop i dream about
 
 .dreamabout{
-   padding: 2em 5%;
+   padding: $about_padding;
    display: flex;
    flex-direction: column;
    gap: 1em;
@@ -45,7 +48,7 @@ margin-top: $nav_height;
 
 .reviews{
 
-  padding: 2em 5%;
+  padding: $about_padding;
   display: flex;
   flex-direction: column;
   gap:2em;
@@ -210,10 +213,11 @@ margin-top: $nav_height;
 // about footer
 
 .about__footer{
-   padding: 2em 5% ;
+   padding: $about_padding;
    display: flex;
    flex-direction: column;
    gap: 1.5em;
+   margin-bottom: 2.5em;
 
 
    p{

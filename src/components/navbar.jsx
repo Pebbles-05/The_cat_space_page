@@ -33,7 +33,7 @@ export default function Navbar() {
           return <Link key={index} onClick={handleActive} style={{textDecoration:"none"}} to={dta.url}><li style={ active ? {transition:`opacity 0.6s ease ${index/16 + 0.1}s`} : null}>{dta.name}</li> </Link>
           })}
     
-    
+    <li style={ active ? {transition:`opacity 0.6s ease ${2/16 + 0.1}s`} : null}> <a href="https://drive.google.com/file/d/1hx3EXW93ab7IVUErPYw7L2Na4x_simJk/view" target="_blank">resume</a> </li> 
          
       
         </ul>   

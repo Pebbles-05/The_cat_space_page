@@ -6,10 +6,6 @@ const navlinksList=[
     {
         name:"mail me",
         url:"mail"
-    },
-    {
-        name:"resume",
-        url:"resume"
     }
 
     
