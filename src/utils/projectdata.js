@@ -14,7 +14,7 @@ const projectdata=[
 
     },
     {
-        img:projectimg2,
+        img:"https://ik.imagekit.io/catspace/projectimg2_ZLqSRbK3d.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656257574300",
         title: <span>Personal <br /> Portfolio</span>,
         subtitle:"- developer portfolio design",
         url:"project_Personal_Portfolio_Design"

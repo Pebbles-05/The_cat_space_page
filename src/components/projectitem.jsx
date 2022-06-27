@@ -35,13 +35,12 @@ export default function Projectitem({img,title,subtitle,csbtn,activeindex}) {
 
 
 
-
   return (
     <div  className= "projectitem"  onMouseEnter={handleActive} onMouseLeave={handleActive}>
 
      
       <div ref={imginViewRef}  className={!imginView?"projectitem__img slandanim":"projectitem__img slandaim_active"}  >
-          <img   style={isactive ? {transform: width<=1000?"translate(0,0)" : `translate(${x/50 }% , ${y/100}%)`, transition:"transform 0.1 linear"}:{transform:"translate(0,0)",transition: "transform 0.1s linear"}} src={img} alt="projectimg" />
+          <img loading='lazy'   style={isactive ? {transform: width<=1000?"translate(0,0)" : `translate(${x/50 }% , ${y/100}%)`, transition:"transform 0.1 linear"}:{transform:"translate(0,0)",transition: "transform 0.1s linear"}} src={img} alt="projectimg" />
       </div>  
 
         <div ref={textinViewRef}  className={!textinView?"projectitem__info slandanim":"projectitem__info slandaim_active"}>

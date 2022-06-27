@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import Hero from './hero';
 import Projects from './projects';
 import ReactFullpage from "@fullpage/react-fullpage";
@@ -31,7 +32,7 @@ export default function Home() {
 
   const {width}=useWindowSize();
 
-
+  
 
 return(
   <div className="home">
