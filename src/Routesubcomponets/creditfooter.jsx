@@ -2,7 +2,7 @@ import creditfooterimg from '../media/creditfooter.png';
 
 const Creditfooter = () => {
   return (
-    <div className='creditfooter'>
+    <div className='creditfooter' data-aos="fade" data-aos-duration="1000" data-aos-once="true" data-aos-offset="0">
       <div>
       <div className='flex justify-end'>
         <img

@@ -3,7 +3,7 @@ import rockimg from "../../media/rockimg";
 
 export default function Aboutfooter() {
   return (
-    <div className='about__footer'>
+    <div className='about__footer' data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
         <p>Thank you for stopping by !
             <br />
 I am always happy to take up design projects, design sprints or hackathons. I love to talk about design, video games, memes, pop cultues and music !</p>

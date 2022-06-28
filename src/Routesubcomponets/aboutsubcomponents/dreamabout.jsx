@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react';
 
 export default function Dreamabout() {
   return (
-    <div className='dreamabout'>
+    <div className='dreamabout' data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
         
         <h1 > WHAT DO I DREAM ABOUT ?</h1>
 

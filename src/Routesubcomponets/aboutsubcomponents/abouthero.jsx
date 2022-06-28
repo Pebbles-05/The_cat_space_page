@@ -1,6 +1,8 @@
-import {useState,useEffect} from 'react'
+import {useState,useEffect} from 'react';
 
 export default function Abouthero() {
+  
+
 
   const [scroll, setScroll] = useState(0);
 
@@ -28,12 +30,12 @@ export default function Abouthero() {
   return (
     <div className='abouthero'>
         <div className="abouthero__profile">
-          <div className="bg"> <img style={{transform:`translateY(${scroll * -150}%)`}} src="https://ik.imagekit.io/thecatspace/catspace_media/the_picturesfinal.png" alt="profilebg" /></div>
+          <div className="bg" data-aos="fade-up" data-aos-duration="500" data-aos-once="true"> <img style={{transform:`translateY(${scroll * -150}%)`}} src="https://ik.imagekit.io/thecatspace/catspace_media/the_picturesfinal.png" alt="profilebg" /></div>
             
-            <div className='pp'> <img src="https://ik.imagekit.io/thecatspace/catspace_media/hoverimg1.png" alt="profilepic" /></div>
+            <div className='pp'  > <img data-aos="fade" data-aos-duration="1000" data-aos-once="true" src="https://ik.imagekit.io/thecatspace/catspace_media/hoverimg1.png" alt="profilepic" /></div>
         </div>
 
-      <div className="abouthero__bio"><p>Hi I am Ishika a UX and Visual designer based in India. I started learning UX a year back from a course in Internshala and I instantly fell in love with it.</p></div>
+      <div className="abouthero__bio"><p data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">Hi I am Ishika a UX and Visual designer based in India. I started learning UX a year back from a course in Internshala and I instantly fell in love with it.</p></div>
 
     </div>
   )
