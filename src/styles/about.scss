@@ -1,25 +1,92 @@
 @import "./globalVariables.scss";
 
 
-$about_padding:2em 5%;
+$about_padding1:2em 10%;
+$about_padding2:1em 10%;
+$pp_border1:1.5em;
+$pp_border2:1em;
 
-.about{
-padding: $global_padding ;
-margin-top: $nav_height;
+// hero
+
+.abouthero__profile{
+   .bg{
+      overflow-y: hidden;
+      z-index: -100;
+      height: 23em;
+      position: relative;
+
+      @include media("<=1100px"){
+         height: 17em;
+      }
+      @include media("<=850px"){
+         height: 13em;
+      }
+      @include media("<=500px"){
+         height: 10em;
+      }
+    
+   }
+   .pp{
+   
+       width: 32%;
+      padding: 0 calc(10% - $pp_border1);
+      transform: translateY(-50%);
+      img{
+         width: 100%;
+         border: $pp_border1 solid $mainbg_black;
+
+         @include media("<=500px"){
+            border:  $pp_border2 solid $mainbg_black;
+         }
+      }
+
+      @include media("<=650px"){
+         width: 35%;
+      }
+      @include media("<=500px"){
+         padding: 0 calc(10% - $pp_border2);
+      }
+   
+    
+   }
 }
 
+.abouthero__bio{
+   padding: $about_padding1;
+   padding-top:0 ;
+   margin-top: -10%;
+   p{
+      font-family: $font_family_marcellus;
+      font-weight: 400;
+      font-size: $fs_150;
+      line-height: 1.6;
+      letter-spacing: 0.1em;
+
+      @include media("<=tablet"){
+         font-size: $fs_200;
+        }
+   }
+
+   @include media("<=950px"){
+      padding: $about_padding2;
+      margin-top: -12%;
+   }
+   @include media("<=950px"){
+      margin-top: -15%;
+   }
+}
 
 
 // what dop i dream about
 
 .dreamabout{
-   padding: $about_padding;
+   padding: $about_padding1;
    display: flex;
    flex-direction: column;
    gap: 1em;
 
          h1{
-            font-family: $font_family_avenir;
+            font-family: $font_family_avenirblack;
             font-size: $fs_250;
             font-weight: 750;
             line-height: 1.6;
@@ -41,6 +108,10 @@ margin-top: $nav_height;
                font-size: $fs_200;
               }
           }
+
+ @include media("<=950px"){
+            padding: $about_padding2;
+         }
 }
 
 
@@ -48,13 +119,13 @@ margin-top: $nav_height;
 
 .reviews{
 
-  padding: $about_padding;
+  padding: $about_padding1;
   display: flex;
   flex-direction: column;
   gap:2em;
 
      h1{
-        font-family: $font_family_avenir;
+        font-family: $font_family_avenirblack;
         font-size: $fs_250;
         font-weight: 750;
         line-height: 1.6;
@@ -62,7 +133,9 @@ margin-top: $nav_height;
          font-size: $fs_350;
         }
      }
-
+@include media("<=950px"){
+      padding: $about_padding2;
+   }
 }
 
 // reviewitemWeb
@@ -86,7 +159,7 @@ margin-top: $nav_height;
                      width: 40%;
                   }
                   h1{
-                     font-family: $font_family_avenir;
+                     font-family: $font_family_avenirblack;
                      font-weight: 750;
                      font-size: $fs_150;
                      line-height: 1.6;
@@ -111,7 +184,7 @@ margin-top: $nav_height;
                   }
 
                   button{
-                     font-family: $font_family_avenir;
+                     font-family: $font_family_avenirblack;
                      font-weight: 750;
                      font-size: $fs_100;
                      background: $grad_pink;
@@ -190,7 +263,7 @@ margin-top: $nav_height;
    }
 
    h1{
-      font-family: $font_family_avenir;
+      font-family: $font_family_avenirblack;
       font-weight: 750;
       font-size: $fs_100;
    }
@@ -213,7 +286,7 @@ margin-top: $nav_height;
 // about footer
 
 .about__footer{
-   padding: $about_padding;
+   padding: $about_padding1;
    display: flex;
    flex-direction: column;
    gap: 1.5em;
@@ -257,8 +330,12 @@ margin-top: $nav_height;
       padding: 2em 5% 0;
      }
 
+     @include media("<=950px"){
+      padding: $about_padding2;
+   }
+
 }
 
 .about__creditfooter{
-   padding: 0 5%;
+   padding: 0 10%;
 }

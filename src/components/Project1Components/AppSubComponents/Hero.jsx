@@ -18,7 +18,7 @@ const Hero = () => {
               and web
             </li>
             <li>
-              Brainstorm to Brainstorm to introduce a
+              Brainstorm to introduce a
               <span className='pink-text'> capture user’s email </span>in order
               to remake a fresh database of zifcare app users
             </li>
@@ -35,7 +35,7 @@ const Hero = () => {
             </li>
             <li>
               Many important
-              <span className='pink-text'>features were absent</span> on the app
+              <span className='pink-text'> features were absent</span> on the app
             </li>
             <li>
               <span className='pink-text'>GOLD membership</span> pitch screen
@@ -43,7 +43,7 @@ const Hero = () => {
             </li>
             <li>
               Difficulty in
-              <span className='pink-text'>navigation</span>
+              <span className='pink-text'> navigation</span>
             </li>
           </ul>
         </div>
@@ -52,7 +52,7 @@ const Hero = () => {
         <h1 className='Headings'>USER RESEARCH</h1>
         <div className='Contents mt-1'>
           <p className='mb-2'>
-            Primary Research - and
+            Primary Research -
             <span className='pink-text'> Interviews </span> for primary
             reasearch were already done by the team. I just had to sum up the
             <span className='pink-text'> pain points</span> and{' '}

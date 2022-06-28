@@ -36,7 +36,6 @@ import ProfileBuilding3 from '../../../media/ProfileBuilding3.png';
 import ProfileBuilding4 from '../../../media/ProfileBuilding4.png';
 import ProfileBuilding5 from '../../../media/ProfileBuilding5.png';
 import ProfileBuilding6 from '../../../media/ProfileBuilding6.png';
-import GradientButton from '../../../subcomponent/GradientButton';
 
 const FinalScreens = () => {
   return (
@@ -230,7 +229,9 @@ const FinalScreens = () => {
           </div>
         </div>
         <div className='flex justify-center mt-11'>
-          <GradientButton title={'View Prototype'} selected={true} />
+          <div className='project1_nav -mt-7'>
+            <button className='active'>View Prototype</button>
+          </div>
         </div>
       </div>
     </>

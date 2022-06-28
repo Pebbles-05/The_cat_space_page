@@ -12,8 +12,9 @@ const Hero = () => {
         <h1 className='Headings'>PROJECT BRIEF</h1>
         <div className='Contents mt-1'>
           The project “NEKOMIMI” was made for{' '}
-          <span className='pink-text'>Ethernals Hackathon</span> over a span of{' '}
-          <span className='pink-text'>8 days</span>
+          <span className='pink-text'>Ethernals Hackathon</span>
+          {/* over a span of{' '}
+          <span className='pink-text'>8 days</span> */}
         </div>
       </div>
       <div className='my-7'>
@@ -37,11 +38,11 @@ const Hero = () => {
             </li>
             <li>
               How do we make the{' '}
-              <span className='pink-text'>payment process</span> with seamless ?{' '}
+              <span className='pink-text'>payment process</span> seamless ?{' '}
             </li>
             <li>
               How do we make the{' '}
-              <span className='pink-text'>ui attractive</span>?{' '}
+              <span className='pink-text'>ui attractive</span> ?
             </li>
           </ul>
         </div>
@@ -63,12 +64,12 @@ const Hero = () => {
           <ul className='ml-7 list-disc'>
             <li>
               The viewer would have to pay for viewing the content in
-              <span className='pink-text'>“Theatre mode”</span> aka VR
+              <span className='pink-text'> “Theatre mode”</span> aka VR
             </li>
             <li>
               The content creator would have to pay for enabling{' '}
               <span className='pink-text'>streaming</span> or video-sharing and
-              <span className='pink-text'>patronship</span>
+              <span className='pink-text'> patronship</span>
             </li>
           </ul>
           <p className='mt-1'>

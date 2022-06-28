@@ -13,7 +13,7 @@ const Moodboard = () => {
           <p className='mt-1'>
             Mood setting : <span className='cream-text'>Aesthetic</span> -{' '}
             <span className='yellow-text'>Colorful</span> -{' '}
-            <span className='pink-text'>Cute</span>
+            <span className='pink-text'>Attractive</span>
           </p>
           <div className='img-div my-7'>
             <img src={Plate1} alt='' className='img w-full hidden md:block' />

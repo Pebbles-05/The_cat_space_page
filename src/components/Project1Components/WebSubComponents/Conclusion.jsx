@@ -31,7 +31,7 @@ const Conclusion = () => {
             Zifcare not only ensures users to understand the problems they are
             dealing with but also provide features to deal with it. The redesign
             resulted in the
-            <span className='pink-text'> increase of traffic by 60%</span>
+            <span className='pink-text'> increase of traffic by 30%</span>
           </p>
         </div>
       </div>

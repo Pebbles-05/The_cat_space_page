@@ -48,15 +48,17 @@ const FinalScreens = () => {
         <div className='Contents my-2'>
           <p className='my-4'>
             I followed the process of{' '}
-            <span className='pink-text'>adaptive design</span>. designed screens
+            <span className='pink-text'>adaptive design</span>. I designed screens
             for both website and phone
           </p>
           <p className='my-4'>
-            <span className='pink-text'>View live page</span> - zifcare.com
+            <span className='pink-text'>View live page</span> -{' '}
+            <a href='https://zifcare.com/'>zifcare.com</a>
           </p>
           <p className='my-4'>
             <span className='pink-text'>HERO SECTION</span> - The background
-            lotus is a floating image that stays still throughout the pages.
+            lotus is a floating image that stays still while scrolling through
+            the pages.
           </p>
           <div className='img-div my-7'>
             <img src={FinalScreen1Project1} alt='' className='img' />

@@ -9,44 +9,31 @@ const DesignProcess = () => {
         <div className='Contents mt-4'>
           <div className='grid md:grid-cols-9 grid-cols-1'>
             <div className='flex justify-center'>
-              <p className='text-2xl'>Ideate</p>
+              <p>Ideate</p>
             </div>
-            <div className='flex justify-center'>{Arrow}</div>
-            <div className='flex justify-center'>
-              <p className='text-2xl'>Design Iteration 1</p>
-            </div>
-            <div className='flex justify-center'>
-              <img
-                src={Arrow}
-                alt='rightArrow'
-                srcset=''
-                className='w-1/12 md:w-1/3 py-4 md:mt-1 rotate-90 md:rotate-0'
-              />
+            <div className='flex justify-center rotate-90 md:rotate-0 py-7 md:py-0'>
+              {Arrow}
             </div>
             <div className='flex justify-center'>
-              <p className='text-2xl'>User Testing</p>
+              <p>Design Iteration 1</p>
+            </div>
+            <div className='flex justify-center rotate-90 md:rotate-0 py-7 md:py-0'>
+              {Arrow}
             </div>
             <div className='flex justify-center'>
-              <img
-                src={Arrow}
-                alt='rightArrow'
-                srcset=''
-                className='w-1/12 md:w-1/3 py-4 md:mt-1 rotate-90 md:rotate-0'
-              />
+              <p>User Testing</p>
+            </div>
+            <div className='flex justify-center rotate-90 md:rotate-0 py-7 md:py-0'>
+              {Arrow}
             </div>
             <div className='flex justify-center'>
-              <p className='text-2xl'>Design Iteration 2</p>
+              <p>Design Iteration 2</p>
+            </div>
+            <div className='flex justify-center rotate-90 md:rotate-0 py-7 md:py-0'>
+              {Arrow}
             </div>
             <div className='flex justify-center'>
-              <img
-                src={Arrow}
-                alt='rightArrow'
-                srcset=''
-                className='w-1/12 md:w-1/3 py-4 md:mt-1 rotate-90 md:rotate-0'
-              />
-            </div>
-            <div className='flex justify-center'>
-              <p className='text-2xl'>Deliver</p>
+              <p>Deliver</p>
             </div>
           </div>
         </div>

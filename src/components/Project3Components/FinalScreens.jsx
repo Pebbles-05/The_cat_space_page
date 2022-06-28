@@ -1,13 +1,3 @@
-import FinalScreen1 from '../../media/FinalScreen1.png';
-import FinalScreen2 from '../../media/FinalScreen2.png';
-import FinalScreen3 from '../../media/FinalScreen3.png';
-import FinalScreen4 from '../../media/FinalScreen4.png';
-import FinalScreen5 from '../../media/FinalScreen5.png';
-import FinalScreen6 from '../../media/FinalScreen6.png';
-import FinalScreen7 from '../../media/FinalScreen7.png';
-import FinalScreen8 from '../../media/FinalScreen8.png';
-import FinalScreen9 from '../../media/FinalScreen9.png';
-import FinalScreen10 from '../../media/FinalScreen10.png';
 import Carousel1Img1 from '../../media/Carousel1Img1.png';
 import Carousel1Img2 from '../../media/Carousel1Img2.png';
 import Carousel1Img3 from '../../media/Carousel1Img3.png';
@@ -32,8 +22,17 @@ import Carousel6Img1 from '../../media/Carousel6Img1.png';
 import Carousel6Img2 from '../../media/Carousel6Img2.png';
 import Carousel6Img3 from '../../media/Carousel6Img3.png';
 import Carousel6Img4 from '../../media/Carousel6Img4.png';
+import FinalScreen1 from '../../media/FinalScreen1.png';
+import FinalScreen10 from '../../media/FinalScreen10.png';
+import FinalScreen2 from '../../media/FinalScreen2.png';
+import FinalScreen3 from '../../media/FinalScreen3.png';
+import FinalScreen4 from '../../media/FinalScreen4.png';
+import FinalScreen5 from '../../media/FinalScreen5.png';
+import FinalScreen6 from '../../media/FinalScreen6.png';
+import FinalScreen7 from '../../media/FinalScreen7.png';
+import FinalScreen8 from '../../media/FinalScreen8.png';
+import FinalScreen9 from '../../media/FinalScreen9.png';
 import Carousal from '../../subcomponent/carousal';
-import GradientButton from '../../subcomponent/GradientButton';
 
 const FinalScreens = () => {
   const data1 = [Carousel1Img1, Carousel1Img2, Carousel1Img3, Carousel1Img4];
@@ -118,7 +117,9 @@ const FinalScreens = () => {
         </div>
       </div>
       <div className='flex justify-center my-7'>
-        <GradientButton title='View Submission' />
+        <div className='project1_nav -mt-2'>
+          <button className='active'>View Submission</button>
+        </div>
       </div>
       <h1 className='Headings'>NEXT STEPS</h1>
       <div className='Contents mt-1'>

@@ -5,7 +5,7 @@ const Moodboard = () => {
   return (
     <>
       <div className='my-7'>
-        <h1 className='Headings'>GOAL</h1>
+        <h1 className='Headings'>Moodboard</h1>
         <div className='Contents my-4'>
           100% color contrast can be
           <span className='pink-text'> eye straining</span> specially for people

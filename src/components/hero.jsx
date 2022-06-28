@@ -1,6 +1,5 @@
 import React, { useState , useEffect } from 'react';
 import hoverimg from '../utils/hoverimages';
-import heroillustration from "../media/hero-illustration.png";
 import useMousePosition from "../hooks/useMousePosition";
 
 
@@ -39,7 +38,7 @@ return (
             </div>
 
             <div className="hero__footer_img" >
-            <img  src={heroillustration} alt="greet" />
+            <img  src="https://ik.imagekit.io/thecatspace/catspace_media/hero-illustration.png" alt="greet" />
             </div>
             
 
