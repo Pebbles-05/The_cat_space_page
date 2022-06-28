@@ -54,7 +54,7 @@ $pp_border2:1em;
 .abouthero__bio{
    padding: $about_padding1;
    padding-top:0 ;
-   margin-top: -10%;
+   margin-top: -8em;
    p{
       font-family: $font_family_marcellus;
       font-weight: 400;
@@ -66,13 +66,16 @@ $pp_border2:1em;
          font-size: $fs_200;
         }
    }
+   
+   @include media("<=1100px"){
+      margin-top: -6em;
+   }
 
    @include media("<=950px"){
       padding: $about_padding2;
-      margin-top: -12%;
    }
-   @include media("<=950px"){
-      margin-top: -15%;
+   @include media("<=500px"){
+      margin-top: -4em;
    }
 }
 
