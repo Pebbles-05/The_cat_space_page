@@ -42,13 +42,13 @@ const FinalScreens = () => {
   return (
     <>
       <div className='my-7'>
-        <h1 className='Headings'>FINAL SCREENS</h1>
+        <h1 className='Headings' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">FINAL SCREENS</h1>
         <div className='Contents mt-1'>
-          <p className='fsheading'>
+          <p className='fsheading' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true" >
             <span className='pink-text'>ONBOARDING SCREENS</span> - The mockups
             shows the app features in form of a carousel
           </p>
-          <div className='grid wfgrid'>
+          <div className='grid wfgrid' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
             <div className='img-div '>
               <img src={OnboardingScreens1} alt='' className='img' />
             </div>
@@ -68,13 +68,13 @@ const FinalScreens = () => {
               <img src={OnboardingScreens6} alt='' className='img' />
             </div>
           </div>
-          <p className='fsheading'>
+          <p className='fsheading' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
             <span className='pink-text'>LOGIN AND SIGN-UP SCREENS</span> - After
             onboarding screen new users -{'>'} sign up page and existing users -
             {'>'}
             login page
           </p>
-          <div className='grid wfgrid'>
+          <div className='grid wfgrid' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
             <div className='img-div'>
               <img src={LoginSignup1} alt='' className='img' />
             </div>
@@ -85,11 +85,11 @@ const FinalScreens = () => {
               <img src={LoginSignup3} alt='' className='img' />
             </div>
           </div>
-          <p className='fsheading'>
+          <p className='fsheading' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
             <span className='pink-text'>PROFILE BUILDING SCREENS</span> -
             Illustrations that hint on what to expect from the app
           </p>
-          <div className='grid wfgrid'>
+          <div className='grid wfgrid' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
             <div className='img-div '>
               <img src={ProfileBuilding1} alt='' className='img' />
             </div>
@@ -109,10 +109,10 @@ const FinalScreens = () => {
               <img src={ProfileBuilding6} alt='' className='img' />
             </div>
           </div>
-          <p className='fsheading'>
+          <p className='fsheading' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
             <span className='pink-text'>HOME SCREEN </span> -
           </p>
-          <div className='grid wfgrid'>
+          <div className='grid wfgrid' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
             <div className='img-div '>
               <img src={HomeScreen1} alt='' className='img' />
             </div>
@@ -123,10 +123,10 @@ const FinalScreens = () => {
               <img src={HomeScreen3} alt='' className='img' />
             </div>
           </div>
-          <p className='fsheading'>
+          <p className='fsheading' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
             <span className='pink-text'>EXPLORE SCREENS </span> -
           </p>
-          <div className='grid wfgrid'>
+          <div className='grid wfgrid' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
             <div className='img-div'>
               <img src={ExploreScreens1} alt='' className='img' />
             </div>
@@ -137,13 +137,13 @@ const FinalScreens = () => {
               <img src={ExploreScreens3} alt='' className='img' />
             </div>
           </div>
-          <p className='fsheading'>
+          <p className='fsheading' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
             <span className='pink-text'>
               MOOD - CHART AND WORD CLOUD SCREENS
             </span> -
           </p>
           <div className='flex justify-center'>
-            <div className='grid wfgrid'>
+            <div className='grid wfgrid' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
               <div className='img-div'>
                 <img src={MoodChart1} alt='' className='img' />
               </div>
@@ -155,10 +155,10 @@ const FinalScreens = () => {
               </div>
             </div>
           </div>
-          <p className='fsheading'>
+          <p className='fsheading' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
             <span className='pink-text'>DIGITAL DIARY SCREENS </span> -
           </p>
-          <div className='grid wfgrid'>
+          <div className='grid wfgrid' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
             <div className='img-div '>
               <img src={DigitalDiary1} alt='' className='img' />
             </div>
@@ -169,10 +169,10 @@ const FinalScreens = () => {
               <img src={DigitalDiary3} alt='' className='img' />
             </div>
           </div>
-          <p className='fsheading'>
+          <p className='fsheading' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
             <span className='pink-text'>BOOKING CONSULTATION SCREENS </span> -
           </p>
-          <div className='grid wfgrid'>
+          <div className='grid wfgrid' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
           <div className='img-div '>
                 <img src={Booking6} alt='' className='img' />
               </div>
@@ -194,7 +194,7 @@ const FinalScreens = () => {
               <img src={Booking5} alt='' className='img' />
             </div>
           </div>
-          <p className='fsheading'>
+          <p className='fsheading' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
             <span className='pink-text'>ZIFCARE GOLD AND PROFILE SCREEN</span> -
             The zifcare GOLD pitch screen for the non - paying users which
             includes - features, a pitch video and ‘Take a demo’ button. A gold
@@ -202,7 +202,7 @@ const FinalScreens = () => {
             purchasing the membership
           </p>
      
-            <div className='grid wfgrid'>
+            <div className='grid wfgrid' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
               <div className='img-div'>
                 <img src={Gold1} alt='' className='img' />
               </div>
@@ -214,10 +214,10 @@ const FinalScreens = () => {
               </div>
             </div>
        
-          <p className='fsheading'>
+          <p className='fsheading' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
             <span className='pink-text'>ZIFCARE GOLD COURSES SCREENS</span> -
           </p>
-          <div className='grid wfgrid'>
+          <div className='grid wfgrid' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
             <div className='img-div'>
               <img src={Gold4} alt='' className='img' />
             </div>
@@ -229,7 +229,7 @@ const FinalScreens = () => {
             </div>
           </div>
         </div>
-        <div className='flex justify-center '>
+        <div className='flex justify-center ' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
           <div className='project1_nav appbtn'>
             <a href=""><button className=' active'>View Prototype</button></a>
             
