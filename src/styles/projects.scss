@@ -158,18 +158,17 @@
   letter-spacing: 0.1em;
 }
 .project1_nav button.active {
-  padding: 0.5em 1em;
   color: $mainbg_black;
   background: $grad_pink;
   -webkit-background-clip: unset;
   -webkit-text-fill-color: $mainbg_black;
   background-clip: unset;
-  font-size: $fs_200;
-  font-weight: 400;
-  font-family: $font_family_avenir;
   border: none;
   box-shadow: 0px 10px 41px -12px $main_pink;
 }
+
+
+// web version
 
 .project1web{
   .heroimg-div{
@@ -220,15 +219,43 @@
 
 
 .project1app{
+
+  .heroimg-div{
+    margin: 4em 0;
+
+    @include media("<=tablet"){
+      margin: 2em 0;
+    }
+  }
+  .heroimg{
+    width:75%;
+
+    @include media("<=tablet"){
+      width: 100%;
+    }
+  }
+
   .dpimg{
     width: 60%;
+
+    @include media("<=tablet"){
+      width: 100%;
+    }
   }
+
+  .ufimg{
+    width: 80%;
+    @include media("<=tablet"){
+      width: 100%;
+    }
+  }
+
   .wfgrid{
     grid-template-columns: repeat(3 , 1fr);
     justify-content: space-around;
     gap: 1em;
 
-    padding: 2em 0 0;
+    padding: 2em 0 ;
 
     img{
       width: 56%;
@@ -242,16 +269,21 @@
     }
   }
 
-  .col2img{
-    
-      @include media("<=1400px" , ">=1100px"){
-        padding-left:8em ;
-    padding-right: 8em;
-      } 
-      @include media("<=1100px" , ">=1024px"){
-        padding-left:7em ;
-    padding-right: 7em;
-      } 
-   
-  } 
+  .appbtn{
+    margin: 2em 0;
+    button{
+      padding: 0.5em 1em;
+      font-size: $fs_150;
+    }
+    @include media("<=tablet"){
+      margin: 0.2em 0;
+    }
+  }
+
+
+
+
 }
+
+
+

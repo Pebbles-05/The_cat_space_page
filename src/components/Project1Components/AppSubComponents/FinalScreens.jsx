@@ -3,13 +3,13 @@ import Booking2 from '../../../media/Booking2.png';
 import Booking3 from '../../../media/Booking3.png';
 import Booking4 from '../../../media/Booking4.png';
 import Booking5 from '../../../media/Booking5.png';
+import Booking6 from '../../../media/Booking6.png';
 import DigitalDiary1 from '../../../media/DigitalDiary1.png';
 import DigitalDiary2 from '../../../media/DigitalDiary2.png';
 import DigitalDiary3 from '../../../media/DigitalDiary3.png';
 import ExploreScreens1 from '../../../media/ExploreScreens1.png';
 import ExploreScreens2 from '../../../media/ExploreScreens2.png';
 import ExploreScreens3 from '../../../media/ExploreScreens3.png';
-import ExploreScreens4 from '../../../media/ExploreScreens4.png';
 import Gold1 from '../../../media/Gold1.png';
 import Gold2 from '../../../media/Gold2.png';
 import Gold3 from '../../../media/Gold3.png';
@@ -24,6 +24,7 @@ import LoginSignup2 from '../../../media/LoginSignup2.png';
 import LoginSignup3 from '../../../media/LoginSignup3.png';
 import MoodChart1 from '../../../media/MoodChart1.png';
 import MoodChart2 from '../../../media/MoodChart2.png';
+import MoodChart3 from '../../../media/MoodChart3.png';
 import OnboardingScreens1 from '../../../media/OnboardingScreens1.png';
 import OnboardingScreens2 from '../../../media/OnboardingScreens2.png';
 import OnboardingScreens3 from '../../../media/OnboardingScreens3.png';
@@ -43,193 +44,195 @@ const FinalScreens = () => {
       <div className='my-7'>
         <h1 className='Headings'>FINAL SCREENS</h1>
         <div className='Contents mt-1'>
-          <p className='mb-2 pt-7 md:pt-0'>
+          <p className='fsheading'>
             <span className='pink-text'>ONBOARDING SCREENS</span> - The mockups
             shows the app features in form of a carousel
           </p>
-          <div className='grid grid-cols-2 lg:grid-cols-3 gap-4 md:gap-2'>
-            <div className='img-div pt-2 md:px-20 md:py-3'>
+          <div className='grid wfgrid'>
+            <div className='img-div '>
               <img src={OnboardingScreens1} alt='' className='img' />
             </div>
-            <div className='img-div pt-2 md:px-20 md:py-3'>
+            <div className='img-div '>
               <img src={OnboardingScreens2} alt='' className='img' />
             </div>
-            <div className='img-div pt-2 md:px-20 md:py-3'>
+            <div className='img-div '>
               <img src={OnboardingScreens3} alt='' className='img' />
             </div>
-            <div className='img-div pt-2 md:px-20 md:py-3'>
+            <div className='img-div '>
               <img src={OnboardingScreens4} alt='' className='img' />
             </div>
-            <div className='img-div pt-2 md:px-20 md:py-3'>
+            <div className='img-div '>
               <img src={OnboardingScreens5} alt='' className='img' />
             </div>
-            <div className='img-div pt-2 md:px-20 md:py-3'>
+            <div className='img-div '>
               <img src={OnboardingScreens6} alt='' className='img' />
             </div>
           </div>
-          <p className='mb-2 pt-7 md:pt-5'>
+          <p className='fsheading'>
             <span className='pink-text'>LOGIN AND SIGN-UP SCREENS</span> - After
             onboarding screen new users -{'>'} sign up page and existing users -
             {'>'}
             login page
           </p>
-          <div className='grid grid-cols-2 lg:grid-cols-3 gap-4 md:gap-2'>
-            <div className='img-div pt-2 md:px-20 md:py-3'>
+          <div className='grid wfgrid'>
+            <div className='img-div'>
               <img src={LoginSignup1} alt='' className='img' />
             </div>
-            <div className='img-div pt-2 md:px-20 md:py-3'>
+            <div className='img-div'>
               <img src={LoginSignup2} alt='' className='img' />
             </div>
-            <div className='img-div pt-2 md:px-20 md:py-3'>
+            <div className='img-div'>
               <img src={LoginSignup3} alt='' className='img' />
             </div>
           </div>
-          <p className='mb-2 pt-7 md:pt-5'>
+          <p className='fsheading'>
             <span className='pink-text'>PROFILE BUILDING SCREENS</span> -
             Illustrations that hint on what to expect from the app
           </p>
-          <div className='grid grid-cols-2 lg:grid-cols-3 gap-4 md:gap-2'>
-            <div className='img-div pt-2 md:px-20 md:py-3'>
+          <div className='grid wfgrid'>
+            <div className='img-div '>
               <img src={ProfileBuilding1} alt='' className='img' />
             </div>
-            <div className='img-div pt-2 md:px-20 md:py-3'>
+            <div className='img-div '>
               <img src={ProfileBuilding2} alt='' className='img' />
             </div>
-            <div className='img-div pt-2 md:px-20 md:py-3'>
+            <div className='img-div '>
               <img src={ProfileBuilding3} alt='' className='img' />
             </div>
-            <div className='img-div pt-2 md:px-20 md:py-3'>
+            <div className='img-div '>
               <img src={ProfileBuilding4} alt='' className='img' />
             </div>
-            <div className='img-div pt-2 md:px-20 md:py-3'>
+            <div className='img-div '>
               <img src={ProfileBuilding5} alt='' className='img' />
             </div>
-            <div className='img-div pt-2 md:px-20 md:py-3'>
+            <div className='img-div '>
               <img src={ProfileBuilding6} alt='' className='img' />
             </div>
           </div>
-          <p className='mb-2 pt-7 md:pt-5'>
+          <p className='fsheading'>
             <span className='pink-text'>HOME SCREEN </span> -
           </p>
-          <div className='grid grid-cols-2 lg:grid-cols-3 gap-4 md:gap-2'>
-            <div className='img-div pt-2 md:px-20 md:py-3'>
+          <div className='grid wfgrid'>
+            <div className='img-div '>
               <img src={HomeScreen1} alt='' className='img' />
             </div>
-            <div className='img-div pt-2 md:px-20 md:py-3'>
+            <div className='img-div '>
               <img src={HomeScreen2} alt='' className='img' />
             </div>
-            <div className='img-div pt-2 md:px-20 md:py-3'>
+            <div className='img-div '>
               <img src={HomeScreen3} alt='' className='img' />
             </div>
           </div>
-          <p className='mb-2 pt-7 md:pt-5'>
+          <p className='fsheading'>
             <span className='pink-text'>EXPLORE SCREENS </span> -
           </p>
-          <div className='grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-2'>
-            <div className='img-div pt-2 md:px-20   lg:px-10 md:py-3'>
+          <div className='grid wfgrid'>
+            <div className='img-div'>
               <img src={ExploreScreens1} alt='' className='img' />
             </div>
-            <div className='img-div pt-2 md:px-20  lg:px-10 md:py-3'>
+            <div className='img-div'>
               <img src={ExploreScreens2} alt='' className='img' />
             </div>
-            <div className='img-div pt-2 md:px-20  lg:px-10 md:py-3'>
+            <div className='img-div'>
               <img src={ExploreScreens3} alt='' className='img' />
             </div>
-            <div className='img-div pt-2 md:px-20 lg:px-10 md:py-3'>
-              <img src={ExploreScreens4} alt='' className='img' />
-            </div>
           </div>
-          <p className='mb-2 pt-7 md:pt-5'>
+          <p className='fsheading'>
             <span className='pink-text'>
               MOOD - CHART AND WORD CLOUD SCREENS
             </span> -
           </p>
           <div className='flex justify-center'>
-            <div className='grid grid-cols-2 gap-4 md:gap-2'>
-              <div className='img-div pt-2  md:px-20 lg:px-44 md:py-3 col2img'>
+            <div className='grid wfgrid'>
+              <div className='img-div'>
                 <img src={MoodChart1} alt='' className='img' />
               </div>
-              <div className='img-div pt-2 md:px-20 lg:px-44 md:py-3 col2img'>
+              <div className='img-div'>
+                <img src={MoodChart3} alt='' className='img' />
+              </div>
+              <div className='img-div'>
                 <img src={MoodChart2} alt='' className='img' />
               </div>
             </div>
           </div>
-          <p className='mb-2 pt-7 md:pt-5'>
+          <p className='fsheading'>
             <span className='pink-text'>DIGITAL DIARY SCREENS </span> -
           </p>
-          <div className='grid grid-cols-2 lg:grid-cols-3 gap-4 md:gap-2'>
-            <div className='img-div pt-2 md:px-20 md:py-3'>
+          <div className='grid wfgrid'>
+            <div className='img-div '>
               <img src={DigitalDiary1} alt='' className='img' />
             </div>
-            <div className='img-div pt-2 md:px-20 md:py-3'>
+            <div className='img-div '>
               <img src={DigitalDiary2} alt='' className='img' />
             </div>
-            <div className='img-div pt-2 md:px-20 md:py-3'>
+            <div className='img-div '>
               <img src={DigitalDiary3} alt='' className='img' />
             </div>
           </div>
-          <p className='mb-2 pt-7 md:pt-5'>
+          <p className='fsheading'>
             <span className='pink-text'>BOOKING CONSULTATION SCREENS </span> -
           </p>
-          <div className='flex justify-center'>
-            <div className='grid grid-cols-2 gap-4 md:gap-2'>
-              <div className='img-div pt-2  md:px-20 lg:px-44 md:py-3 col2img'>
+          <div className='grid wfgrid'>
+          <div className='img-div '>
+                <img src={Booking6} alt='' className='img' />
+              </div>
+            
+              <div className='img-div'>
                 <img src={Booking1} alt='' className='img' />
               </div>
-              <div className='img-div pt-2  md:px-20 lg:px-44 md:py-3 col2img'>
+              <div className='img-div'>
                 <img src={Booking2} alt='' className='img' />
               </div>
-            </div>
-          </div>
-          <div className='grid grid-cols-2 lg:grid-cols-3 gap-4 md:gap-2 pt-3'>
-            <div className='img-div pt-3 md:px-20 md:py-3'>
+          
+            <div className='img-div'>
               <img src={Booking3} alt='' className='img' />
             </div>
-            <div className='img-div pt-3 md:px-20 md:py-3'>
+            <div className='img-div'>
               <img src={Booking4} alt='' className='img' />
             </div>
-            <div className='img-div pt-3 md:px-20 md:py-3'>
+            <div className='img-div'>
               <img src={Booking5} alt='' className='img' />
             </div>
           </div>
-          <p className='mb-2 pt-7 md:pt-5'>
+          <p className='fsheading'>
             <span className='pink-text'>ZIFCARE GOLD AND PROFILE SCREEN</span> -
             The zifcare GOLD pitch screen for the non - paying users which
             includes - features, a pitch video and ‘Take a demo’ button. A gold
             coin was designed that would show in the profile screen, on
             purchasing the membership
           </p>
-          <div className='flex justify-center'>
-            <div className='grid grid-cols-2 gap-4 md:gap-2'>
-              <div className='img-div pt-2  md:px-20 lg:px-44 md:py-3 col2img'>
+     
+            <div className='grid wfgrid'>
+              <div className='img-div'>
                 <img src={Gold1} alt='' className='img' />
               </div>
-              <div className='img-div pt-2  md:px-20 lg:px-44 md:py-3 col2img'>
+              <div className='img-div'>
                 <img src={Gold2} alt='' className='img' />
               </div>
+              <div className='img-div'>
+                <img src={Gold3} alt='' className='img' />
+              </div>
             </div>
-          </div>
-          <p className='mb-2 pt-7 md:pt-5'>
+       
+          <p className='fsheading'>
             <span className='pink-text'>ZIFCARE GOLD COURSES SCREENS</span> -
           </p>
-          <div className='grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-2'>
-            <div className='img-div pt-2 md:px-20   lg:px-10 md:py-3'>
-              <img src={Gold3} alt='' className='img' />
-            </div>
-            <div className='img-div pt-2 md:px-20   lg:px-10 md:py-3'>
+          <div className='grid wfgrid'>
+            <div className='img-div'>
               <img src={Gold4} alt='' className='img' />
             </div>
-            <div className='img-div pt-2 md:px-20   lg:px-10 md:py-3'>
+            <div className='img-div'>
               <img src={Gold5} alt='' className='img' />
             </div>
-            <div className='img-div pt-2 md:px-20   lg:px-10 md:py-3'>
+            <div className='img-div'>
               <img src={Gold6} alt='' className='img' />
             </div>
           </div>
         </div>
-        <div className='flex justify-center mt-20'>
-          <div className='project1_nav -mt-7'>
-            <button className='active'>View Prototype</button>
+        <div className='flex justify-center '>
+          <div className='project1_nav appbtn'>
+            <a href=""><button className=' active'>View Prototype</button></a>
+            
           </div>
         </div>
       </div>

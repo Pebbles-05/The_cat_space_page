@@ -5,8 +5,8 @@ import UserFlow from '../../../media/UserFlow.png';
 const Hero = () => {
   return (
     <>
-      <div className='img-div my-20'>
-        <img src={AppHero} alt='' className='img' />
+      <div className='img-div heroimg-div'>
+        <img src={AppHero} alt='' className='heroimg' />
       </div>
       <div className='my-7'>
         <h1 className='Headings'>GOAL</h1>
@@ -101,9 +101,7 @@ const Hero = () => {
          
           <div className='my-10'>
             <p className='mt-2'>
-              <span className='pink-text'>Analyse Situation </span>- We needed
-              emails of existing users for a fresh database to resume sending
-              newsletters
+              <span className='pink-text'>Analyse Situation </span>- Most of the new users werent aware of the full potential of the app or were overwhelmed by the navigation system
             </p>
             <p className='mt-2'>
               <span className='pink-text'>Identify User Problem </span> : The
@@ -132,7 +130,7 @@ const Hero = () => {
         <div className='Contents mt-1'>
           <p className='mb-2'>I made the user flow on <span className='pink-text'>figjam</span></p>
           <div className='img-div my-10'>
-            <img src={UserFlow} alt='' className='img' />
+            <img src={UserFlow} alt='' className='ufimg' />
           </div>
         </div>
       </div>
