@@ -68,7 +68,7 @@ function App() {
    
    //  inting aos 
   useEffect(() => {
-   AOS.init();
+   AOS.init({offset:200});
  
    
  }, [])

@@ -4,7 +4,7 @@ import MoodBoardMobile from '../../../media/MoodBoardMobile.png';
 const Moodboard = () => {
   return (
     <>
-      <div className='my-7'>
+      <div className='my-7' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
         <h1 className='Headings'>MOODBOARD</h1>
         <div className='Contents my-4'>
           100% color contrast can be

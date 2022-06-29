@@ -48,6 +48,8 @@ const Hero = () => {
           </ul>
         </div>
       </div>
+
+
       <div className='my-7'>
         <h1 className='Headings'>USER RESEARCH</h1>
         <div className='Contents mt-1'>
@@ -66,10 +68,12 @@ const Hero = () => {
           </p>
         </div>
       </div>
+
+
       <div className='my-7'>
         <h1 className='Headings'>IDEATION</h1>
-        <div className='Contents mt-1'>
-          <div className='my-4'>
+        <div className='Contents '>
+          <div className='my-2'>
             <p className='mt-2'>
               <span className='pink-text'>Analyse Situation </span> - Most users
               didnt wanted to sign up for an app that they didnt think would be
@@ -81,8 +85,6 @@ const Hero = () => {
               community but soo was building trust between users and the
               product.
             </p>
-          </div>
-          <div className='my-4'>
             <p className='mt-2'>
               <span className='pink-text'>Company Constraint </span>- We needed
               emails of existing users for a fresh database to resume sending
@@ -96,7 +98,8 @@ const Hero = () => {
               features
             </p>
           </div>
-          <div className='my-4'>
+         
+          <div className='my-10'>
             <p className='mt-2'>
               <span className='pink-text'>Analyse Situation </span>- We needed
               emails of existing users for a fresh database to resume sending
@@ -119,8 +122,8 @@ const Hero = () => {
         <h1 className='Headings'>DESIGN PROCESS</h1>
         <div className='Contents mt-1'>
           <p className='mb-2'>I followed the double diamond process</p>
-          <div className='img-div my-20'>
-            <img src={DesignProcess} alt='' className='img' />
+          <div className='img-div my-10'>
+            <img src={DesignProcess} alt='' className='dpimg' />
           </div>
         </div>
       </div>
@@ -128,7 +131,7 @@ const Hero = () => {
         <h1 className='Headings'>USER FLOW</h1>
         <div className='Contents mt-1'>
           <p className='mb-2'>I made the user flow on <span className='pink-text'>figjam</span></p>
-          <div className='img-div my-20'>
+          <div className='img-div my-10'>
             <img src={UserFlow} alt='' className='img' />
           </div>
         </div>

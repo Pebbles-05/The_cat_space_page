@@ -47,153 +47,152 @@ const FinalScreens = () => {
             <span className='pink-text'>ONBOARDING SCREENS</span> - The mockups
             shows the app features in form of a carousel
           </p>
-          <div className='grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-2'>
-            <div className='img-div pt-7 md:px-20 md:py-10'>
+          <div className='grid grid-cols-2 lg:grid-cols-3 gap-4 md:gap-2'>
+            <div className='img-div pt-2 md:px-20 md:py-3'>
               <img src={OnboardingScreens1} alt='' className='img' />
             </div>
-            <div className='img-div pt-7 md:px-20 md:py-10'>
+            <div className='img-div pt-2 md:px-20 md:py-3'>
               <img src={OnboardingScreens2} alt='' className='img' />
             </div>
-            <div className='img-div pt-7 md:px-20 md:py-10'>
+            <div className='img-div pt-2 md:px-20 md:py-3'>
               <img src={OnboardingScreens3} alt='' className='img' />
             </div>
-            <div className='img-div pt-7 md:px-20 md:py-10'>
+            <div className='img-div pt-2 md:px-20 md:py-3'>
               <img src={OnboardingScreens4} alt='' className='img' />
             </div>
-            <div className='img-div pt-7 md:px-20 md:py-10'>
+            <div className='img-div pt-2 md:px-20 md:py-3'>
               <img src={OnboardingScreens5} alt='' className='img' />
             </div>
-            <div className='img-div pt-7 md:px-20 md:py-10'>
+            <div className='img-div pt-2 md:px-20 md:py-3'>
               <img src={OnboardingScreens6} alt='' className='img' />
             </div>
           </div>
-          <p className='mb-2 pt-7 md:pt-0'>
+          <p className='mb-2 pt-7 md:pt-5'>
             <span className='pink-text'>LOGIN AND SIGN-UP SCREENS</span> - After
             onboarding screen new users -{'>'} sign up page and existing users -
             {'>'}
             login page
           </p>
-          <div className='grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-2'>
-            <div className='img-div pt-7 md:px-20 md:py-10'>
+          <div className='grid grid-cols-2 lg:grid-cols-3 gap-4 md:gap-2'>
+            <div className='img-div pt-2 md:px-20 md:py-3'>
               <img src={LoginSignup1} alt='' className='img' />
             </div>
-            <div className='img-div pt-7 md:px-20 md:py-10'>
+            <div className='img-div pt-2 md:px-20 md:py-3'>
               <img src={LoginSignup2} alt='' className='img' />
             </div>
-            <div className='img-div pt-7 md:px-20 md:py-10'>
+            <div className='img-div pt-2 md:px-20 md:py-3'>
               <img src={LoginSignup3} alt='' className='img' />
             </div>
           </div>
-          <p className='mb-2 pt-7 md:pt-0'>
+          <p className='mb-2 pt-7 md:pt-5'>
             <span className='pink-text'>PROFILE BUILDING SCREENS</span> -
             Illustrations that hint on what to expect from the app
           </p>
-          <div className='grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-2'>
-            <div className='img-div pt-7 md:px-20 md:py-10'>
+          <div className='grid grid-cols-2 lg:grid-cols-3 gap-4 md:gap-2'>
+            <div className='img-div pt-2 md:px-20 md:py-3'>
               <img src={ProfileBuilding1} alt='' className='img' />
             </div>
-            <div className='img-div pt-7 md:px-20 md:py-10'>
+            <div className='img-div pt-2 md:px-20 md:py-3'>
               <img src={ProfileBuilding2} alt='' className='img' />
             </div>
-            <div className='img-div pt-7 md:px-20 md:py-10'>
+            <div className='img-div pt-2 md:px-20 md:py-3'>
               <img src={ProfileBuilding3} alt='' className='img' />
             </div>
-            <div className='img-div pt-7 md:px-20 md:py-10'>
+            <div className='img-div pt-2 md:px-20 md:py-3'>
               <img src={ProfileBuilding4} alt='' className='img' />
             </div>
-            <div className='img-div pt-7 md:px-20 md:py-10'>
+            <div className='img-div pt-2 md:px-20 md:py-3'>
               <img src={ProfileBuilding5} alt='' className='img' />
             </div>
-            <div className='img-div pt-7 md:px-20 md:py-10'>
+            <div className='img-div pt-2 md:px-20 md:py-3'>
               <img src={ProfileBuilding6} alt='' className='img' />
             </div>
           </div>
-          <p className='mb-2 pt-7 md:pt-0'>
+          <p className='mb-2 pt-7 md:pt-5'>
             <span className='pink-text'>HOME SCREEN </span> -
           </p>
-          <div className='grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-2'>
-            <div className='img-div pt-7 md:px-20 md:py-10'>
+          <div className='grid grid-cols-2 lg:grid-cols-3 gap-4 md:gap-2'>
+            <div className='img-div pt-2 md:px-20 md:py-3'>
               <img src={HomeScreen1} alt='' className='img' />
             </div>
-            <div className='img-div pt-7 md:px-20 md:py-10'>
+            <div className='img-div pt-2 md:px-20 md:py-3'>
               <img src={HomeScreen2} alt='' className='img' />
             </div>
-            <div className='img-div pt-7 md:px-20 md:py-10'>
+            <div className='img-div pt-2 md:px-20 md:py-3'>
               <img src={HomeScreen3} alt='' className='img' />
             </div>
           </div>
-          <p className='mb-2 pt-7 md:pt-0'>
+          <p className='mb-2 pt-7 md:pt-5'>
             <span className='pink-text'>EXPLORE SCREENS </span> -
           </p>
-          <div className='grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-2'>
-            <div className='img-div md:p-10'>
+          <div className='grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-2'>
+            <div className='img-div pt-2 md:px-20   lg:px-10 md:py-3'>
               <img src={ExploreScreens1} alt='' className='img' />
             </div>
-            <div className='img-div md:p-10'>
+            <div className='img-div pt-2 md:px-20  lg:px-10 md:py-3'>
               <img src={ExploreScreens2} alt='' className='img' />
             </div>
-            <div className='img-div md:p-10'>
+            <div className='img-div pt-2 md:px-20  lg:px-10 md:py-3'>
               <img src={ExploreScreens3} alt='' className='img' />
             </div>
-            <div className='img-div md:p-10'>
+            <div className='img-div pt-2 md:px-20 lg:px-10 md:py-3'>
               <img src={ExploreScreens4} alt='' className='img' />
             </div>
           </div>
-          <p className='mb-2 pt-7 md:pt-0'>
+          <p className='mb-2 pt-7 md:pt-5'>
             <span className='pink-text'>
-              MOOD - CHART AND WORD CLOUD SCREENS{' '}
-            </span>{' '}
-            -
+              MOOD - CHART AND WORD CLOUD SCREENS
+            </span> -
           </p>
           <div className='flex justify-center'>
             <div className='grid grid-cols-2 gap-4 md:gap-2'>
-              <div className='img-div md:px-44 md:py-10'>
+              <div className='img-div pt-2  md:px-20 lg:px-44 md:py-3 col2img'>
                 <img src={MoodChart1} alt='' className='img' />
               </div>
-              <div className='img-div md:px-44 md:py-10'>
+              <div className='img-div pt-2 md:px-20 lg:px-44 md:py-3 col2img'>
                 <img src={MoodChart2} alt='' className='img' />
               </div>
             </div>
           </div>
-          <p className='mb-2 pt-7 md:pt-0'>
+          <p className='mb-2 pt-7 md:pt-5'>
             <span className='pink-text'>DIGITAL DIARY SCREENS </span> -
           </p>
-          <div className='grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-2'>
-            <div className='img-div pt-7 md:px-20 md:py-10'>
+          <div className='grid grid-cols-2 lg:grid-cols-3 gap-4 md:gap-2'>
+            <div className='img-div pt-2 md:px-20 md:py-3'>
               <img src={DigitalDiary1} alt='' className='img' />
             </div>
-            <div className='img-div pt-7 md:px-20 md:py-10'>
+            <div className='img-div pt-2 md:px-20 md:py-3'>
               <img src={DigitalDiary2} alt='' className='img' />
             </div>
-            <div className='img-div pt-7 md:px-20 md:py-10'>
+            <div className='img-div pt-2 md:px-20 md:py-3'>
               <img src={DigitalDiary3} alt='' className='img' />
             </div>
           </div>
-          <p className='mb-2 pt-7 md:pt-0'>
+          <p className='mb-2 pt-7 md:pt-5'>
             <span className='pink-text'>BOOKING CONSULTATION SCREENS </span> -
           </p>
           <div className='flex justify-center'>
             <div className='grid grid-cols-2 gap-4 md:gap-2'>
-              <div className='img-div md:px-44 md:py-10'>
+              <div className='img-div pt-2  md:px-20 lg:px-44 md:py-3 col2img'>
                 <img src={Booking1} alt='' className='img' />
               </div>
-              <div className='img-div md:px-44 md:py-10'>
+              <div className='img-div pt-2  md:px-20 lg:px-44 md:py-3 col2img'>
                 <img src={Booking2} alt='' className='img' />
               </div>
             </div>
           </div>
-          <div className='grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-2'>
-            <div className='img-div pt-7 md:px-20 md:py-10'>
+          <div className='grid grid-cols-2 lg:grid-cols-3 gap-4 md:gap-2 pt-3'>
+            <div className='img-div pt-3 md:px-20 md:py-3'>
               <img src={Booking3} alt='' className='img' />
             </div>
-            <div className='img-div pt-7 md:px-20 md:py-10'>
+            <div className='img-div pt-3 md:px-20 md:py-3'>
               <img src={Booking4} alt='' className='img' />
             </div>
-            <div className='img-div pt-7 md:px-20 md:py-10'>
+            <div className='img-div pt-3 md:px-20 md:py-3'>
               <img src={Booking5} alt='' className='img' />
             </div>
           </div>
-          <p className='mb-2 pt-7 md:pt-0'>
+          <p className='mb-2 pt-7 md:pt-5'>
             <span className='pink-text'>ZIFCARE GOLD AND PROFILE SCREEN</span> -
             The zifcare GOLD pitch screen for the non - paying users which
             includes - features, a pitch video and ‘Take a demo’ button. A gold
@@ -202,33 +201,33 @@ const FinalScreens = () => {
           </p>
           <div className='flex justify-center'>
             <div className='grid grid-cols-2 gap-4 md:gap-2'>
-              <div className='img-div md:px-44 md:py-10'>
+              <div className='img-div pt-2  md:px-20 lg:px-44 md:py-3 col2img'>
                 <img src={Gold1} alt='' className='img' />
               </div>
-              <div className='img-div md:px-44 md:py-10'>
+              <div className='img-div pt-2  md:px-20 lg:px-44 md:py-3 col2img'>
                 <img src={Gold2} alt='' className='img' />
               </div>
             </div>
           </div>
-          <p className='mb-2 pt-7 md:pt-0'>
+          <p className='mb-2 pt-7 md:pt-5'>
             <span className='pink-text'>ZIFCARE GOLD COURSES SCREENS</span> -
           </p>
-          <div className='grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-2'>
-            <div className='img-div md:p-10'>
+          <div className='grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-2'>
+            <div className='img-div pt-2 md:px-20   lg:px-10 md:py-3'>
               <img src={Gold3} alt='' className='img' />
             </div>
-            <div className='img-div md:p-10'>
+            <div className='img-div pt-2 md:px-20   lg:px-10 md:py-3'>
               <img src={Gold4} alt='' className='img' />
             </div>
-            <div className='img-div md:p-10'>
+            <div className='img-div pt-2 md:px-20   lg:px-10 md:py-3'>
               <img src={Gold5} alt='' className='img' />
             </div>
-            <div className='img-div md:p-10'>
+            <div className='img-div pt-2 md:px-20   lg:px-10 md:py-3'>
               <img src={Gold6} alt='' className='img' />
             </div>
           </div>
         </div>
-        <div className='flex justify-center mt-11'>
+        <div className='flex justify-center mt-20'>
           <div className='project1_nav -mt-7'>
             <button className='active'>View Prototype</button>
           </div>

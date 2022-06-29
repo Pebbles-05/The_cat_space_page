@@ -137,9 +137,6 @@
   .bigimg{
     width: 100%;
   }
-  .midimg{
-    width: 80%;
-  }
 
   .dptext{
     text-align: left;
@@ -163,9 +160,11 @@
         display: flex;
         justify-content: center;
         margin-top: 1em;
+        margin-right: 1em;
         @include media("<=1000px"){
           width: 2.5em;
           transform: rotate(90deg);
+          margin: 0;
          }
 
         svg{
@@ -184,4 +183,40 @@
       }
 
   }
+}
+.project1app{
+  .dpimg{
+    width: 60%;
+  }
+  .wfgrid{
+    grid-template-columns: repeat(3 , 1fr);
+    justify-content: space-around;
+    gap: 1em;
+
+    padding: 2em 0 0;
+
+    img{
+      width: 56%;
+      @include media("<=850px"){
+        width: 90%;
+      }
+    }
+
+    @include media("<=850px"){
+      gap: 0.5em;
+    }
+  }
+
+  .col2img{
+    
+      @include media("<=1400px" , ">=1100px"){
+        padding-left:8em ;
+    padding-right: 8em;
+      } 
+      @include media("<=1100px" , ">=1024px"){
+        padding-left:7em ;
+    padding-right: 7em;
+      } 
+   
+  } 
 }

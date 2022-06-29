@@ -1,18 +1,18 @@
-import lappyPhone from '../../../media/zifcare web mockups.png';
+import lappyPhone from '../../../media/p1wheroimg.png';
 
 const Hero = () => {
   return (
     <>
-      <div className='img-div my-20'>
+      <div className='img-div my-20' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
         <img src={lappyPhone} alt='heroimg' className='heroimg' />
       </div>
-      <div className='Contents mt-1'>
+      <div className='Contents mt-1' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
         Zifcare is a self development platform which helps users cope up with
         <span className='pink-text'> mental health problems</span> by providing
         features like blogs, meditations, digital diary, mood tracking, focus
         music, contacting an expert and special courses
       </div>
-      <div className='my-7'>
+      <div className='my-7' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
         <h1 className='Headings'>GOAL</h1>
         <div className='Contents mt-1'>
           <ul className='ml-7 list-disc'>
@@ -27,7 +27,7 @@ const Hero = () => {
           </ul>
         </div>
       </div>
-      <div className='my-7'>
+      <div className='my-7' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
         <h1 className='Headings'>PROBLEMS IDENTIFIED</h1>
         <div className='Contents mt-1'>
           <ul className='ml-7 list-disc'>
@@ -44,7 +44,7 @@ const Hero = () => {
           </ul>
         </div>
       </div>
-      <div className='my-7'>
+      <div className='my-7' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
         <h1 className='Headings'>USER RESEARCH</h1>
         <div className='Contents mt-1'>
           <p className='mb-2'>
@@ -65,7 +65,7 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <div className='my-7'>
+      <div className='my-7' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
         <h1 className='Headings'>IDEATION</h1>
         <div className='Contents mt-1'>
           <p className='mb-2'>

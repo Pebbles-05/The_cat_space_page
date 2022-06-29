@@ -18,32 +18,32 @@ const Wireframes = () => {
             I made low fiedility wireframes for better clarity of what I needed
             to do
           </p>
-          <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-2'>
-            <div className='img-div pt-7 md:py-10 md:px-20'>
+          <div className='grid wfgrid'>
+            <div className='img-div '>
               <img src={Wireframe1Project1} alt='' className='img' />
             </div>
-            <div className='img-div pt-7 md:py-10 md:px-20'>
+            <div className='img-div '>
               <img src={Wireframe2Project1} alt='' className='img' />
             </div>
-            <div className='img-div pt-7 md:py-10 md:px-20'>
+            <div className='img-div '>
               <img src={Wireframe3Project1} alt='' className='img' />
             </div>
-            <div className='img-div pt-7 md:py-10 md:px-20'>
+            <div className='img-div '>
               <img src={Wireframe4Project1} alt='' className='img' />
             </div>
-            <div className='img-div pt-7 md:py-10 md:px-20'>
+            <div className='img-div '>
               <img src={Wireframe5Project1} alt='' className='img' />
             </div>
-            <div className='img-div pt-7 md:py-10 md:px-20'>
+            <div className='img-div '>
               <img src={Wireframe6Project1} alt='' className='img' />
             </div>
-            <div className='img-div pt-7 md:py-10 md:px-20'>
+            <div className='img-div '>
               <img src={Wireframe7Project1} alt='' className='img' />
             </div>
-            <div className='img-div pt-7 md:py-10 md:px-20'>
+            <div className='img-div '>
               <img src={Wireframe8Project1} alt='' className='img' />
             </div>
-            <div className='img-div pt-7 md:py-10 md:px-20'>
+            <div className='img-div '>
               <img src={Wireframe9Project1} alt='' className='img' />
             </div>
           </div>

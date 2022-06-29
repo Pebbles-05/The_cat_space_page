@@ -5,15 +5,17 @@ import FinalScreens from "./WebSubComponents/FinalScreens";
 import Hero from "./WebSubComponents/Hero";
 import Moodboard from "./WebSubComponents/Moodboard";
 
+
 export default function Project1Web() {
   return (
     <div className='project1web'>
       <Hero />
-      <DesignProcess />
+      <DesignProcess  />
       <Moodboard />
       <FinalScreens />
       <Conclusion />
       <Creditfooter />
+      
     </div>
   );
 }

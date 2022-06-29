@@ -1,7 +1,7 @@
 const Conclusion = () => {
   return (
     <>
-      <div className='my-7'>
+      <div className='my-7' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
         <h1 className='Headings'>NEXT STEPS</h1>
         <div className='Contents mt-1'>
           <ul className='ml-7 list-disc'>
@@ -24,7 +24,7 @@ const Conclusion = () => {
           </ul>
         </div>
       </div>
-      <div className='my-7'>
+      <div className='my-7' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
         <h1 className='Headings'>CONCLUSION</h1>
         <div className='Contents mt-1'>
           <p className='mb-2'>

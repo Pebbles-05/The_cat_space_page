@@ -12,7 +12,7 @@ const size = useWindowSize();
   return (
     <div className='reviews' >
 
-        <h1>PAT ON THE BACK</h1>
+        <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">PAT ON THE BACK</h1>
 
         {size.width<=800 ? <ReviewitemApp /> : <ReviewitemWeb />}
 
