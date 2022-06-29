@@ -1,0 +1,187 @@
+@import "./globalVariables.scss";
+
+.Headings {
+  font-family: $font_family_avenirblack;
+  font-size: $fs_200;
+  font-weight: 750;
+  line-height: 1.6;
+  @include media("<=tablet") {
+    font-size: $fs_350;
+  }
+}
+
+.Contents {
+  font-family: $font_family_marcellus;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  letter-spacing: 0.1em;
+
+  @include media("<=tablet") {
+    font-size: $fs_200;
+  }
+}
+
+.pink-text {
+  background: $grad_pink;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cream-text {
+  color: $main_cream;
+}
+
+.yellow-text {
+  color: $main_yellow;
+}
+
+.violet-text {
+  color: $main_violet;
+}
+
+.green-text {
+  color: $main_green;
+}
+
+.blue-text {
+  color: $main_blue;
+}
+
+.yellow-text-sec {
+  color: $sec_yellow;
+}
+
+.img {
+  width: 75%;
+}
+
+.r {
+  border: 2px solid white;
+}
+
+.img-div {
+  display: flex;
+  justify-content: center;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.btn-shadow {
+  box-shadow: 0px 10px 41px -12px $main_pink;
+}
+
+// project1
+
+.project1 {
+  padding: $project_padding;
+}
+
+.project1_nav {
+  margin-top: calc($nav_height + 5em);
+  padding: 0 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  @include media("<=tablet") {
+    margin-top: calc($nav_height + 1em);
+    flex-direction: column;
+    gap: 1em;
+    font-size: $fs_400;
+  }
+}
+.project1_nav button {
+  padding: 0.5em 1em;
+  font-size: $fs_200;
+  font-weight: 400;
+  font-family: $font_family_avenir;
+  cursor: pointer;
+  background: $grad_pink;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  // text-fill-color: transparent;
+  border: 1.5px solid transparent;
+  border-image: $grad_pink;
+  border-width: 1.5pt;
+  border-image-slice: 1;
+  letter-spacing: 0.1em;
+}
+.project1_nav button.active {
+  padding: 0.5em 1em;
+  color: $mainbg_black;
+  background: $grad_pink;
+  -webkit-background-clip: unset;
+  -webkit-text-fill-color: $mainbg_black;
+  background-clip: unset;
+  font-size: $fs_200;
+  font-weight: 400;
+  font-family: $font_family_avenir;
+  border: none;
+  box-shadow: 0px 10px 41px -12px $main_pink;
+}
+
+.project1web{
+  .heroimg{
+    width:75%;
+  }
+
+
+  .img{
+    width: 50%;
+  }
+
+  .bigimg{
+    width: 100%;
+  }
+  .midimg{
+    width: 80%;
+  }
+
+  .dptext{
+    text-align: left;
+    overflow: visible;
+    @include media("<=1000px"){
+      text-align: center;
+    }
+  }
+  .dpflex{
+    display: flex;
+    gap: 1em;
+
+      .step{
+        width: 15%;
+        @include media("<=1000px"){
+         width: 100%;
+        }
+      }
+      .arrow{
+        width: 5%;
+        display: flex;
+        justify-content: center;
+        margin-top: 1em;
+        @include media("<=1000px"){
+          width: 2.5em;
+          transform: rotate(90deg);
+         }
+
+        svg{
+          width: 100%;
+        }
+      
+      }
+
+
+      @include media("<=1000px"){
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    
+      }
+
+  }
+}

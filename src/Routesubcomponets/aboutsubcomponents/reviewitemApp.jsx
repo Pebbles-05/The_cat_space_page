@@ -11,7 +11,7 @@ function ReviewItem({img,title,subtitle,review}) {
 
 return (
         <>
-        <div className='reviewitemApp'>
+        <div className='reviewitemApp' data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
           {img}
           <h1>{title}</h1>
           <p className='subtitle'>{subtitle}</p>

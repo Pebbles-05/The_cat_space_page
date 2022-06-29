@@ -21,7 +21,7 @@ import FinalScreen1Project1 from '../../../media/FinalScreen1Project1.png';
 import FinalScreen2Project1 from '../../../media/FinalScreen2Project1.png';
 import FinalScreen3Project1 from '../../../media/FinalScreen3Project1.png';
 import FinalScreen4Project1 from '../../../media/FinalScreen4Project1.png';
-import Carousal from '../../../subcomponent/carousal';
+import Carousal  from '../../../subcomponent/carousal';
 
 const FinalScreens = () => {
   const data1 = [Carousal3Project1, Carousal2Project1, Carousal1Project1];
@@ -74,27 +74,27 @@ const FinalScreens = () => {
             <span className='pink-text'>ORGANIZATION SIGN-UP SECTIONS -</span>
           </p>
           <div className='my-7'>
-            <Carousal data={data1} />
+            <Carousal width={50} data={data1} />
           </div>
           <p className='my-4'>
             <span className='pink-text'>BOOKING A CONSULTANT STEPS - </span>
           </p>
           <div className='my-7'>
-            <Carousal data={data2} />
+            <Carousal width={50} data={data2} />
           </div>
           <p className='my-4'>
             <span className='pink-text'>JOURNAL ENTRY SECTIONS </span> - It is
             basically a digital diary
           </p>
           <div className='my-7'>
-            <Carousal data={data3} />
+            <Carousal width={50} data={data3} />
           </div>
           <p className='my-4'>
             <span className='pink-text'>CONTENT SCREENS</span> - I added card
             hover animations for all content cards
           </p>
           <div className='my-7'>
-            <Carousal data={data4} />
+            <Carousal width={50} data={data4} />
           </div>
           <p className='my-4'>
             <span className='pink-text'>AUTHOR SCREEN</span> - A screen that
@@ -108,7 +108,7 @@ const FinalScreens = () => {
             redesigned the zifcare gold pitch page for non - gold zifcare users
           </p>
           <div className='my-7'>
-            <Carousal data={data5} />
+            <Carousal width={50} data={data5} />
           </div>
           <p className='my-4'>
             <span className='pink-text'>UNIQUE PAGINATION</span> - I indepently

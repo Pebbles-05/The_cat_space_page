@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <>
       <div className='img-div my-20'>
-        <img src={lappyPhone} alt='' className='img' />
+        <img src={lappyPhone} alt='heroimg' className='heroimg' />
       </div>
       <div className='Contents mt-1'>
         Zifcare is a self development platform which helps users cope up with

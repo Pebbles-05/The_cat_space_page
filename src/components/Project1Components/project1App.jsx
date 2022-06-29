@@ -8,7 +8,7 @@ import Creditfooter from '../../Routesubcomponets/creditfooter';
 
 export default function Project1App() {
   return (
-    <>
+    <div className='project1app'>
       <Hero />
       <Wireframes />
       <FinalScreens />
@@ -16,6 +16,6 @@ export default function Project1App() {
       <Creditfooter />
      
      
-    </>
+    </div>
   );
 }

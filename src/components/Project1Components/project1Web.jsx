@@ -7,13 +7,13 @@ import Moodboard from "./WebSubComponents/Moodboard";
 
 export default function Project1Web() {
   return (
-    <>
+    <div className='project1web'>
       <Hero />
       <DesignProcess />
       <Moodboard />
       <FinalScreens />
       <Conclusion />
       <Creditfooter />
-    </>
+    </div>
   );
 }

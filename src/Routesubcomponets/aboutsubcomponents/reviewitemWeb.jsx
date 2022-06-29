@@ -35,7 +35,7 @@ if(modal){
 
 return (
     <>
-    <div className='reviewitemWeb'>
+    <div className='reviewitemWeb' data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
       {img}
       <h1>{title}</h1>
       <p>{subtitle}</p>
