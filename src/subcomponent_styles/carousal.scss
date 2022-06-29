@@ -6,9 +6,9 @@
   justify-content: center;
   align-items: center;
   padding-bottom: 3em;
-  img{
-    width: 60%;
-  }
+    img{
+      width: 60%;
+    }
 
                   @include media("<=500px"){
                       padding-bottom: 2em;

@@ -19,7 +19,7 @@ const Moodboard = () => {
           <img
             src={MoodBoardMobile}
             alt=''
-            className='w-full img block md:hidden'
+            className='w-full bigimg block md:hidden'
           />
         </div>
       </div>

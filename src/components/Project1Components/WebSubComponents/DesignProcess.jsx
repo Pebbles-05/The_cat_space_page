@@ -7,7 +7,7 @@ const DesignProcess = () => {
       <div className='my-7 ' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
         <h1 className='Headings'>DESIGN PROCESS</h1>
         <div className='Contents mt-4'>
-          <div className='grid md:grid-cols-9 grid-cols-1 dpflex'>
+          <div className=' dpflex'>
             <div className='flex flex-col align-top step'>
               <p className=' dptext'>Design</p>
               <p className=' dptext pink-text  md:mt-2'>Fix basic UI</p>

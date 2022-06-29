@@ -1,10 +1,9 @@
-import lappyPhone from '../../../media/p1wheroimg.png';
 
 const Hero = () => {
   return (
     <>
-      <div className='img-div my-20' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
-        <img src={lappyPhone} alt='heroimg' className='heroimg' />
+      <div className='img-div heroimg-div'  data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
+        <img loading="lazy" src="https://ik.imagekit.io/thecatspace/catspace_media/hero-illustration.png" alt='heroimg' className='heroimg' />
       </div>
       <div className='Contents mt-1' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
         Zifcare is a self development platform which helps users cope up with
