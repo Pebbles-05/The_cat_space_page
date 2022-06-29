@@ -5,10 +5,10 @@ import UserFlow from '../../../media/UserFlow.png';
 const Hero = () => {
   return (
     <>
-      <div className='img-div heroimg-div'>
+      <div className='img-div heroimg-div' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
         <img src={AppHero} alt='' className='heroimg' />
       </div>
-      <div className='my-7'>
+      <div className='my-7' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
         <h1 className='Headings'>GOAL</h1>
         <div className='Contents mt-1'>
           <ul className='ml-7 list-disc'>
@@ -25,7 +25,7 @@ const Hero = () => {
           </ul>
         </div>
       </div>
-      <div className='my-7'>
+      <div className='my-7' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
         <h1 className='Headings'>PROBLEMS IDENTIFIED</h1>
         <div className='Contents mt-1'>
           <ul className='ml-7 list-disc'>
@@ -50,7 +50,7 @@ const Hero = () => {
       </div>
 
 
-      <div className='my-7'>
+      <div className='my-7' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
         <h1 className='Headings'>USER RESEARCH</h1>
         <div className='Contents mt-1'>
           <p className='mb-2'>
@@ -70,7 +70,7 @@ const Hero = () => {
       </div>
 
 
-      <div className='my-7'>
+      <div className='my-7' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
         <h1 className='Headings'>IDEATION</h1>
         <div className='Contents '>
           <div className='my-2'>
@@ -116,7 +116,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className='my-7'>
+      <div className='my-7' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
         <h1 className='Headings'>DESIGN PROCESS</h1>
         <div className='Contents mt-1'>
           <p className='mb-2'>I followed the double diamond process</p>
@@ -125,7 +125,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className='my-7'>
+      <div className='my-7' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
         <h1 className='Headings'>USER FLOW</h1>
         <div className='Contents mt-1'>
           <p className='mb-2'>I made the user flow on <span className='pink-text'>figjam</span></p>
