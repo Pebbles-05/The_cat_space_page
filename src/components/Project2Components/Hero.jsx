@@ -3,7 +3,10 @@ import BhaskarHero from '../../media/BhaskarHero';
 const Hero = () => {
   return (
     <>
-      <div className='img-div'>{BhaskarHero}</div>
+    <div className="img-div">
+    <div className='heroimg'>{BhaskarHero}</div>
+    </div>
+      
       <div className='my-7'>
         <h1 className='Headings'>GOAL</h1>
         <div className='Contents mt-1'>
@@ -82,12 +85,11 @@ const Hero = () => {
             <li>The hero section makes a lot of impact</li>
             <li>
               They prioritize - experience {'>'} projects {'>'} skills {'>'}{' '}
-              articles {'>'}
-              achievements
+              articles {'>'} achievements
             </li>
           </ul>
           <p className='mt-4'>
-            In order to stand out of the croud and keep viewers engrossed in the
+            In order to stand out of the crowd and keep viewers engrossed in the
             portfolio I decided to potray a passive{' '}
             <span className='pink-text'>story tone</span> throughout the
             portfolio where a viewer would be a visitor on his spaceship. I

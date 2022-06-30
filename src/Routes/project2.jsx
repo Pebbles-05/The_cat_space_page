@@ -9,7 +9,7 @@ import Creditfooter from '../Routesubcomponets/creditfooter';
 
 export default function Project2() {
   return (
-    <div className='container ml-auto mr-auto px-16 md:mx-auto mt-40'>
+    <div className='project2'>
       <Hero />
       <DesignProcess />
       <Moodboard />

@@ -52,7 +52,7 @@
   color: $sec_yellow;
 }
 
-.img {
+img{
   width: 75%;
 }
 
@@ -72,6 +72,32 @@
 .btn-shadow {
   box-shadow: 0px 10px 41px -12px $main_pink;
 }
+
+
+.heroimg-div{
+  margin: 4em 0;
+
+  @include media("<=tablet"){
+    margin: 2em 0;
+  }
+}
+.heroimg{
+  width:75%;
+
+  @include media("<=tablet"){
+    width: 100%;
+  }
+}
+
+
+.bigimg{
+  width: 100%;
+
+  @include media("<=768px"){
+    width: 80%;
+  }
+}
+
 
 // adjustments for arrow stuf
 
@@ -121,6 +147,29 @@
 
 }
 
+// adjustments for 3 col grid
+
+.wfgrid{
+  grid-template-columns: repeat(3 , 1fr);
+  justify-content: space-around;
+  gap: 1em;
+
+  padding: 2em 0 ;
+
+  img{
+    width: 56%;
+    @include media("<=850px"){
+      width: 90%;
+    }
+  }
+
+  @include media("<=850px"){
+    gap: 0.5em;
+  }
+}
+
+
+
 // project1
 
 .project1 {
@@ -151,13 +200,13 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  border: 1.5px solid transparent;
   border-image: $grad_pink;
   border-width: 1.5pt;
   border-image-slice: 1;
   letter-spacing: 0.1em;
 }
 .project1_nav button.active {
+  padding: calc(0.5em + 1.5px) calc(1em + 1.5px);
   color: $mainbg_black;
   background: $grad_pink;
   -webkit-background-clip: unset;
@@ -171,29 +220,15 @@
 // web version
 
 .project1web{
-  .heroimg-div{
-    margin: 4em 0;
-
-    @include media("<=tablet"){
-      margin: 2em 0;
-    }
-  }
-  .heroimg{
-    width:75%;
-
-    @include media("<=tablet"){
-      width: 100%;
-    }
-  }
-
-
+  
   .img{
     width: 50%;
     @include media("<=tablet"){
       width: 80%;
     }
-
+  
   }
+
 
 .carousal__img{
         img{ 
@@ -206,13 +241,6 @@
 
     }
 
-  .bigimg{
-    width: 100%;
-    @include media("<=768px"){
-      width: 80%;
-    }
-  }
-
 }
 
 
@@ -220,19 +248,12 @@
 
 .project1app{
 
-  .heroimg-div{
-    margin: 4em 0;
-
+  .img{
+    width: 50%;
     @include media("<=tablet"){
-      margin: 2em 0;
+      width: 80%;
     }
-  }
-  .heroimg{
-    width:75%;
-
-    @include media("<=tablet"){
-      width: 100%;
-    }
+  
   }
 
   .dpimg{
@@ -250,25 +271,6 @@
     }
   }
 
-  .wfgrid{
-    grid-template-columns: repeat(3 , 1fr);
-    justify-content: space-around;
-    gap: 1em;
-
-    padding: 2em 0 ;
-
-    img{
-      width: 56%;
-      @include media("<=850px"){
-        width: 90%;
-      }
-    }
-
-    @include media("<=850px"){
-      gap: 0.5em;
-    }
-  }
-
   .appbtn{
     margin: 2em 0;
     button{
@@ -279,11 +281,75 @@
       margin: 0.2em 0;
     }
   }
-
-
-
-
 }
 
 
+// project2
 
+
+.project2{
+
+  padding: $project_padding;
+  margin-top:calc($nav_height + 3em) ;
+
+  .utimg-div{
+    display: flex;
+    justify-content: flex-start;
+    img{
+      width: 80%;
+      margin-top: 0.5em;
+      @include media("<=1024px"){
+      
+        width: 100%;
+      }
+    }
+    @include media("<=1024px"){
+      
+    justify-content: center;
+    }
+  }
+
+  .img{
+    width: 60%;
+    @include media("<=tablet"){
+      width: 80%;
+    }
+  
+  }
+  .carousal__img{
+    img{ 
+      width:60%;
+      
+      @include media("<=tablet"){
+        width: 80%;
+      }
+    }
+
+}
+
+  .dpflex{
+
+    .arrow{
+      margin-top: 0.5em;
+      align-items: flex-start;
+
+      @include media("<=1000px"){
+        width: 1.5em;
+        transform: rotate(90deg);
+        margin: 0;
+       }
+    }
+  }
+
+
+.bigimg{
+  width: 100%;
+
+  @include media("<=768px"){
+    width: 80%;
+  }
+}
+  
+
+
+}

@@ -10,8 +10,7 @@ const UsabilityTesting = () => {
         <div className='Contents mt-1'>
           <p>
             I conducted usability testing with the same 5 recruiters that I
-            interviewed. I sent them the
-            <span className='pink-text'>prototype link</span> where I asked them
+            interviewed. I sent them the <span className='pink-text'>prototype link</span> where I asked them
             to <span className='pink-text'>comment the problems</span> that they
             faced
           </p>
@@ -20,23 +19,23 @@ const UsabilityTesting = () => {
             which section of navbar they are on
           </p>
           <div className='grid grid-cols-12 mt-4'>
-            <div className='col-span-12 lg:col-span-2 flex justify-center lg:pt-14'>
+            <div className='col-span-12 lg:col-span-2 flex justify-start lg:pt-14'>
               <p>Before :</p>
             </div>
-            <div className='col-span-12 lg:col-span-10'>
-              <img src={BhaskarUT1} alt='' srcset='' />
+            <div className='col-span-12 lg:col-span-10 utimg-div'>
+              <img  src={BhaskarUT1} alt='' />
             </div>
           </div>
           <p className='mt-4'>
             <span className='pink-text'>Solution</span> : Changed navbar as
-            showed
+            shown
           </p>
           <div className='grid grid-cols-12 mt-4'>
-            <div className='col-span-12 lg:col-span-2 flex justify-center lg:pt-14'>
-              <p>Before :</p>
+            <div className='col-span-12 lg:col-span-2 flex justify-start lg:pt-14'>
+              <p>After :</p>
             </div>
-            <div className='col-span-12 lg:col-span-10'>
-              <img src={BhaskarUT2} alt='' srcset='' />
+            <div className='col-span-12 lg:col-span-10 utimg-div'>
+              <img  src={BhaskarUT2} alt=''  />
             </div>
           </div>
           <p className='mt-4'>
@@ -49,12 +48,7 @@ const UsabilityTesting = () => {
             the hero section for easier comprehension
           </p>
           <div className='img-div mt-4 md:mt-7'>
-            <img src={BhaskarUT3} alt='' className='img hidden md:block' />
-            <img
-              src={BhaskarUT3}
-              alt=''
-              className='img w-full block md:hidden'
-            />
+            <img src={BhaskarUT3} alt='' className='img' />
           </div>
           <p className='mt-4'>
             <span className='pink-text'>Problem 3</span> : The portfolio was too

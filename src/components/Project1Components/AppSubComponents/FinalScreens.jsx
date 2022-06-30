@@ -231,7 +231,7 @@ const FinalScreens = () => {
         </div>
         <div className='flex justify-center ' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
           <div className='project1_nav appbtn'>
-            <a href=""><button className=' active'>View Prototype</button></a>
+            <a href="https://www.figma.com/proto/S2nRv6Gusbxrp1wKjfsfaJ/Zifcare-app?node-id=28%3A3&scaling=scale-down&page-id=28%3A2&starting-point-node-id=28%3A3&show-proto-sidebar=1" target="_blank"><button className=' active'>View Prototype</button></a>
             
           </div>
         </div>

@@ -15,11 +15,11 @@ const Moodboard = () => {
           making the contrast 80.9%
         </div>
         <div className='img-div my-7'>
-          <img src={moodboard} alt='' className='w-full bigimg hidden md:block' />
+          <img src={moodboard} alt='' className=' bigimg hidden md:block' />
           <img
             src={MoodBoardMobile}
             alt=''
-            className='w-full bigimg block md:hidden'
+            className=' bigimg block md:hidden'
           />
         </div>
       </div>
