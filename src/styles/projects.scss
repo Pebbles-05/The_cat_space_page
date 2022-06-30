@@ -51,6 +51,9 @@
 .yellow-text-sec {
   color: $sec_yellow;
 }
+.grey-text{
+  color: $main_grey;
+}
 
 img{
   width: 75%;
@@ -225,6 +228,19 @@ img{
 }
 
 
+// for the other buttons
+.appbtn{
+  margin: 2em 0;
+  button{
+    padding: 0.5em 1em;
+    font-size: $fs_150;
+  }
+  @include media("<=tablet"){
+    margin: 0.2em 0;
+  }
+}
+
+
 // web version
 
 .project1web{
@@ -279,16 +295,7 @@ img{
     }
   }
 
-  .appbtn{
-    margin: 2em 0;
-    button{
-      padding: 0.5em 1em;
-      font-size: $fs_150;
-    }
-    @include media("<=tablet"){
-      margin: 0.2em 0;
-    }
-  }
+
 }
 
 
@@ -443,4 +450,45 @@ img{
       width: 100%;
     }
   }
+
+  .img{
+    width: 60%;
+    @include media("<=tablet"){
+      width: 80%;
+    }
+  
+  }
+  .carousal__img{
+    img{ 
+      width:60%;
+      
+      @include media("<=tablet"){
+        width: 80%;
+      }
+    }
+
+}
+
+.p3wfgrid{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+ padding:0 5% ;
+
+  img{
+    width: 48%;
+    margin-top: 2em;
+    @include media("<=tablet"){
+      width: 80%;
+      margin-top: 1em;
+    }
+  }
+
+  @include media("<=tablet"){
+    justify-content: center;
+    padding: 0;
+  }
+  }
+
+  
 }
