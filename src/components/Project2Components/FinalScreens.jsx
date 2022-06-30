@@ -13,48 +13,48 @@ const FinalScreens = () => {
   const data = [BFSC1, BFSC2, BFSC3, BFSC4];
   return (
     <div className='my-7'>
-      <h1 className='Headings'>FINAL SCREENS</h1>
+      <h1 className='Headings'  data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">FINAL SCREENS</h1>
       <div className='Contents mt-1'>
-        <p>
+        <p  data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
           <span className='pink-text'>HERO SCREEN</span> - I customized a
           illustration to make it look like Bhaskar
         </p>
-        <div className='img-div mt-4 md:mt-7'>
+        <div className='img-div mt-4 md:mt-7'  data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
           <img src={BFS1} alt='' className='img ' />
 
         </div>
-        <p className='mt-4 md:mt-7'>
+        <p className='mt-4 md:mt-7'  data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
           <span className='pink-text'>EXPERIENCE SCREENS</span> - I made bullet
           points for texts to make it easy to read
         </p>
-        <div className='my-7'>
+        <div className='my-7'  data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
           <Carousal data={data} />
         </div>
-        <p className='mt-4 md:mt-7'>
+        <p className='mt-4 md:mt-7'   data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
           <span className='pink-text'>SKILLS SCREEN</span> -
         </p>
-        <div className='img-div mt-4 md:mt-7'>
+        <div className='img-div mt-4 md:mt-7'  data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
           <img src={BFS2} alt='' className='img ' />
         </div>
-        <p className='mt-4 md:mt-7'>
+        <p className='mt-4 md:mt-7'  data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
           <span className='pink-text'>PROJECTS SCREENS</span> - I introduced a
           character who guides through his projects in an interactive way
         </p>
-        <div className='img-div mt-4 md:mt-7'>
+        <div className='img-div mt-4 md:mt-7'  data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
           <img src={BFS3} alt='' className='img' />
         </div>
-        <p className='mt-4 md:mt-7'>
+        <p className='mt-4 md:mt-7'  data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
           <span className='pink-text'>PUBLICATIONS SCREENS</span> - I introduced
           another character that guides the viewer through his patents
         </p>
-        <div className='img-div mt-4 md:mt-7'>
+        <div className='img-div mt-4 md:mt-7'  data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
           <img src={BFS4} alt='' className='img' />
         </div>
-        <p className='mt-4 md:mt-7'>
+        <p className='mt-4 md:mt-7'  data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
           <span className='pink-text'>ACHIEVEMENTS SCREENS</span> - I listed his
           achievements in form of a caraousel
         </p>
-        <div className='img-div mt-4 md:mt-7'>
+        <div className='img-div mt-4 md:mt-7'  data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
           <img src={BFS5} alt='' className='img' />
         </div>
       </div>

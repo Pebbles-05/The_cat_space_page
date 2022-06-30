@@ -3,10 +3,10 @@ import WiggleHero from '../../media/WiggleHero.png';
 const Hero = () => {
   return (
     <>
-      <div className='img-div'>
-        <img src={WiggleHero} alt='' className='img' />
+      <div className='img-div heroimg-div' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
+        <img src={WiggleHero} alt='' className='heroimg' />
       </div>
-      <div className='my-7'>
+      <div className='my-7' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
         <h1 className='Headings'>PROJECT BRIEF</h1>
         <div className='Contents mt-1'>
           Wiggle is a personal project where pet parents can find a{' '}
@@ -15,7 +15,7 @@ const Hero = () => {
           schedule an appointment and pay through the same
         </div>
       </div>
-      <div className='my-7'>
+      <div className='my-7' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
         <h1 className='Headings'>GOAL</h1>
         <div className='Contents mt-1'>
           <ul className='ml-7 list-disc'>
@@ -32,7 +32,7 @@ const Hero = () => {
           </ul>
         </div>
       </div>
-      <div className='my-7'>
+      <div className='my-7' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
         <h1 className='Headings'>PROBLEMS IDENTIFIED</h1>
         <div className='Contents mt-1'>
           <ul className='ml-7 list-disc'>
@@ -53,7 +53,7 @@ const Hero = () => {
           </ul>
         </div>
       </div>
-      <div className='my-7'>
+      <div className='my-7' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
         <h1 className='Headings'>POSSIBILITIES</h1>
         <div className='Contents mt-1'>
           <ul className='ml-7 list-disc'>
@@ -64,7 +64,7 @@ const Hero = () => {
           </ul>
         </div>
       </div>
-      <div className='my-7'>
+      <div className='my-7' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
         <h1 className='Headings'>USER RESEARCH</h1>
         <div className='Contents mt-1'>
           I conducted
@@ -72,7 +72,7 @@ const Hero = () => {
           to dive deep into the problem
         </div>
       </div>
-      <div className='my-7'>
+      <div className='my-7' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
         <h1 className='Headings'>IDEATION</h1>
         <div className='Contents mt-1'>
           <p>
@@ -115,9 +115,9 @@ const Hero = () => {
               platform
             </p>
           </div>
-          <div className='my-7'>
+          <div className='my-10'>
             <p className='my-4'>
-              <span className='pink-text'>Problem 1 </span>: Pet fat buildup
+              <span className='pink-text'>Problem 2 </span>: Pet fat buildup
               leading to complications. Responsible factors include - food
               habits and lack of exercise
             </p>

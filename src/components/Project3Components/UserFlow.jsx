@@ -12,7 +12,7 @@ const UserFlow = () => {
         </div>
       </div>
       <div className='img-div'>
-        <img src={FlowChart} alt='' className='img w-full' />
+        <img src={FlowChart} alt='' className='ufimg' />
       </div>
     </>
   );

@@ -26,138 +26,143 @@ const FinalScreens = () => {
   return (
     <>
       <div className='my-7'>
-        <h1 className='Headings'>FINAL SCREENS</h1>
+        <h1 className='Headings' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">FINAL SCREENS</h1>
         <div className='Contents mt-1'>
-          <p>
+          <p className='mb-3' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
             In this <span className='pink-text'>app</span> pets are depicted as
-            “<span className='pink-text'>wiggles”</span> ,{' '}
+            “<span className='pink-text'>wiggles”</span> ,
             <span className='pink-text'>pet buddies</span> as “
-            <span className='pink-text'>wigglers”</span> and{' '}
-            <span className='pink-text'>pet owners</span> as “
+            <span className='pink-text'>wigglers”</span> and <span className='pink-text'>pet owners</span> as “
             <span className='pink-text'>wiggle parents</span>“
           </p>
-          <p>
+          <p className='mb-10' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
             Users can either{' '}
             <span className='pink-text'>
               {' '}
               enroll themselves as an wiggle parent or a wiggler
             </span>
           </p>
-          <p>WIGGLE PARENT INTERFACE</p>
-          <p>
-            <span className='pink-text'>
+          <p className='mb-3' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">WIGGLE PARENT INTERFACE</p>
+          <p data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
+            <span className='pink-text cap'>
               Home Screens with Wiggler profile :{' '}
             </span>
           </p>
-          <div className='grid grid-cols-2 md:grid-cols-3 gap-7 md:gap-0 my-7'>
+          <div className='wfgrid' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
             <div className='img-div'>
-              <img src={FS1P4} alt='' className='img md:w-1/2' />
+              <img src={FS1P4} alt=''  />
             </div>
             <div className='img-div'>
-              <img src={FS2P4} alt='' className='img md:w-1/2' />
+              <img src={FS2P4} alt=''  />
             </div>
             <div className='img-div'>
-              <img src={FS3P4} alt='' className='img md:w-1/2' />
+              <img src={FS3P4} alt=''  />
             </div>
           </div>
-          <p>
-            <span className='pink-text'>
+          <p data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true"> 
+            <span className='pink-text cap'>
               Pet walk screens with Wiggler profile :
             </span>
           </p>
-          <div className='grid grid-cols-2 gap-10 my-7'>
+          <div className='wfgrid' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
             <div className='img-div'>
-              <img src={FS4P4} alt='' className='img md:w-1/3' />
+              <img src={FS4P4} alt='' />
             </div>
             <div className='img-div'>
-              <img src={FS5P4} alt='' className='img md:w-1/3' />
+              <img src={FS5P4} alt='' />
+            </div>
+            <div className='img-div'>
+              <img src={FS5P4} alt='' />
             </div>
           </div>
-          <p>
-            <span className='pink-text'>Chat section</span> : One can call as
-            well from the chat section
+          <p data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
+            <span className='pink-text cap'>Chat section</span> : One can call, video call, pay or report from the chat section
           </p>
-          <div className='grid grid-cols-2 md:grid-cols-3 gap-7 md:gap-0 my-7'>
+          <div className='wfgrid' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
             <div className='img-div'>
-              <img src={FS6P4} alt='' className='img md:w-1/2' />
+              <img src={FS6P4} alt=''  />
             </div>
             <div className='img-div'>
-              <img src={FS7P4} alt='' className='img md:w-1/2' />
+              <img src={FS7P4} alt=''  />
             </div>
             <div className='img-div'>
-              <img src={FS8P4} alt='' className='img md:w-1/2' />
+              <img src={FS8P4} alt=''  />
             </div>
           </div>
-          <p>
-            <span className='pink-text'>Payment section</span> : One will be
-            redirected to the payment app they choose to pay from
+          <p data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
+            <span className='pink-text cap'>Payment section</span> : One will be redirected to the payment app that they choose to pay from
           </p>
-          <div className='grid grid-cols-2 md:grid-cols-3 gap-7 md:gap-0 my-7'>
+          <div className='wfgrid' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
             <div className='img-div'>
-              <img src={FS9P4} alt='' className='img md:w-1/2' />
+              <img src={FS9P4} alt=''  />
             </div>
             <div className='img-div'>
-              <img src={FS10P4} alt='' className='img md:w-1/2' />
+              <img src={FS10P4} alt=''  />
             </div>
             <div className='img-div'>
-              <img src={FS11P4} alt='' className='img md:w-1/2' />
+              <img src={FS11P4} alt=''  />
             </div>
           </div>
-          <p>
-            <span className='pink-text'>
+          <p data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
+            <span className='pink-text cap'>
               Sceduling a task and wiggle tracking
             </span>{' '}
             : I also added payment reminders and reschedules in the schedule
             section
           </p>
-          <div className='grid grid-cols-2 md:grid-cols-3 gap-7 md:gap-0'>
-            <div className='img-div my-4'>
-              <img src={FS12P4} alt='' className='img md:w-1/2' />
+          <div className='wfgrid' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
+            <div className='img-div '>
+              <img src={FS12P4} alt=''  />
             </div>
-            <div className='img-div my-4'>
-              <img src={FS13P4} alt='' className='img md:w-1/2' />
+            <div className='img-div '>
+              <img src={FS13P4} alt=''  />
             </div>
-            <div className='img-div my-4'>
-              <img src={FS14P4} alt='' className='img md:w-1/2' />
+            <div className='img-div '>
+              <img src={FS14P4} alt=''  />
             </div>
-            <div className='img-div my-4'>
-              <img src={FS15P4} alt='' className='img md:w-1/2' />
+            <div className='img-div '>
+              <img src={FS15P4} alt=''  />
             </div>
-            <div className='img-div my-4'>
-              <img src={FS16P4} alt='' className='img md:w-1/2' />
+            <div className='img-div '>
+              <img src={FS16P4} alt=''  />
             </div>
-            <div className='img-div my-4'>
-              <img src={FS17P4} alt='' className='img md:w-1/2' />
+            <div className='img-div '>
+              <img src={FS17P4} alt=''  />
             </div>
           </div>
-          <p className='my-7'>WIGGLER INTERFACE</p>
-          <p className='my-7'>
-            <span className='pink-text'>
+          <p className='mt-7 mb-3' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">WIGGLER INTERFACE</p>
+          <p data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
+            <span className='pink-text cap'>
               Sceduling a task and wiggle tracking :
             </span>
           </p>
-          <div className='grid grid-cols-2 gap-10 my-7'>
-            <div className='img-div flex justify-end md:mr-4'>
+          <div className="wfgrid" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
+          <div className='img-div'>
               <img src={FS18P4} alt='' className='img md:w-1/3' />
             </div>
-            <div className='img-div flex justify-start md:ml-4'>
+
+            <div className='img-div'>
               <img src={FS19P4} alt='' className='img md:w-1/3' />
             </div>
-          </div>
-          <div className='grid grid-cols-2 md:grid-cols-4 gap-7 md:gap-32 my-7'>
+            
             <div className='img-div'>
               <img src={FS20P4} alt='' className='img' />
             </div>
+
             <div className='img-div'>
               <img src={FS21P4} alt='' className='img' />
             </div>
+
             <div className='img-div'>
               <img src={FS22P4} alt='' className='img' />
             </div>
+
             <div className='img-div'>
               <img src={FS23P4} alt='' className='img' />
             </div>
           </div>
+          
+        
         </div>
       </div>
     </>

@@ -3,18 +3,18 @@ import BhaskarHero from '../../media/BhaskarHero';
 const Hero = () => {
   return (
     <>
-    <div className="img-div">
+    <div className="img-div" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
     <div className='heroimg'>{BhaskarHero}</div>
     </div>
       
-      <div className='my-7'>
+      <div className='my-7' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
         <h1 className='Headings'>GOAL</h1>
         <div className='Contents mt-1'>
           <span className='pink-text'>Design a portfolio</span> for Bhaskar
           Dutta who is a blockchain developer
         </div>
       </div>
-      <div className='my-7'>
+      <div className='my-7' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
         <h1 className='Headings'>CLIENT DEMANDS</h1>
         <div className='Contents mt-1'>
           <ul className='ml-7 list-disc'>
@@ -34,8 +34,8 @@ const Hero = () => {
           </ul>
         </div>
       </div>
-      <div className='my-7'>
-        <h1 className='Headings'>PROBLEM IDENTIFIED</h1>
+      <div className='my-7'  data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
+        <h1 className='Headings'>PROBLEMS IDENTIFIED</h1>
         <div className='Contents mt-1'>
           <ul className='ml-7 list-disc'>
             <li>
@@ -56,7 +56,7 @@ const Hero = () => {
           </ul>
         </div>
       </div>
-      <div className='my-7'>
+      <div className='my-7'  data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
         <h1 className='Headings'>USER RESEARCH</h1>
         <div className='Contents mt-1'>
           <p>
@@ -76,7 +76,7 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <div className='my-7'>
+      <div className='my-7'  data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
         <h1 className='Headings'>IDEATION</h1>
         <div className='Contents mt-1'>
           <p>After interviewing 5 recruiters I summed up -</p>

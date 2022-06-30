@@ -21,7 +21,7 @@ const Hero = () => {
         <h1 className='Headings'>GOAL</h1>
         <div className='Contents mt-1'>
           Design a{' '}
-          <span className='pink-text'>decentralized content creator's hub</span>{' '}
+          <span className='pink-text'>decentralized content creator's hub</span>
           similar to youtube but involving the quirks of{' '}
           <span className='pink-text'>Web3</span> and{' '}
           <span className='pink-text'>Virtual Reality</span>

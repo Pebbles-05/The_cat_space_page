@@ -11,7 +11,7 @@ const Wireframes = () => {
 const data=[BhaskarWireframe1,BhaskarWireframe2,BhaskarWireframe3,BhaskarWireframe4,BhaskarWireframe5,BhaskarWireframe6]
 
   return (
-    <div className='my-7'>
+    <div className='my-7'  data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
       <h1 className='Headings mb-5'>WIREFRAMES</h1>
       <Carousal  data={data}/>
     </div>

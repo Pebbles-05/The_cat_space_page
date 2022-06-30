@@ -10,7 +10,7 @@ import DesignProcess from "../components/Project4Components/DesignProcess";
 
 export default function Project4() {
   return (
-    <div className='container ml-auto mr-auto px-16 md:mx-auto mt-40'>
+    <div className='project4'>
       <Hero />
       <DesignProcess />
       <Moodboard />

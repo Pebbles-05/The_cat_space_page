@@ -217,7 +217,7 @@ const FinalScreens = () => {
           <p className='fsheading' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
             <span className='pink-text'>ZIFCARE GOLD COURSES SCREENS</span> -
           </p>
-          <div className='grid wfgrid' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
+          <div className=' wfgrid' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
             <div className='img-div'>
               <img src={Gold4} alt='' className='img' />
             </div>

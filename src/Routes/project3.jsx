@@ -8,7 +8,7 @@ import Wireframes from '../components/Project3Components/Wireframes';
 
 export default function Project3() {
   return (
-    <div className='container ml-auto mr-auto px-16 md:mx-auto mt-24'>
+    <div className='project3'>
       <Hero />
       <UserFlow />
       <Moodboard />

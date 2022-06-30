@@ -16,11 +16,11 @@ const Moodboard = () => {
             <span className='pink-text'>Attractive</span>
           </p>
           <div className='img-div my-7'>
-            <img src={Plate1} alt='' className='img w-full hidden md:block' />
+            <img src={Plate1} alt='' className='bigimg  hidden md:block' />
             <img
               src={Plate1Phone}
               alt=''
-              className='img w-full block md:hidden'
+              className='bigimg  block md:hidden'
             />
           </div>
           <p className='mt-1'>The moodboard for Torikae -</p>
@@ -29,11 +29,11 @@ const Moodboard = () => {
             <span className='violet-text'>Exclusive</span>
           </p>
           <div className='img-div my-7'>
-            <img src={Plate2} alt='' className='img w-full hidden md:block' />
+            <img src={Plate2} alt='' className='bigimg hidden md:block' />
             <img
               src={Plate2Phone}
               alt=''
-              className='img w-full block md:hidden'
+              className='bigimg block md:hidden'
             />
           </div>
         </div>

@@ -24,6 +24,9 @@ $pp_border2:1em;
       @include media("<=500px"){
          height: 10em;
       }
+      img{
+         width: 100%;
+      }
     
    }
    .pp{
