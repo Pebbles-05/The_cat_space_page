@@ -6,7 +6,7 @@ const Hero = () => {
     <>
       <div className='img-div heroimg-div' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
            
-            <Imagecomp   path="placeholder" num={[""]}  className="heroimg" />
+            <Imagecomp   path="p1aheroimg" num={[""]}  className="heroimg" />
      
       </div>
       <div className='my-7' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">

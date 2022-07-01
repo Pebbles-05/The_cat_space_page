@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Project1Web from "../components/Project1Components/project1Web";
-import Project1App from "../components/Project1Components/project1App";
+import Project1Web from "../Routesubcomponets/Project1Components/project1Web";
+import Project1App from "../Routesubcomponets/Project1Components/project1App";
 
 
 

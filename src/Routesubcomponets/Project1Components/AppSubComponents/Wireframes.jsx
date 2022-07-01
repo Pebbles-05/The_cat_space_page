@@ -14,7 +14,7 @@ const Wireframes = () => {
             to do
           </p>
           <div className='grid wfgrid'>
-            <Imagecomp  path="placeholder" num={num6}  className="img"/>
+            <Imagecomp  path="p1awfimg1" num={num6}  className="img"/>
           </div>
         </div>
       </div>

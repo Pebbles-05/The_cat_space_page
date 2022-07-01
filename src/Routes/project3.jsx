@@ -1,10 +1,10 @@
 import React from 'react';
-import FinalScreens from '../components/Project3Components/FinalScreens';
+import FinalScreens from '../Routesubcomponets/Project3Components/FinalScreens';
 import Creditfooter from '../Routesubcomponets/creditfooter';
-import Hero from '../components/Project3Components/Hero';
-import Moodboard from '../components/Project3Components/Moodboard';
-import UserFlow from '../components/Project3Components/UserFlow';
-import Wireframes from '../components/Project3Components/Wireframes';
+import Hero from '../Routesubcomponets/Project3Components/Hero';
+import Moodboard from '../Routesubcomponets/Project3Components/Moodboard';
+import UserFlow from '../Routesubcomponets/Project3Components/UserFlow';
+import Wireframes from '../Routesubcomponets/Project3Components/Wireframes';
 
 export default function Project3() {
   return (

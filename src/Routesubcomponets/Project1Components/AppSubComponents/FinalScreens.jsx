@@ -20,7 +20,7 @@ const FinalScreens = () => {
           <div className='grid wfgrid' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
          
          
-         <Imagecomp path="placeholder" num={num6} className="img" />
+         <Imagecomp path="p1onboarding1" num={num6} className="img" />
           
           
           </div>
