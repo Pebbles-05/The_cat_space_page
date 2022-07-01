@@ -6,7 +6,7 @@ const Hero = () => {
     <>
       <div className='img-div heroimg-div' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
            
-            <Imagecomp   path="p1aheroimg" num={[""]}  className="heroimg" />
+            <Imagecomp   path="p1a_heroimg" num={[""]}  className="heroimg" />
      
       </div>
       <div className='my-7' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
@@ -124,7 +124,7 @@ const Hero = () => {
           <div className='img-div my-10'>
 
 
-          <Imagecomp className="dpimg"  path="placeholder" num={[""]}/>
+          <Imagecomp className="dpimg"  path="p1a_dpimg" num={[""]}/>
 
 
           </div>
@@ -137,7 +137,7 @@ const Hero = () => {
           <div className='img-div my-10'>
 
 
-          <Imagecomp className="ufimg" path="placeholder" num={[""]}/>
+          <Imagecomp className="ufimg" path="p1a_ufimg" num={[""]}/>
 
           
           </div>

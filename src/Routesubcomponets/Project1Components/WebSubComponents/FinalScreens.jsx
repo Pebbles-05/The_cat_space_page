@@ -1,50 +1,11 @@
-import Carousal1Project1 from '../../../media/Carousal1Project1.png';
-import Carousal2Project1 from '../../../media/Carousal2Project1.png';
-import Carousal3Project1 from '../../../media/Carousal3Project1.png';
-import Carousal4Project1 from '../../../media/Carousal4Project1.png';
-import Carousal5Project1 from '../../../media/Carousal5Project1.png';
-import Carousal6Project1 from '../../../media/Carousal6Project1.png';
-import Carousal7Project1 from '../../../media/Carousal7Project1.png';
-import Carousal8Project1 from '../../../media/Carousal8Project1.png';
-import Carousal9Project1 from '../../../media/Carousal9Project1.png';
-import Carousal10Project1 from '../../../media/Carousal10Project1.png';
-import Carousal11Project1 from '../../../media/Carousal11Project1.png';
-import Carousal13Project1 from '../../../media/Carousal13Project1.png';
-import Carousal12Project1 from '../../../media/Carousal12Project1.png';
-import Carousal14Project1 from '../../../media/Carousal14Project1.png';
-import Carousal15Project1 from '../../../media/Carousal15Project1.png';
-import Carousal16Project1 from '../../../media/Carousal15Project1.png';
-import Carousal17Project1 from '../../../media/Carousal15Project1.png';
-import Carousal18Project1 from '../../../media/Carousal15Project1.png';
-import Carousal19Project1 from '../../../media/Carousal15Project1.png';
-import FinalScreen1Project1 from '../../../media/FinalScreen1Project1.png';
-import FinalScreen2Project1 from '../../../media/FinalScreen2Project1.png';
-import FinalScreen3Project1 from '../../../media/FinalScreen3Project1.png';
-import FinalScreen4Project1 from '../../../media/FinalScreen4Project1.png';
 import Carousal  from '../../../subcomponent/carousal';
 import Imagecomp from '../../../subcomponent/imagecomp';
 
 const FinalScreens = () => {
-  const num3=["","",""];
-  const num4=["","","",""];
-  const num6=["","","","","",""];
-  const data1 = [Carousal3Project1, Carousal2Project1, Carousal1Project1];
-  const data2 = [
-    Carousal4Project1,
-    Carousal5Project1,
-    Carousal6Project1,
-    Carousal7Project1,
-  ];
-  const data3 = [Carousal8Project1, Carousal9Project1, Carousal10Project1];
-  const data4 = [Carousal11Project1, Carousal12Project1, Carousal13Project1];
-  const data5 = [
-    Carousal14Project1,
-    Carousal15Project1,
-    Carousal16Project1,
-    Carousal17Project1,
-    Carousal18Project1,
-    Carousal19Project1,
-  ];
+  const num3=[1,2,3];
+  const num4=[1,2,3,4];
+  const num6=[1,2,3,4,5,6];
+  
   return (
     <>
       <div className='my-7'>
@@ -66,7 +27,7 @@ const FinalScreens = () => {
           </p>
           <div className='img-div my-7' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
 
-              <Imagecomp path="p1wfsimg1" num={['']}  className="img"/>
+              <Imagecomp path="p1w_fsimg1" num={['']}  className="img"/>
 
 
 
@@ -78,7 +39,7 @@ const FinalScreens = () => {
           <div className='img-div my-7' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
             
             
-          <Imagecomp path="placeholder" num={['']}  className="img"/>
+          <Imagecomp path="p1w_fsimg2" num={['']}  className="img"/>
           
           
           
@@ -90,7 +51,7 @@ const FinalScreens = () => {
            
            
            
-            <Carousal path="placeholder"  num={num3} />
+            <Carousal path="p1w_fsc1img"  num={num3} />
           
           
           
@@ -101,7 +62,7 @@ const FinalScreens = () => {
           <div className='my-7' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
            
            
-          <Carousal path="placeholder"  num={num4} />
+          <Carousal path="p1w_fsc2img"  num={num4} />
          
          
           </div>
@@ -112,7 +73,7 @@ const FinalScreens = () => {
           <div className='my-7' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
            
            
-          <Carousal path="placeholder"  num={num3} />
+          <Carousal path="p1w_fsc3img"  num={num3} />
          
          
          
@@ -124,7 +85,7 @@ const FinalScreens = () => {
           <div className='my-7' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
            
            
-          <Carousal path="placeholder"  num={num3} />
+          <Carousal path="p1w_fsc4img"  num={num3} />
           
           
           
@@ -136,7 +97,7 @@ const FinalScreens = () => {
           <div className='img-div my-7' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
           
           
-          <Imagecomp path="placeholder" num={['']}  className="img"/>
+          <Imagecomp path="p1w_fsimg3" num={['']}  className="img"/>
           
           
           </div>
@@ -147,7 +108,7 @@ const FinalScreens = () => {
           <div className='my-7'data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
             
             
-          <Carousal path="placeholder"  num={num6} />
+          <Carousal path="p1w_fsc5img"  num={num6} />
           
           
           
@@ -159,7 +120,7 @@ const FinalScreens = () => {
           <div className='img-div my-7'data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
           
           
-          <Imagecomp path="placeholder" num={['']}  className="img"/>
+          <Imagecomp path="p1w_paginationimg" num={['']}  className="img"/>
           
           
           </div>

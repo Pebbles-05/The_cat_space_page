@@ -2,7 +2,7 @@
 import Imagecomp from '../../../subcomponent/imagecomp';
 
 const Wireframes = () => {
-  const num6= ['','','','','','','','',''];
+  const num9= [1,2,3,4,5,6,7,8,9];
 
   return (
     <>
@@ -14,7 +14,7 @@ const Wireframes = () => {
             to do
           </p>
           <div className='grid wfgrid'>
-            <Imagecomp  path="p1awfimg1" num={num6}  className="img"/>
+            <Imagecomp  path="p1a_wfimg" num={num9}  className="img"/>
           </div>
         </div>
       </div>

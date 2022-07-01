@@ -25,7 +25,7 @@ export default function Carousal({path,num,width}) {
         modules={[Autoplay, Pagination]}
         className="mySwiper"
       >
-          {num.map((num,ind)=>{return <SwiperSlide key={ind}><div className='carousal__img'><img loading='lazy' style={{width:`${width}%`}} src={`https://ik.imagekit.io/catspace/${path + num}.png`} alt={"carousalimg"+ ind} /></div> </SwiperSlide> })}
+          {num.map((num,ind)=>{return <SwiperSlide key={ind}><div className='carousal__img'><img loading='lazy' style={{width:`${width}%`}} src={`https://ik.imagekit.io/thecatspace/catspace_media/${path + num}.png`} alt={"carousalimg"+ ind} /></div> </SwiperSlide> })}
         
         
       </Swiper>

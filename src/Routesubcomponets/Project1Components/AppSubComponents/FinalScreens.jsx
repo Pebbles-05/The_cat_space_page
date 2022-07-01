@@ -2,8 +2,8 @@ import Imagecomp from '../../../subcomponent/imagecomp';
 
 const FinalScreens = () => {
 
-  const num6=["","","","","",""];
-  const num3=["","",""];
+  const num6=[1,2,3,4,5,6];
+  const num3=[1,2,3];
 
 
 
@@ -20,7 +20,7 @@ const FinalScreens = () => {
           <div className='grid wfgrid' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
          
          
-         <Imagecomp path="p1onboarding1" num={num6} className="img" />
+         <Imagecomp path="p1a_fs1img" num={num6} className="img" />
           
           
           </div>
@@ -33,7 +33,7 @@ const FinalScreens = () => {
           <div className='grid wfgrid' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
          
          
-          <Imagecomp path="placeholder" num={num3} className="img" />
+          <Imagecomp path="p1a_fs2img" num={num3} className="img" />
           
           
           </div>
@@ -44,7 +44,7 @@ const FinalScreens = () => {
           <div className='grid wfgrid' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
           
           
-          <Imagecomp path="placeholder" num={num6} className="img" />
+          <Imagecomp path="p1a_fs3img" num={num6} className="img" />
           
           
           </div>
@@ -54,7 +54,7 @@ const FinalScreens = () => {
           <div className='grid wfgrid' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
           
           
-          <Imagecomp path="placeholder" num={num3} className="img" />
+          <Imagecomp path="p1a_fs4img" num={num3} className="img" />
           
           
           </div>
@@ -64,7 +64,7 @@ const FinalScreens = () => {
           <div className='grid wfgrid' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
           
           
-          <Imagecomp path="placeholder" num={num3} className="img" />
+          <Imagecomp path="p1a_fs5img" num={num3} className="img" />
           
           
           </div>
@@ -77,7 +77,7 @@ const FinalScreens = () => {
             <div className='grid wfgrid' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
             
             
-              <Imagecomp path="placeholder" num={num3} className="img" />
+              <Imagecomp path="p1a_fs6img" num={num3} className="img" />
             
             
             </div>
@@ -88,7 +88,7 @@ const FinalScreens = () => {
           <div className='grid wfgrid' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
           
           
-          <Imagecomp path="placeholder" num={num3} className="img" />
+          <Imagecomp path="p1a_fs7img" num={num3} className="img" />
           
           
           </div>
@@ -98,7 +98,7 @@ const FinalScreens = () => {
           <div className='grid wfgrid' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
           
           
-          <Imagecomp path="placeholder" num={num6} className="img" />
+          <Imagecomp path="p1a_fs8img" num={num6} className="img" />
           
           
           </div>
@@ -113,7 +113,7 @@ const FinalScreens = () => {
             <div className='grid wfgrid' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
             
             
-            <Imagecomp path="placeholder" num={num3} className="img" />
+            <Imagecomp path="p1a_fs9img" num={num3} className="img" />
             
             
             </div>
@@ -124,7 +124,7 @@ const FinalScreens = () => {
           <div className=' wfgrid' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
           
           
-          <Imagecomp path="placeholder" num={num3} className="img" />
+          <Imagecomp path="p1a_fs10img" num={num3} className="img" />
           
           
           </div>
