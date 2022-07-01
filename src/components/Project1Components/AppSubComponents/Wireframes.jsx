@@ -1,16 +1,8 @@
-import Wireframe1Project1 from '../../../media/Wireframe1Project1.png';
-import Wireframe2Project1 from '../../../media/Wireframe2Project1.png';
-import Wireframe3Project1 from '../../../media/Wireframe3Project1.png';
-import Wireframe4Project1 from '../../../media/Wireframe4Project1.png';
-import Wireframe5Project1 from '../../../media/Wireframe5Project1.png';
-import Wireframe6Project1 from '../../../media/Wireframe6Project1.png';
-import Wireframe7Project1 from '../../../media/Wireframe7Project1.png';
-import Wireframe8Project1 from '../../../media/Wireframe8Project1.png';
-import Wireframe9Project1 from '../../../media/Wireframe9Project1.png';
+
 import Imagecomp from '../../../subcomponent/imagecomp';
 
 const Wireframes = () => {
-  const wfgriddata= [Wireframe1Project1,Wireframe2Project1,Wireframe3Project1,Wireframe4Project1,Wireframe5Project1,Wireframe6Project1,Wireframe7Project1,Wireframe8Project1,Wireframe9Project1]
+  const num6= ['','','','','','','','',''];
 
   return (
     <>
@@ -22,7 +14,7 @@ const Wireframes = () => {
             to do
           </p>
           <div className='grid wfgrid'>
-            <Imagecomp  data={wfgriddata}/>
+            <Imagecomp  path="placeholder" num={num6}  className="img"/>
           </div>
         </div>
       </div>

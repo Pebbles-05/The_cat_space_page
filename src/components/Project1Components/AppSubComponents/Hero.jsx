@@ -1,12 +1,13 @@
-import AppHero from '../../../media/AppHero.png';
-import DesignProcess from '../../../media/DesignProcess.png';
-import UserFlow from '../../../media/UserFlow.png';
+
+import Imagecomp from '../../../subcomponent/imagecomp';
 
 const Hero = () => {
   return (
     <>
       <div className='img-div heroimg-div' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
-        <img src={AppHero} alt='' className='heroimg' />
+           
+            <Imagecomp   path="placeholder" num={[""]}  className="heroimg" />
+     
       </div>
       <div className='my-7' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
         <h1 className='Headings'>GOAL</h1>
@@ -121,7 +122,11 @@ const Hero = () => {
         <div className='Contents mt-1'>
           <p className='mb-2'>I followed the double diamond process</p>
           <div className='img-div my-10'>
-            <img src={DesignProcess} alt='' className='dpimg' />
+
+
+          <Imagecomp className="dpimg"  path="placeholder" num={[""]}/>
+
+
           </div>
         </div>
       </div>
@@ -130,7 +135,11 @@ const Hero = () => {
         <div className='Contents mt-1'>
           <p className='mb-2'>I made the user flow on <span className='pink-text'>figjam</span></p>
           <div className='img-div my-10'>
-            <img src={UserFlow} alt='' className='ufimg' />
+
+
+          <Imagecomp className="ufimg" path="placeholder" num={[""]}/>
+
+          
           </div>
         </div>
       </div>

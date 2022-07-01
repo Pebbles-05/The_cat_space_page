@@ -22,8 +22,12 @@ import FinalScreen2Project1 from '../../../media/FinalScreen2Project1.png';
 import FinalScreen3Project1 from '../../../media/FinalScreen3Project1.png';
 import FinalScreen4Project1 from '../../../media/FinalScreen4Project1.png';
 import Carousal  from '../../../subcomponent/carousal';
+import Imagecomp from '../../../subcomponent/imagecomp';
 
 const FinalScreens = () => {
+  const num3=["","",""];
+  const num4=["","","",""];
+  const num6=["","","","","",""];
   const data1 = [Carousal3Project1, Carousal2Project1, Carousal1Project1];
   const data2 = [
     Carousal4Project1,
@@ -61,61 +65,103 @@ const FinalScreens = () => {
             the pages.
           </p>
           <div className='img-div my-7' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
-            <img src={FinalScreen1Project1} alt='' className='img' />
+
+              <Imagecomp path="p1wfsimg1" num={['']}  className="img"/>
+
+
+
           </div>
           <p className='my-4' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
             <span className='pink-text'>PROFILE DASHBOARD</span> - The profile
             dashboard for making navigation through saved items easy
           </p>
           <div className='img-div my-7' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
-            <img src={FinalScreen2Project1} alt='' className='img' />
+            
+            
+          <Imagecomp path="placeholder" num={['']}  className="img"/>
+          
+          
+          
           </div>
           <p className='my-4' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
             <span className='pink-text'>ORGANIZATION SIGN-UP SECTIONS -</span>
           </p>
           <div className='my-7' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
-            <Carousal  data={data1} />
+           
+           
+           
+            <Carousal path="placeholder"  num={num3} />
+          
+          
+          
           </div>
           <p className='my-4' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
             <span className='pink-text'>BOOKING A CONSULTANT STEPS - </span>
           </p>
           <div className='my-7' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
-            <Carousal  data={data2} />
+           
+           
+          <Carousal path="placeholder"  num={num4} />
+         
+         
           </div>
           <p className='my-4' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
             <span className='pink-text'>JOURNAL ENTRY SECTIONS </span> - It is
             basically a digital diary
           </p>
           <div className='my-7' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
-            <Carousal  data={data3} />
+           
+           
+          <Carousal path="placeholder"  num={num3} />
+         
+         
+         
           </div>
           <p className='my-4' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
             <span className='pink-text'>CONTENT SCREENS</span> - I added card
             hover animations for all content cards
           </p>
           <div className='my-7' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
-            <Carousal  data={data4} />
+           
+           
+          <Carousal path="placeholder"  num={num3} />
+          
+          
+          
           </div>
           <p className='my-4' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
             <span className='pink-text'>AUTHOR SCREEN</span> - A screen that
             sums up all the content written by a author in zifcare
           </p>
           <div className='img-div my-7' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
-            <img src={FinalScreen3Project1} alt='' className='img' />
+          
+          
+          <Imagecomp path="placeholder" num={['']}  className="img"/>
+          
+          
           </div>
           <p className='my-4'data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
             <span className='pink-text'>ZIFCARE GOLD HERO SECTION</span> - I
             redesigned the zifcare gold pitch page for non - gold zifcare users
           </p>
           <div className='my-7'data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
-            <Carousal  data={data5} />
+            
+            
+          <Carousal path="placeholder"  num={num6} />
+          
+          
+          
           </div>
           <p className='my-4'data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
             <span className='pink-text'>UNIQUE PAGINATION</span> - I indepently
             thought an unique pagination idea
           </p>
           <div className='img-div my-7'data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
-            <img src={FinalScreen4Project1} alt='' className='img' />
+          
+          
+          <Imagecomp path="placeholder" num={['']}  className="img"/>
+          
+          
           </div>
           <p className='my-4'data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
             I re-designed the rest of the screens following the style guide I

@@ -135,7 +135,7 @@ img{
       margin-top: 1em;
       margin-right: 1em;
       @include media("<=1000px"){
-        width: 2.5em;
+        width: 1.5em;
         transform: rotate(90deg);
         margin: 0;
        }

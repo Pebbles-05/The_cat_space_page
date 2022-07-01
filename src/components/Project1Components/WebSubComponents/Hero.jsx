@@ -1,9 +1,10 @@
+import Imagecomp from "../../../subcomponent/imagecomp";
 
 const Hero = () => {
   return (
     <>
       <div className='img-div heroimg-div'  data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
-        <img loading="lazy" src="https://ik.imagekit.io/thecatspace/catspace_media/p1wheroimg.png" alt='heroimg' className='heroimg' />
+        <Imagecomp path="p1wheroimg" num={[""]} className="heroimg" />
       </div>
       <div className='Contents mt-1' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
         Zifcare is a self development platform which helps users cope up with

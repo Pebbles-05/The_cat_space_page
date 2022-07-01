@@ -1,5 +1,4 @@
-import moodboard from '../../../media/moodboard1.png';
-import MoodBoardMobile from '../../../media/MoodBoardMobile.png';
+import Imagecomp from '../../../subcomponent/imagecomp';
 
 const Moodboard = () => {
   return (
@@ -15,13 +14,12 @@ const Moodboard = () => {
           making the contrast 80.9%
         </div>
         <div className='img-div my-7'>
-          <img src={moodboard} alt='' className=' bigimg hidden md:block' />
-          <img
-            src={MoodBoardMobile}
-            alt=''
-            className=' bigimg block md:hidden'
-          />
-        </div>
+
+          <Imagecomp path="p1wmoodboardimg1" num={[""]} className="bigimg hidden md:block" />
+          <Imagecomp path="p1wmoodboard2" num={[""]} className="bigimg block md:hidden" />
+        
+        
+      </div>
       </div>
     </>
   );

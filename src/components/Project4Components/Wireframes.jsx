@@ -27,16 +27,16 @@ const Wireframes = () => {
         </div>
         <div className='p4wfgrid'>
           <div className='img-div'>
-            <img src={Wireframe1Project4} alt=''  />
+            <img src={Wireframe1Project4} alt='' />
           </div>
           <div className='img-div'>
-            <img src={Wireframe2Project4} alt=''  />
+            <img src={Wireframe2Project4} alt='' />
           </div>
           <div className='img-div'>
-            <img src={Wireframe3Project4} alt=''  />
+            <img src={Wireframe3Project4} alt='' />
           </div>
           <div className='img-div'>
-            <img src={Wireframe4Project4} alt=''  />
+            <img src={Wireframe4Project4} alt='' />
           </div>
         </div>
       </div>

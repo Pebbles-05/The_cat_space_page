@@ -1,10 +1,10 @@
 import React from 'react'
 
-export default function Imagecomp({data}) {
+export default function Imagecomp({path,num,className}) {
   return (
     <>
-    {data.map((dta,ind)=>{ return <div key={ind} className='img-div '>
-              <img src={dta} alt='img' className='img' />
+    {num.map((num,ind)=>{ return <div key={ind} className="img-div">
+              <img loading='lazy' src={`https://ik.imagekit.io/catspace/${path + num}.png`} alt='img' className={`${className}`} />
             </div>  })}
     </>
   )
