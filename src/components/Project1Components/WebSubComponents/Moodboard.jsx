@@ -15,8 +15,8 @@ const Moodboard = () => {
         </div>
         <div className='img-div my-7'>
 
-          <Imagecomp path="p1wmoodboardimg1" num={[""]} className="bigimg hidden md:block" />
-          <Imagecomp path="p1wmoodboard2" num={[""]} className="bigimg block md:hidden" />
+          <Imagecomp path="p1wmoodboard1" num={[""]} className="bigimg hidden md:block" />
+          <Imagecomp path="p1wmoodboard2new" num={[""]} className="bigimg block md:hidden" />
         
         
       </div>
