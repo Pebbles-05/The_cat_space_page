@@ -6,7 +6,7 @@ const Moodboard = () => {
       <h1 className='Headings'>MOODBOARD</h1>
       <div className='img-div mt-7'>
         <Imagecomp path="p2_mb1" num={[""]}  className="bigimg w-full hidden md:block" />
-        <Imagecomp path="p2_mb2" num={[""]}  className="bigimg w-full md:hidden block" />
+        <Imagecomp path="p2_mb2new" num={[""]}  className="bigimg w-full md:hidden block" />
       </div>
     </div>
   );

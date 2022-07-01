@@ -16,7 +16,7 @@ const FinalScreens = () => {
         </p>
         <div className='mt-4 md:mt-7'  data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
           
-          <Imagecomp path="p2_fsimg1" num={[""]} className="img" />
+          <Imagecomp path="testing/p2_fsimg1test" num={[""]} className="img" />
        
         </div>
         <p className='mt-4 md:mt-7'  data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
@@ -26,7 +26,7 @@ const FinalScreens = () => {
         <div className='my-7'  data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
          
          
-          <Carousal path="p2_fsimg1" num={num4} />
+          <Carousal path="placeholder" num={num4} />
         
         
         </div>
