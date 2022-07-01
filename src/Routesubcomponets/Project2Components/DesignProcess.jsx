@@ -7,31 +7,31 @@ const DesignProcess = () => {
         <h1 className='Headings'>DESIGN PROCESS</h1>
         <div className='Contents mt-4'>
           <div className='dpflex'>
-            <div className='flex justify-center  step'>
+            <div className='flex   step'>
               <p>Ideate</p>
             </div>
             <div className='arrow'>
               {Arrow}
             </div>
-            <div className='flex justify-center step'>
+            <div className='flex  step'>
               <p>Design Iteration 1</p>
             </div>
             <div className='arrow'>
               {Arrow}
             </div>
-            <div className='flex justify-center step'>
+            <div className='flex  step'>
               <p>User Testing</p>
             </div>
             <div className='arrow'>
               {Arrow}
             </div>
-            <div className='flex justify-center step'>
+            <div className='flex  step'>
               <p>Design Iteration 2</p>
             </div>
             <div className='arrow'>
               {Arrow}
             </div>
-            <div className='flex justify-center step'>
+            <div className='flex  step'>
               <p>Deliver</p>
             </div>
           </div>

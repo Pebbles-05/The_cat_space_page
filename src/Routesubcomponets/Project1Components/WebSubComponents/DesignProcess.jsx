@@ -1,5 +1,4 @@
 import Arrow from '../../../media/Arrow';
-import UserFlow1 from '../../../media/UserFlow1.png';
 
 const DesignProcess = () => {
   return (

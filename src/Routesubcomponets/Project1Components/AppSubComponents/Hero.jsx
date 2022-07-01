@@ -6,7 +6,7 @@ const Hero = () => {
     <>
       <div className='img-div heroimg-div' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
            
-            <Imagecomp   path="p1a_heroimg" num={[""]}  className="heroimg" />
+      <img loading="eager" src="https://ik.imagekit.io/thecatspace/catspace_media/p1a_heroimg.png" alt="img" className="heroimg" />
      
       </div>
       <div className='my-7' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">

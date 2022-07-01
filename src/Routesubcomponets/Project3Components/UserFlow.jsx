@@ -1,4 +1,4 @@
-import FlowChart from '../../media/FlowChart.png';
+
 
 const UserFlow = () => {
   return (

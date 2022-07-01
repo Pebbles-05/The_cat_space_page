@@ -1,5 +1,4 @@
-import MoodboardWiggle from '../../media/MoodboardWiggle.png';
-import MoodboarNeko from '../../media/MoodboarNeko.png';
+
 
 const Moodboard = () => {
   return (

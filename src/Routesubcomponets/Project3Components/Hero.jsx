@@ -1,5 +1,3 @@
-import lappy from '../../media/Project3Lappy.png';
-import lappy2 from '../../media/Project3Lappy2.png';
 import '../../styles/app.scss';
 
 const Hero = () => {

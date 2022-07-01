@@ -1,11 +1,3 @@
-import Wireframe1Project4 from '../../media/Wireframe1Project4.png';
-import Wireframe2Project4 from '../../media/Wireframe2Project4.png';
-import Wireframe3Project4 from '../../media/Wireframe3Project4.png';
-import Wireframe4Project4 from '../../media/Wireframe4Project4.png';
-import Wireframe5Project4 from '../../media/Wireframe5Project4.png';
-import Wireframe6Project4 from '../../media/Wireframe6Project4.png';
-import Wireframe7Project4 from '../../media/Wireframe8Project4.png';
-import Wireframe8Project4 from '../../media/Wireframe8Project4.png';
 
 const Wireframes = () => {
   return (

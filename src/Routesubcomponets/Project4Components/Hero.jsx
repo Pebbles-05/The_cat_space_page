@@ -1,4 +1,4 @@
-import WiggleHero from '../../media/WiggleHero.png';
+
 
 const Hero = () => {
   return (

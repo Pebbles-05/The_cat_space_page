@@ -1,26 +1,4 @@
-import FS1P4 from '../../media/FS1P4.png';
-import FS2P4 from '../../media/FS2P4.png';
-import FS3P4 from '../../media/FS3P4.png';
-import FS4P4 from '../../media/FS4P4.png';
-import FS5P4 from '../../media/FS5P4.png';
-import FS6P4 from '../../media/FS6P4.png';
-import FS7P4 from '../../media/FS7P4.png';
-import FS8P4 from '../../media/FS8P4.png';
-import FS9P4 from '../../media/FS9P4.png';
-import FS10P4 from '../../media/FS10P4.png';
-import FS11P4 from '../../media/FS11P4.png';
-import FS12P4 from '../../media/FS12P4.png';
-import FS13P4 from '../../media/FS13P4.png';
-import FS14P4 from '../../media/FS14P4.png';
-import FS15P4 from '../../media/FS15P4.png';
-import FS16P4 from '../../media/FS16P4.png';
-import FS17P4 from '../../media/FS17P4.png';
-import FS18P4 from '../../media/FS18P4.png';
-import FS19P4 from '../../media/FS19P4.png';
-import FS20P4 from '../../media/FS20P4.png';
-import FS21P4 from '../../media/FS21P4.png';
-import FS22P4 from '../../media/FS22P4.png';
-import FS23P4 from '../../media/FS23P4.png';
+
 
 const FinalScreens = () => {
   return (

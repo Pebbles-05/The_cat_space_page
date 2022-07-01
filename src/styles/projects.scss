@@ -343,6 +343,12 @@ img{
 }
 
   .dpflex{
+    .step{
+      text-align: left;
+      @include media("<=1000px"){
+        text-align: center;
+       }
+    }
 
     .arrow{
       margin-top: 0.5em;

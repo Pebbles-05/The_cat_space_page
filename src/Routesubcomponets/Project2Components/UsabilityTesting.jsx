@@ -1,7 +1,4 @@
-import BhaskarUT1 from '../../media/BhaskarUT1.svg';
-import BhaskarUT2 from '../../media/BhaskarUT2.svg';
-import BhaskarUT3 from '../../media/BhaskarUT3.svg';
-
+import Imagecomp from "../../subcomponent/imagecomp";
 const UsabilityTesting = () => {
   return (
     <>
@@ -23,7 +20,9 @@ const UsabilityTesting = () => {
               <p>Before :</p>
             </div>
             <div className='col-span-12 lg:col-span-10 utimg-div'>
-              <img  src={BhaskarUT1} alt='' />
+            
+            <img loading="lazy" src="https://ik.imagekit.io/thecatspace/catspace_media/placeholder.png" alt="img" />
+           
             </div>
           </div>
           <p className='mt-4'>
@@ -35,7 +34,9 @@ const UsabilityTesting = () => {
               <p>After :</p>
             </div>
             <div className='col-span-12 lg:col-span-10 utimg-div'>
-              <img  src={BhaskarUT2} alt=''  />
+            
+            <img loading="lazy" src="https://ik.imagekit.io/thecatspace/catspace_media/placeholder.png" alt="img" />
+            
             </div>
           </div>
           <p className='mt-4'>
@@ -48,7 +49,9 @@ const UsabilityTesting = () => {
             the hero section for easier comprehension
           </p>
           <div className='img-div mt-4 md:mt-7'>
-            <img src={BhaskarUT3} alt='' className='img' />
+          
+          <Imagecomp path="placeholder" num={[""]} className="img" />
+          
           </div>
           <p className='mt-4'>
             <span className='pink-text'>Problem 3</span> : The portfolio was too

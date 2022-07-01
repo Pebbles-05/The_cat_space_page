@@ -1,6 +1,9 @@
-import React from 'react'
+
 
 export default function Imagecomp({path,num,className}) {
+
+
+
   return (
     <>
     {num.map((num,ind)=>{ return <div key={ind} className="img-div">

@@ -1,7 +1,4 @@
-import Plate1 from '../../media/moodboard neko.png';
-import Plate2 from '../../media/moodboard torikae.png';
-import Plate1Phone from '../../media/Plate1Phone.png';
-import Plate2Phone from '../../media/Plate2Phone.png';
+
 
 const Moodboard = () => {
   return (

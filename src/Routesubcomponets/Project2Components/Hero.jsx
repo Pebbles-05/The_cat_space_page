@@ -1,10 +1,13 @@
-import BhaskarHero from '../../media/BhaskarHero';
+import Imagecomp from "../../subcomponent/imagecomp";
 
 const Hero = () => {
   return (
     <>
     <div className="img-div" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
-    <div className='heroimg'>{BhaskarHero}</div>
+    
+      <img loading="eager" src="https://ik.imagekit.io/thecatspace/catspace_media/p2_heroimg.png" alt="img" className="heroimg" />
+
+
     </div>
       
       <div className='my-7' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">

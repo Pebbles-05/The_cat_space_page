@@ -4,7 +4,10 @@ const Hero = () => {
   return (
     <>
       <div className='img-div heroimg-div'  data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
-        <Imagecomp path="p1w_heroimg" num={[""]} className="heroimg" />
+      
+       <img loading="eager" src="https://ik.imagekit.io/thecatspace/catspace_media/p1w_heroimg.png" alt="img" className="heroimg" />
+      
+      
       </div>
       <div className='Contents mt-1' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
         Zifcare is a self development platform which helps users cope up with
