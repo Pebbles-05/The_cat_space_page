@@ -1,12 +1,11 @@
 import Carousal from '../../subcomponent/carousal';
+import Imagecomp from '../../subcomponent/imagecomp';
 
 const FinalScreens = () => {
-  const data1 = [Carousel1Img1, Carousel1Img2, Carousel1Img3, Carousel1Img4];
-  const data2 = [Carousel2Img1, Carousel2Img2, Carousel2Img3, Carousel2Img4];
-  const data3 = [Carousel3Img1, Carousel3Img2, Carousel3Img3, Carousel3Img4];
-  const data4 = [Carousel4Img1, Carousel4Img2, Carousel4Img3, Carousel4Img4];
-  const data5 = [Carousel5Img1, Carousel5Img2, Carousel5Img3, Carousel5Img4];
-  const data6 = [Carousel6Img1, Carousel6Img2, Carousel6Img3, Carousel6Img4];
+
+
+const num4=["","","",""];
+
   return (
     <div className='my-7'>
       <h1 className='Headings' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">FINAL SCREENS OF NEKOMIMI</h1>
@@ -20,41 +19,42 @@ const FinalScreens = () => {
         </div>
        
         <div className='img-div mb-7' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
-          <img src={FinalScreen1} alt='' className='img' />
+          
+          <Imagecomp path="placeholder" num={[""]} className="img" />
         </div>
         <div className='img-div my-11data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true"' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true"> 
-          <img src={FinalScreen2} alt='' className='img' />
+        <Imagecomp path="placeholder" num={[""]} className="img" />
         </div>
         <h1 className='pink-text my-7' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">VIDEO PLAYER SCREENS - </h1>
         <div className='img-div mb-7'data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
-          <img src={FinalScreen3} alt='' className='img' />
+        <Imagecomp path="placeholder" num={[""]} className="img" />
         </div>
         <div className='img-div my-11 mb-0'data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
-          <img src={FinalScreen4} alt='' className='img' />
+        <Imagecomp path="placeholder" num={[""]} className="img" />
         </div>
         <h4 className='pink-text my-7'data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">ACCOUNT MANAGEMENT SCREENS - </h4>
         <div className='img-div mb-7'>
-          <img src={FinalScreen5} alt='' className='img' />
+        <Imagecomp path="placeholder" num={[""]} className="img" />
         </div>
         <div className='img-div my-11 mb-0'data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
-          <img src={FinalScreen6} alt='' className='img' />
+        <Imagecomp path="placeholder" num={[""]} className="img" />
         </div>
         <h4 className='my-7' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
           <span className='pink-text '>VIDEO UPLOAD SCREENS - </span> One
           can either upload your video instantly or schedule it for later
         </h4>
         <div className='my-7' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
-          <Carousal data={data1} />
+          <Carousal path="placeholder" num={num4} />
         </div>
         <div className='my-7'data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
-          <Carousal data={data2} />
+        <Carousal path="placeholder" num={num4} />
         </div>
         <h4 className='pink-text my-7'>LIVE STREAM SCREENS - </h4>
         <div className='my-7'data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
-          <Carousal data={data3} />
+        <Carousal path="placeholder" num={num4} />
         </div>
         <div className='my-7'data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
-          <Carousal data={data4} />
+        <Carousal path="placeholder" num={num4} />
         </div>
         <h4 data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
           <span className='pink-text my-7'>WEBCAM STREAM SCREENS -</span> One
@@ -62,27 +62,27 @@ const FinalScreens = () => {
           same for both. I am just highlighting it here for webcam streams{' '}
         </h4>
         <div className='my-7' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
-          <Carousal data={data5} />
+        <Carousal path="placeholder" num={num4} />
         </div>
         <div className='my-7' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
-          <Carousal data={data6} />
+        <Carousal path="placeholder" num={num4} />
         </div>
         <h4 className='pink-text my-7' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">LIKED VIDEOS SCREENS - </h4>
         <div className='img-div mb-7' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
-          <img src={FinalScreen7} alt='' className='img' />
+        <Imagecomp path="placeholder" num={[""]} className="img" />
         </div>
         <div className='img-div my-11' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
-          <img src={FinalScreen8} alt='' className='img' />
+        <Imagecomp path="placeholder" num={[""]} className="img" />
         </div>
       </div>
       <h1 className='Headings' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">FINAL SCREENS OF TORIKAE</h1>
       <div className='Contents mt-1' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
         <h4 className='pink-text my-7'>HOME SCREENS - </h4>
         <div className='img-div mb-7'>
-          <img src={FinalScreen9} alt='' className='img' />
+        <Imagecomp path="placeholder" num={[""]} className="img" />
         </div>
         <div className='img-div my-11'>
-          <img src={FinalScreen10} alt='' className='img' />
+        <Imagecomp path="placeholder" num={[""]} className="img" />
         </div>
       </div>
       <div className='flex justify-center my-7' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">

@@ -1,10 +1,12 @@
-import '../../styles/app.scss';
+import Imagecomp from "../../subcomponent/imagecomp";
 
 const Hero = () => {
   return (
     <>
       <div className='img-div heroimg-div' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
-        <img src={lappy} alt='' className='heroimg' />
+     
+      <img loading="eager" src="https://ik.imagekit.io/thecatspace/catspace_media/placeholder.png" alt="heroimg" className="heroimg" />
+     
       </div>
       <div className='my-7' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
         <h1 className='Headings'>PROJECT BRIEF</h1>
@@ -79,7 +81,7 @@ const Hero = () => {
         </div>
       </div>
       <div className='img-div heroimg-div' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
-        <img src={lappy2} alt='' className='heroimg' />
+      <Imagecomp path="placeholder" num={[""]} className="heroimg" />
       </div>
     </>
   );

@@ -1,5 +1,11 @@
+import Imagecomp from "../../subcomponent/imagecomp";
+
+
 
 const Wireframes = () => {
+
+const num4=["","","",""];
+
   return (
     <>
       <div data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
@@ -18,18 +24,9 @@ const Wireframes = () => {
           </ul>
         </div>
         <div className='p4wfgrid'>
-          <div className='img-div'>
-            <img src={Wireframe1Project4} alt='' />
-          </div>
-          <div className='img-div'>
-            <img src={Wireframe2Project4} alt='' />
-          </div>
-          <div className='img-div'>
-            <img src={Wireframe3Project4} alt='' />
-          </div>
-          <div className='img-div'>
-            <img src={Wireframe4Project4} alt='' />
-          </div>
+        
+        <Imagecomp path="placeholder" num={num4} />
+        
         </div>
       </div>
       <div data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
@@ -57,18 +54,10 @@ const Wireframes = () => {
             <span className='pink-text '>Bonus </span> : I also made the profile screen wireframes more detailed
           </p>
           <div className='p4wfgrid'>
-            <div className='img-div'>
-              <img src={Wireframe5Project4} alt=''  />
-            </div>
-            <div className='img-div'>
-              <img src={Wireframe6Project4} alt=''  />
-            </div>
-            <div className='img-div'>
-              <img src={Wireframe7Project4} alt=''  />
-            </div>
-            <div className='img-div'>
-              <img src={Wireframe8Project4} alt=''  />
-            </div>
+          
+          
+          <Imagecomp path="placeholder" num={num4} />
+         
           </div>
           <p className='my-2'>
             <span className='pink-text '>Review</span> : “How would I know if the

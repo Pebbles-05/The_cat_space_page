@@ -1,4 +1,4 @@
-
+import Imagecomp from "../../subcomponent/imagecomp";
 
 const UserFlow = () => {
   return (
@@ -12,7 +12,8 @@ const UserFlow = () => {
         </div>
       </div>
       <div className='img-div' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
-        <img src={FlowChart} alt='' className='ufimg' />
+      <Imagecomp path="placeholder" num={[""]} className="ufimg" />
+       
       </div>
     </>
   );
