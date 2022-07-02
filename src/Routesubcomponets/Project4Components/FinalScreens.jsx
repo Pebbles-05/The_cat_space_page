@@ -3,7 +3,7 @@ import Imagecomp from "../../subcomponent/imagecomp";
 const FinalScreens = () => {
 
 const num3=[1,2,3];
-const num6=["","","","","",""];
+const num6=[1,2,3,4,5,6];
 
 
   return (
@@ -45,7 +45,7 @@ const num6=["","","","","",""];
           <div className='wfgrid' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
           
           
-          <Imagecomp path="p4_fs2img" num={num3} />
+          <Imagecomp path="p4_fs2img.m" num={num3} />
           
           
           </div>
@@ -55,7 +55,7 @@ const num6=["","","","","",""];
           <div className='wfgrid' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
           
           
-          <Imagecomp path="placeholder" num={num3} />
+          <Imagecomp path="p4_fs3img" num={num3} />
           
           
           </div>
@@ -65,7 +65,7 @@ const num6=["","","","","",""];
           <div className='wfgrid' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
           
           
-          <Imagecomp path="placeholder" num={num3} />
+          <Imagecomp path="p4_fs4img" num={num3} />
           
           
           </div>
@@ -78,7 +78,7 @@ const num6=["","","","","",""];
           </p>
           <div className='wfgrid' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
           
-          <Imagecomp path="placeholder" num={num6} />
+          <Imagecomp path="p4_fs5img" num={num6} />
           
           </div>
           <p className='mt-7 mb-3' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">WIGGLER INTERFACE</p>
@@ -88,7 +88,7 @@ const num6=["","","","","",""];
             </span>
           </p>
           <div className="wfgrid" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
-          <Imagecomp path="placeholder" num={num3} className="img" />
+          <Imagecomp path="p4_fs6img" num={num6} className="img" />
           </div>
           
         
