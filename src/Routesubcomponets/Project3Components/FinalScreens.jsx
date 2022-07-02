@@ -4,7 +4,7 @@ import Imagecomp from '../../subcomponent/imagecomp';
 const FinalScreens = () => {
 
 
-const num4=["","","",""];
+const num4=[1,2,3,4];
 
   return (
     <div className='my-7'>
@@ -20,46 +20,46 @@ const num4=["","","",""];
        
         <div className=' mb-7' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
           
-          <Imagecomp path="testing/test" num={[""]} className="img" />
+          <Imagecomp path="p3_fsimg1" num={[""]} className="img" />
        
         </div>
         <div className=' my-11data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true"' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true"> 
        
-        <Imagecomp path="testing/p3_fsimg2" num={[""]} className="img" />
+        <Imagecomp path="p3_fsimg2" num={[""]} className="img" />
         
         </div>
         <h1 className='pink-text my-7' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">VIDEO PLAYER SCREENS - </h1>
         <div className=' mb-7'data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
         
-        <Imagecomp path="testing/p3_fsimg3" num={[""]} className="img" />
+        <Imagecomp path="p3_fsimg3M" num={[""]} className="img" />
         
         </div>
         <div className='my-11 mb-0'data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
-        <Imagecomp path="testing/p3_fsimg4" num={[""]} className="img" />
+        <Imagecomp path="p3_fsimg4M" num={[""]} className="img" />
         </div>
         <h4 className='pink-text my-7'data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">ACCOUNT MANAGEMENT SCREENS - </h4>
         <div className=' mb-7' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
-        <Imagecomp path="testing/p3_fsimg5" num={[""]} className="img" />
+        <Imagecomp path="p3_fsimg5" num={[""]} className="img" />
         </div>
         <div className=' my-11 mb-0'data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
-        <Imagecomp path="testing/p3_fsimg6" num={[""]} className="img" />
+        <Imagecomp path="p3_fsimg6" num={[""]} className="img" />
         </div>
         <h4 className='my-7' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
           <span className='pink-text '>VIDEO UPLOAD SCREENS - </span> One
           can either upload your video instantly or schedule it for later
         </h4>
         <div className='my-7' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
-          <Carousal path="placeholder" num={num4} />
+          <Carousal path="p3_fsc1imgM" num={num4} />
         </div>
         <div className='my-7'data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
-        <Carousal path="placeholder" num={num4} />
+        <Carousal path="p3_fsc2img" num={num4} />
         </div>
         <h4 className='pink-text my-7'>LIVE STREAM SCREENS - </h4>
         <div className='my-7'data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
-        <Carousal path="placeholder" num={num4} />
+        <Carousal path="p3_fsc3img" num={num4} />
         </div>
         <div className='my-7'data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
-        <Carousal path="placeholder" num={num4} />
+        <Carousal path="p2_fsc4img" num={num4} />
         </div>
         <h4 data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
           <span className='pink-text my-7'>WEBCAM STREAM SCREENS -</span> One
@@ -67,27 +67,27 @@ const num4=["","","",""];
           same for both. I am just highlighting it here for webcam streams{' '}
         </h4>
         <div className='my-7' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
-        <Carousal path="placeholder" num={num4} />
+        <Carousal path="p2_fsc5img" num={num4} />
         </div>
         <div className='my-7' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
-        <Carousal path="placeholder" num={num4} />
+        <Carousal path="p2_fsc6img" num={num4} />
         </div>
         <h4 className='pink-text my-7' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">LIKED VIDEOS SCREENS - </h4>
         <div className=' mb-7' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
-        <Imagecomp path="placeholder" num={[""]} className="img" />
+        <Imagecomp path="p2_fsimg7" num={[""]} className="img" />
         </div>
         <div className=' my-11' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
-        <Imagecomp path="placeholder" num={[""]} className="img" />
+        <Imagecomp path="p2_fsimg8" num={[""]} className="img" />
         </div>
       </div>
       <h1 className='Headings' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">FINAL SCREENS OF TORIKAE</h1>
       <div className='Contents mt-1' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
         <h4 className='pink-text my-7'>HOME SCREENS - </h4>
         <div className=' mb-7'>
-        <Imagecomp path="placeholder" num={[""]} className="img" />
+        <Imagecomp path="p2_fsimg9" num={[""]} className="img" />
         </div>
         <div className=' my-11'>
-        <Imagecomp path="placeholder" num={[""]} className="img" />
+        <Imagecomp path="p2_fsimg10" num={[""]} className="img" />
         </div>
       </div>
       <div className='flex justify-center my-7' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
