@@ -20,7 +20,7 @@ const num4=["","","",""];
        
         <div className=' mb-7' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
           
-          <Imagecomp path="testing/p3_fsimg1" num={[""]} className="img" />
+          <Imagecomp path="testing/test" num={[""]} className="img" />
        
         </div>
         <div className=' my-11data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true"' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true"> 
