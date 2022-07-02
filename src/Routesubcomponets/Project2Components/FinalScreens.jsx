@@ -4,7 +4,7 @@ import Imagecomp from "../../subcomponent/imagecomp"
 const FinalScreens = () => {
 
 
-  const num4=["","","","",]
+  const num4=[1,2,3,4];
 
   return (
     <div className='my-7'>
@@ -16,7 +16,7 @@ const FinalScreens = () => {
         </p>
         <div className='mt-4 md:mt-7'  data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
           
-          <Imagecomp path="testing/p2_fsimg1test" num={[""]} className="img" />
+          <Imagecomp path="p2_fsimg1" num={[""]} className="img" />
        
         </div>
         <p className='mt-4 md:mt-7'  data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
@@ -26,7 +26,7 @@ const FinalScreens = () => {
         <div className='my-7'  data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
          
          
-          <Carousal path="placeholder" num={num4} />
+          <Carousal path="p2_fsc2img" num={num4} />
         
         
         </div>
@@ -35,7 +35,7 @@ const FinalScreens = () => {
         </p>
         <div className=' mt-4 md:mt-7'  data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
          
-        <Imagecomp path="placeholder" num={[""]} className="img" />
+        <Imagecomp path="p2_fsimg2" num={[""]} className="img" />
         
         
         </div>
@@ -46,7 +46,7 @@ const FinalScreens = () => {
         <div className='img-div mt-4 md:mt-7'  data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
           
           
-        <Imagecomp path="placeholder" num={[""]} className="img" />
+        <Imagecomp path="p2_fsimg3" num={[""]} className="img" />
        
        
         </div>
@@ -57,7 +57,7 @@ const FinalScreens = () => {
         <div className='img-div mt-4 md:mt-7'  data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
           
           
-        <Imagecomp path="placeholder" num={[""]} className="img" />
+        <Imagecomp path="p2_fsimg4" num={[""]} className="img" />
         
         
         </div>
@@ -68,7 +68,7 @@ const FinalScreens = () => {
         <div className='img-div mt-4 md:mt-7'  data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
          
          
-        <Imagecomp path="placeholder" num={[""]} className="img" />
+        <Imagecomp path="p2_fsimg5" num={[""]} className="img" />
         
         
         </div>

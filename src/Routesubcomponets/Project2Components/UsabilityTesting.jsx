@@ -21,7 +21,7 @@ const UsabilityTesting = () => {
             </div>
             <div className='col-span-12 lg:col-span-10 utimg-div'>
             
-            <img loading="lazy" src="https://ik.imagekit.io/thecatspace/catspace_media/placeholder.png" alt="img" />
+            <img loading="lazy" src="https://ik.imagekit.io/thecatspace/catspace_media/p2_utimg1.png" alt="img" />
            
             </div>
           </div>
@@ -35,7 +35,7 @@ const UsabilityTesting = () => {
             </div>
             <div className='col-span-12 lg:col-span-10 utimg-div'>
             
-            <img loading="lazy" src="https://ik.imagekit.io/thecatspace/catspace_media/placeholder.png" alt="img" />
+            <img loading="lazy" src="https://ik.imagekit.io/thecatspace/catspace_media/p2_utimg2.png" alt="img" />
             
             </div>
           </div>
@@ -50,7 +50,7 @@ const UsabilityTesting = () => {
           </p>
           <div className='img-div mt-4 md:mt-7'>
           
-          <Imagecomp path="placeholder" num={[""]} className="img" />
+          <Imagecomp path="p2_utimg3" num={[""]} className="img" />
           
           </div>
           <p className='mt-4'>
