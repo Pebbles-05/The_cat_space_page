@@ -45,7 +45,7 @@ const num6=["","","","","",""];
           <div className='wfgrid' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
           
           
-          <Imagecomp path="placeholder" num={num3} />
+          <Imagecomp path="p4_fs2img" num={num3} />
           
           
           </div>
