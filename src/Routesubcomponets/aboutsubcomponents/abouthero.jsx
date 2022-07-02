@@ -30,7 +30,7 @@ export default function Abouthero() {
   return (
     <div className='abouthero'>
         <div className="abouthero__profile">
-          <div className="bg" data-aos="fade-up" data-aos-duration="500" data-aos-once="true"> <img loading='eager' style={{transform:`translateY(${scroll * -150}%)`}} src="https://ik.imagekit.io/thecatspace/catspace_media/testing/abtest2.png" alt="profilebg" /></div>
+          <div className="bg" data-aos="fade-up" data-aos-duration="500" data-aos-once="true"> <img loading='eager' style={{transform:`translateY(${scroll * -150}%)`}} src="https://ik.imagekit.io/thecatspace/catspace_media/profile_bg.png" alt="profilebg" /></div>
             
             <div className='pp'  > <img data-aos="fade" data-aos-duration="1000" data-aos-once="true" src="https://ik.imagekit.io/thecatspace/catspace_media/hoverimg1.png" alt="profilepic" /></div>
         </div>
