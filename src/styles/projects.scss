@@ -478,30 +478,7 @@ img{
 
 }
 
-.p3wfgrid{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
- padding:0 5% ;
 
-  .img-div{
-    width: 48%;
-    margin-top: 2em;
-    img{
-      width: 100%;
-    }
-    
-    @include media("<=tablet"){
-      width: 80%;
-      margin-top: 1em;
-    }
-  }
-
-  @include media("<=tablet"){
-    justify-content: center;
-    padding: 0;
-  }
-  }
 
   
 }

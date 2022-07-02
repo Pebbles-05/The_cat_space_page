@@ -1,9 +1,9 @@
-import Imagecomp from "../../subcomponent/imagecomp";
+import Carousal from "../../subcomponent/carousal";
 
 const Wireframes = () => {
 
 
-   const num7=[1,2,3,4,5,6];
+   const num6=[1,2,3,4,5,6];
 
   return (
     <div className='my-7'>
@@ -11,9 +11,10 @@ const Wireframes = () => {
       <div className='Contents mt-1 mb-4' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
         <p>Wireframes for Nekomimi</p>
       </div>
-      <div className='p3wfgrid' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
+      <div className='p3wf' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
       
-      <Imagecomp path="p3_wfimg" num={num7}  />
+  
+      <Carousal path="p3_wfc1img" num={num6} />
     
       </div>
     </div>
