@@ -3,7 +3,7 @@ import Imagecomp from "../../subcomponent/imagecomp";
 const Wireframes = () => {
 
 
-   const num7=["","","","","","",""];
+   const num7=[1,2,3,4,5,6];
 
   return (
     <div className='my-7'>
@@ -13,7 +13,7 @@ const Wireframes = () => {
       </div>
       <div className='p3wfgrid' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
       
-      <Imagecomp path="placeholder" num={num7}  />
+      <Imagecomp path="p3_wfimg" num={num7}  />
     
       </div>
     </div>

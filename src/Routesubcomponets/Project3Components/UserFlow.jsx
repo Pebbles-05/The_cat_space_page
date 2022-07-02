@@ -12,7 +12,7 @@ const UserFlow = () => {
         </div>
       </div>
       <div className='img-div' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
-      <Imagecomp path="testing/p4_ufimg_test" num={[""]} className="ufimg" />
+      <Imagecomp path="p3_ufimg" num={[""]} className="ufimg" />
        
       </div>
     </>
