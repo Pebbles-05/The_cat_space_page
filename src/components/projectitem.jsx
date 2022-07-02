@@ -1,4 +1,4 @@
-import React, {   useState,useCallback ,useRef} from 'react';
+import React, {   useState} from 'react';
 import { useInView } from 'react-intersection-observer';
 import useMousePosition from "../hooks/useMousePosition";
 import useWindowSize from "../hooks/useWindowSize";

@@ -20,7 +20,7 @@ switch (ind) {
   case 2:
     setalignment({justifyContent:"flex-end"})
     break;
-
+  
 
 }
 }

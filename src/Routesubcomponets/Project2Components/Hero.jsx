@@ -1,4 +1,3 @@
-import Imagecomp from "../../subcomponent/imagecomp";
 
 const Hero = () => {
   return (

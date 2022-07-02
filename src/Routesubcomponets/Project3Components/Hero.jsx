@@ -5,7 +5,7 @@ const Hero = () => {
     <>
       <div className='img-div heroimg-div' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
      
-      <img loading="eager" src="https://ik.imagekit.io/thecatspace/catspace_media/placeholder.png" alt="heroimg" className="heroimg" />
+      <img loading="eager" src="https://ik.imagekit.io/thecatspace/catspace_media/testing/p4_heroimg_test.png" alt="heroimg" className="heroimg" />
      
       </div>
       <div className='my-7' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
@@ -81,7 +81,7 @@ const Hero = () => {
         </div>
       </div>
       <div className='img-div heroimg-div' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
-      <Imagecomp path="placeholder" num={[""]} className="heroimg" />
+      <Imagecomp path="/testing/p4_heroimg_test2" num={[""]} className="heroimg" />
       </div>
     </>
   );
