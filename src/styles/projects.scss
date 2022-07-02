@@ -1,4 +1,13 @@
 @import "./globalVariables.scss";
+.project1 ,
+.project2 ,
+.project3 ,
+.project4{
+  
+  img{
+    pointer-events: none;
+  }
+}
 
 .Headings {
   font-family: $font_family_avenirblack;
