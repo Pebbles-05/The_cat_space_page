@@ -2,7 +2,7 @@ import Imagecomp from "../../subcomponent/imagecomp";
 
 const FinalScreens = () => {
 
-const num3=["","",""];
+const num3=[1,2,3];
 const num6=["","","","","",""];
 
 
@@ -34,7 +34,7 @@ const num6=["","","","","",""];
           <div className='wfgrid' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">
          
          
-          <Imagecomp path="testing/p4_fstest" num={num3} />
+          <Imagecomp path="p4_fs1img" num={num3} />
          
           </div>
           <p data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true"> 

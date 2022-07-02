@@ -4,7 +4,7 @@ import Imagecomp from "../../subcomponent/imagecomp";
 
 const Wireframes = () => {
 
-const num4=["","","",""];
+const num4=[1,2,3,4];
 
   return (
     <>
@@ -25,7 +25,7 @@ const num4=["","","",""];
         </div>
         <div className='p4wfgrid'>
         
-        <Imagecomp path="placeholder" num={num4} />
+        <Imagecomp path="p4_wf1img" num={num4} />
         
         </div>
       </div>
@@ -56,7 +56,7 @@ const num4=["","","",""];
           <div className='p4wfgrid'>
           
           
-          <Imagecomp path="placeholder" num={num4} />
+          <Imagecomp path="p4_wf2img" num={num4} />
          
           </div>
           <p className='my-2'>
