@@ -7,6 +7,7 @@ import Wireframes from '../Routesubcomponets/Project4Components/Wireframes';
 import Creditfooter from '../Routesubcomponets/creditfooter';
 import DesignProcess from "../Routesubcomponets/Project4Components/DesignProcess";
 import Nextprojectbtn from '../Routesubcomponets/nextprojectbtn';
+import Scrolltotopbtn from '../Routesubcomponets/scrolltotopbtn';
 
 
 export default function Project4() {
@@ -18,6 +19,7 @@ export default function Project4() {
       <Wireframes />
       <FinalScreens />
       <Conclusion />
+      <Scrolltotopbtn />
       <Nextprojectbtn nextpath="/project_Ethernals_HACKATHON_2022" prevpath='/project_Personal_Portfolio_Design'  nextbtn={true} prevbtn={true}/>
       <Creditfooter />
     </div>
