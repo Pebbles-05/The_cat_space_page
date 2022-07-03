@@ -491,3 +491,44 @@ img{
 
   
 }
+
+
+.nextprojectbtn{
+  display: flex;
+  justify-content: space-between;
+  margin: 4em 0;
+
+  p{
+    font-size: $fs_100;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+  }
+  @include media("<=tablet"){
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+  }
+}
+
+.scrolltotopbtn{
+  position: fixed;
+  inset: auto 2% 2.5em auto;
+
+  button{
+    background: none;
+    border: none;
+    width: 3em;
+    @include media('<=tablet'){
+      width: 2em;
+    }
+  }
+  svg{
+    width: 100%;
+  }
+
+  @include media('<=tablet'){
+    inset: auto 1% 2.5em auto;
+  }
+
+}

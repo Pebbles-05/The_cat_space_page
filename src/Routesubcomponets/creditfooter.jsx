@@ -11,7 +11,7 @@ const Creditfooter = () => {
       </div>
      
       <h1>
-        Developed by <a href='' >Joydeep Paul</a> and <a href=''>Sanket Sarkar</a>
+        Developed by <a href='https://www.linkedin.com/in/joydeep-paul-255458221/' target="_blank" >Joydeep Paul</a> and <a href='https://www.linkedin.com/in/sscodes/' target="_blank" >Sanket Sarkar</a>
       </h1>
     </div>
   );

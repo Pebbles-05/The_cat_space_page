@@ -5,6 +5,7 @@ import Hero from '../Routesubcomponets/Project2Components/Hero';
 import Moodboard from '../Routesubcomponets/Project2Components/Moodboard';
 import Wireframes from '../Routesubcomponets/Project2Components/Wireframes';
 import UsabilityTesting from '../Routesubcomponets/Project2Components/UsabilityTesting';
+import Nextprojectbtn from '../Routesubcomponets/nextprojectbtn';
 import Creditfooter from '../Routesubcomponets/creditfooter';
 
 export default function Project2() {
@@ -16,6 +17,7 @@ export default function Project2() {
       <Wireframes />
       <FinalScreens />
       <UsabilityTesting />
+      <Nextprojectbtn nextpath="/project_wiggle_app_design" prevpath='/project_zifcare'  nextbtn={true} prevbtn={true}/>
       <Creditfooter />
     </div>
   );

@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import Project1Web from "../Routesubcomponets/Project1Components/project1Web";
 import Project1App from "../Routesubcomponets/Project1Components/project1App";
-
+import Nextprojectbtn from '../Routesubcomponets/nextprojectbtn';
+import Creditfooter from "../Routesubcomponets/creditfooter";
+import Scrolltotopbtn from '../Routesubcomponets/scrolltotopbtn';
 
 
 
@@ -10,8 +12,7 @@ import Project1App from "../Routesubcomponets/Project1Components/project1App";
 export default function Project1() {
   const [isactive, setisactive] = useState(0)
 
-
-
+  
 
   return (
     <div className='project1' >
@@ -25,7 +26,11 @@ export default function Project1() {
     {isactive===0 ? <Project1Web/> : <Project1App/>}
 
 
-      
+    <Scrolltotopbtn />
+
+    <Nextprojectbtn nextpath="/project_Personal_Portfolio_Design" prevpath=''  nextbtn={true} prevbtn={false}/>
+    <Creditfooter/>
+   
     </div>
   )
 }

@@ -1,4 +1,3 @@
-import Creditfooter from '../../Routesubcomponets/creditfooter';
 import Conclusion from "./WebSubComponents/Conclusion";
 import DesignProcess from "./WebSubComponents/DesignProcess";
 import FinalScreens from "./WebSubComponents/FinalScreens";
@@ -13,9 +12,7 @@ export default function Project1Web() {
       <DesignProcess  />
       <Moodboard />
       <FinalScreens />
-      <Conclusion />
-      <Creditfooter />
-      
+      <Conclusion />    
     </div>
   );
 }

@@ -42,7 +42,7 @@ export const Mailform = () => {
         setcheckerror(true);
     }
      else{
-        emailjs.sendForm('service_u17k1wz', 'template_58skrae', form.current, 'iRVS9w9Pplj8sJMc2')
+        emailjs.sendForm('service_3eyxy0j', 'template_qaz0fs8', form.current, '_iO-hLBhpJ7YrEauM')
         .then((result) => {
             setsubmitText(true);
             checkerror();
